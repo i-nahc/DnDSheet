@@ -1,0 +1,198 @@
+<classList>
+  <class name="Artificer">
+    <classInternalName name="artificer"/>
+    <classDesc>Makers of magic-infused objects, artificers are defined by their inventive nature. They see magic as a complex system waiting to be decoded and controlled. Instead of ephemeral spells, they seek to craft durable, useful, marvelous magical items.</classDesc>
+    <subclassList count="4">
+      <subclass name="artificer:alchemist">Alchemist</subclass>
+      <subclass name="artificer:armorer">Armorer</subclass>
+      <subclass name="artificer:artillerist">Artillerist</subclass>
+      <subclass name="artificer:battle-smith">Battle Smith</subclass>
+    </subclassList>
+  </class>
+  <class name="Barbarian">
+    <classInternalName name="barbarian"/>
+    <classDesc>For some, their rage springs from a communion with fierce animal spirits. Others draw from a roiling reservoir of anger at a world full of pain. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.</classDesc>
+    <subclassList count="9">
+      <subclass name="barbarian:ancestral-guardian">Path of the Ancestral Guardian</subclass>
+      <subclass name="barbarian:battlerager">Path of the Battlerager</subclass>
+      <subclass name="barbarian:beast">Path of the Beast</subclass>
+      <subclass name="barbarian:berserker">Path of the Berserker</subclass>
+      <subclass name="barbarian:giant">Path of the Giant</subclass>
+      <subclass name="barbarian:storm-herald">Path of the Storm Herald</subclass>
+      <subclass name="barbarian:totem-warrior">Path of the Totem Warrior</subclass>
+      <subclass name="barbarian:wild-magic">Path of Wild Magic</subclass>
+      <subclass name="barbarian:zealot">Path of the Zealot</subclass>
+    </subclassList>
+  </class>
+  <class name="Bard">
+    <classInternalName name="bard"/>
+    <classDesc>Whether scholar, skald, or scoundrel, a bard weaves magic through words and music to inspire allies, demoralize foes, manipulate minds, create illusions, and even heal wounds. The bard is a master of song, speech, and the magic they contain.</classDesc>
+    <subclassList count="8">
+      <subclass name="bard:creation">College of Creation</subclass>
+      <subclass name="bard:eloquence">College of Eloquence</subclass>
+      <subclass name="bard:glamour">College of Glamour</subclass>
+      <subclass name="bard:lore">College of Lore</subclass>
+      <subclass name="bard:spirits">College of Spirits</subclass>
+      <subclass name="bard:swords">College of Swords</subclass>
+      <subclass name="bard:valor">College of Valor</subclass>
+      <subclass name="bard:whispers">College of Whispers</subclass>
+    </subclassList>
+  </class>
+  <class name="Cleric">
+    <classInternalName name="cleric"/>
+    <classDesc>Clerics are intermediaries between the mortal world and the distant planes of the gods. As varied as the gods they serve, clerics strive to embody the handiwork of their deities. No ordinary priest, a cleric is imbued with divine magic.</classDesc>
+    <subclassList count="14">
+      <subclass name="cleric:arcana">Arcana Domain</subclass>
+      <subclass name="cleric:death">Death Domain</subclass>
+      <subclass name="cleric:forge">Forge Domain</subclass>
+      <subclass name="cleric:grave">Grave Domain</subclass>
+      <subclass name="cleric:knowledge">Knowledge Domain</subclass>
+      <subclass name="cleric:life">Life Domain</subclass>
+      <subclass name="cleric:light">Light Domain</subclass>
+      <subclass name="cleric:nature">Nature Domain</subclass>
+      <subclass name="cleric:order">Order Domain</subclass>
+      <subclass name="cleric:peace">Peace Domain</subclass>
+      <subclass name="cleric:tempest">Tempest Domain</subclass>
+      <subclass name="cleric:trickery">Trickery Domain</subclass>
+      <subclass name="cleric:twilight">Twilight Domain</subclass>
+      <subclass name="cleric:war">War Domain</subclass>
+    </subclassList>
+  </class>
+  <class name="Druid">
+    <classInternalName name="druid"/>
+    <classDesc>Whether calling on the elemental forces of nature or emulating the creatures of the animal world, druids are an embodiment of nature's resilience, cunning, and fury. They claim no mastery over nature, but see themselves as extensions of nature's indomitable will.</classDesc>
+    <subclassList count="7">
+      <subclass name="druid:dreams">Circle of Dreams</subclass>
+      <subclass name="druid:land">Circle of the Land</subclass>
+      <subclass name="druid:moon">Circle of the Moon</subclass>
+      <subclass name="druid:shepherd">Circle of the Shepherd</subclass>
+      <subclass name="druid:spores">Circle of Spores</subclass>
+      <subclass name="druid:stars">Circle of Stars</subclass>
+      <subclass name="druid:wildfire">Circle of Wildfire</subclass>
+    </subclassList>
+  </class>
+  <class name="Fighter">
+    <classInternalName name="fighter"/>
+    <classDesc>Fighters share an unparalleled mastery with weapons and armor, and a thorough knowledge of the skills of combat. They are well acquainted with death, both meting it out and staring it defiantly in the face.</classDesc>
+    <subclassList count="10">
+      <subclass name="fighter:arcane-archer">Arcane Archer</subclass>
+      <subclass name="fighter:banneret">Banneret</subclass>
+      <subclass name="fighter:battle-master">Battle Master</subclass>
+      <subclass name="fighter:cavalier">Cavalier</subclass>
+      <subclass name="fighter:champion">Champion</subclass>
+      <subclass name="fighter:echo-knight">Echo Knight</subclass>
+      <subclass name="fighter:eldritch-knight">Eldritch Knight</subclass>
+      <subclass name="fighter:psi-warrior">Psi Warrior</subclass>
+      <subclass name="fighter:rune-knight">Rune Knight</subclass>
+      <subclass name="fighter:samurai">Samurai</subclass>
+    </subclassList>
+  </class>
+  <class name="Monk">
+    <classInternalName name="monk"/>
+    <classDesc>Monks are united in their ability to magically harness the energy that flows in their bodies. Whether channeled as a striking display of combat prowess or a subtler focus of defensive ability and speed, this energy infuses all that a monk does.</classDesc>
+    <subclassList count="10">
+      <subclass name="monk:mercy">Way of Mercy</subclass>
+      <subclass name="monk:ascendant-dragon">Way of the Ascendant Dragon</subclass>
+      <subclass name="monk:astral-self">Way of the Astral Self</subclass>
+      <subclass name="monk:drunken-master">Way of the Drunken Master</subclass>
+      <subclass name="monk:four-elements">Way of the Four Elements</subclass>
+      <subclass name="monk:kensei">Way of the Kensei</subclass>
+      <subclass name="monk:long-death">Way of the Long Death</subclass>
+      <subclass name="monk:open-hand">Way of the Open Hand</subclass>
+      <subclass name="monk:shadow">Way of Shadow</subclass>
+      <subclass name="monk:sun-soul">Way of the Sun Soul</subclass>
+    </subclassList>
+  </class>
+  <class name="Paladin">
+    <classInternalName name="paladin"/>
+    <classDesc>Whether sworn before a god's altar and the witness of a priest, in a sacred glade before nature spirits and fey beings, or in a moment of desperation and grief with the dead as the only witness, a paladin's oath is a powerful bond.</classDesc>
+    <subclassList count="9">
+      <subclass name="paladin:ancients">Oath of the Ancients</subclass>
+      <subclass name="paladin:conquest">Oath of Conquest</subclass>
+      <subclass name="paladin:crown">Oath of the Crown</subclass>
+      <subclass name="paladin:devotion">Oath of Devotion</subclass>
+      <subclass name="paladin:glory">Oath of Glory</subclass>
+      <subclass name="paladin:redemption">Oath of Redemption</subclass>
+      <subclass name="paladin:vengeance">Oath of Vengeance</subclass>
+      <subclass name="paladin:watchers">Oath of the Watchers</subclass>
+      <subclass name="paladin:oathbreaker">Oathbreaker</subclass>
+    </subclassList>
+  </class>
+  <class name="Ranger">
+    <classInternalName name="ranger"/>
+    <classDesc>Far from the bustle of cities and towns, past the hedges that shelter the most distant farms from the terrors of the wild, amid the dense-packed trees of trackless forests and across wide and empty plains, rangers keep their unending watch.</classDesc>
+    <subclassList count="8">
+      <subclass name="ranger:beast-master">Beast Master Conclave</subclass>
+      <subclass name="ranger:drakewarden">Drakewarden</subclass>
+      <subclass name="ranger:fey-wanderer">Fey Wanderer</subclass>
+      <subclass name="ranger:gloom-stalker">Gloom Stalker Conclave</subclass>
+      <subclass name="ranger:horizon-walker">Horizon Walker Conclave</subclass>
+      <subclass name="ranger:hunter">Hunter Conclave</subclass>
+      <subclass name="ranger:monster-slayer">Monster Slayer Conclave</subclass>
+      <subclass name="ranger:swarmkeeper">Swarmkeeper</subclass>
+    </subclassList>
+  </class>
+  <class name="Rogue">
+    <classInternalName name="rogue"/>
+    <classDesc>Rogues rely on skill, stealth, and their foes' vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a resourcefulness and versatility that is the cornerstone of any successful adventuring party.</classDesc>
+    <subclassList count="9">
+      <subclass name="rogue:arcane-trickster">Arcane Trickster</subclass>
+      <subclass name="rogue:assassin">Assassin</subclass>
+      <subclass name="rogue:inquisitive">Inquisitive</subclass>
+      <subclass name="rogue:mastermind">Mastermind</subclass>
+      <subclass name="rogue:phantom">Phantom</subclass>
+      <subclass name="rogue:scout">Scout</subclass>
+      <subclass name="rogue:soulknife">Soulknife</subclass>
+      <subclass name="rogue:swashbuckler">Swashbuckler</subclass>
+      <subclass name="rogue:thief">Thief</subclass>
+    </subclassList>
+  </class>
+  <class name="Sorcerer">
+    <classInternalName name="sorcerer"/>
+    <classDesc>Sorcerers carry a magical birthright conferred upon them by an exotic bloodline, some otherworldly influence, or exposure to unknown cosmic forces. No one chooses sorcery; the power chooses the sorcerer.</classDesc>
+    <subclassList count="8">
+      <subclass name="sorcerer:aberrant-mind">Aberrant Mind</subclass>
+      <subclass name="sorcerer:clockwork-soul">Clockwork Soul</subclass>
+      <subclass name="sorcerer:draconic-bloodline">Draconic Bloodline</subclass>
+      <subclass name="sorcerer:divine-soul">Divine Soul</subclass>
+      <subclass name="sorcerer:lunar-sorcery">Lunar Sorcery</subclass>
+      <subclass name="sorcerer:shadow-magic">Shadow Magic</subclass>
+      <subclass name="sorcerer:storm-sorcery">Storm Sorcery</subclass>
+      <subclass name="sorcerer:wild-magic">Wild Magic</subclass>
+    </subclassList>
+  </class>
+  <class name="Warlock">
+    <classInternalName name="warlock"/>
+    <classDesc>Warlocks are seekers of the knowledge that lies hidden in the fabric of the multiverse. Through pacts made with mysterious beings of supernatural power, warlocks unlock magical effects both subtle and spectacular.</classDesc>
+    <subclassList count="9">
+      <subclass name="warlock:archfey">Archfey</subclass>
+      <subclass name="warlock:celestial">Celestial</subclass>
+      <subclass name="warlock:fathomless">Fathomless</subclass>
+      <subclass name="warlock:fiend">Fiend</subclass>
+      <subclass name="warlock:the-genie">The Genie</subclass>
+      <subclass name="warlock:great-old-one">Great Old One</subclass>
+      <subclass name="warlock:hexblade">Hexblade</subclass>
+      <subclass name="warlock:undead">Undead</subclass>
+      <subclass name="warlock:undying">Undying</subclass>
+    </subclassList>
+  </class>
+  <class name="Wizard">
+    <classInternalName name="wizard"/>
+    <classDesc>Wizards are supreme magic-users, defined and united as a class by the spells they cast. Drawing on the subtle weave of magic that permeates the cosmos, wizards cast spells of explosive fire, arcing lightning, subtle deception, brute-force mind control, and much more.</classDesc>
+    <subclassList count="13">
+      <subclass name="wizard:abjuration">School of Abjuration</subclass>
+      <subclass name="wizard:bladesinging">School of Bladesinging</subclass>
+      <subclass name="wizard:chronurgy">School of Chronurgy</subclass>
+      <subclass name="wizard:conjuration">School of Conjuration</subclass>
+      <subclass name="wizard:divination">School of Divination</subclass>
+      <subclass name="wizard:enchantment">School of Enchantment</subclass>
+      <subclass name="wizard:evocation">School of Evocation</subclass>
+      <subclass name="wizard:graviturgy">School of Graviturgy</subclass>
+      <subclass name="wizard:illusion">School of Illusion</subclass>
+      <subclass name="wizard:necromancy">School of Necromancy</subclass>
+      <subclass name="wizard:order-of-scribes">Order of Scribes</subclass>
+      <subclass name="wizard:transmutation">School of Transmutation</subclass>
+      <subclass name="wizard:war-magic">School of War Magic</subclass>
+    </subclassList>
+  </class>
+</classList>
