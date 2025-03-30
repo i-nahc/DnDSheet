@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/qt/qml/SheetUI/">
+    <file alias="Main.qml">D:/DevTools/Projects/DnDSheet/SheetUI/Main.qml</file>
+    <file alias="UI/resNavBar/NavBar.qml">D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml</file>
+    <file alias="icons.qrc">D:/DevTools/Projects/DnDSheet/SheetUI/icons.qrc</file>
+  </qresource>
+</RCC>
+

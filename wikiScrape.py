@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
-
+from dataPopulate import addDNDClass
 # Main URL of page
 webPageURL = "https://dnd5e.wikidot.com"
 
@@ -32,16 +32,17 @@ for dndClass in classList:
     dndClassInternalName = dndClass.find_element(by="xpath", value='.//a').get_attribute("href").split('/')[-1]
     dndClassDesc = dndClass.find_element(by="xpath", value='.//h6[.//em]').text
 
-    print(dndClassName)
-    print(dndClassInternalName)
-    print(dndClassDesc)
-
     # getting all subclasses of this class
     dndSubclassSection = dndClass.find_element(by="xpath", value='.//div[@class="col-sm-4" and contains(., "Published")]')
     subclassList = dndSubclassSection.find_elements(by="xpath", value='.//a')
 
+    subclassArr = []
+    index = 0
     for dndSubclass in subclassList:
-        print(dndSubclass.get_attribute("href").split('/')[-1])
-        print(dndSubclass.text)
+        subclassArr.append(dndSubclass.get_attribute("href").split('/')[-1])
+        subclassArr.append(dndSubclass.text)
+
+    addDNDClass(dndClassName, dndClassDesc, dndClassInternalName, subclassArr)
+
 
     

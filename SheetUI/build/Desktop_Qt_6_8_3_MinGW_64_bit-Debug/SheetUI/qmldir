@@ -1,0 +1,6 @@
+module SheetUI
+typeinfo appSheetUI.qmltypes
+prefer :/qt/qml/SheetUI/
+Main 1.0 Main.qml
+NavBar 1.0 UI/resNavBar/NavBar.qml
+

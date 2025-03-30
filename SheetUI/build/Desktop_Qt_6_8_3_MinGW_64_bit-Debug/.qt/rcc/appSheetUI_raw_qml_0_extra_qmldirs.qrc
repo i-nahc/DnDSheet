@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/SheetUI/">
+    <file alias="UI/resNavBar/qmldir">D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/SheetUI/UI/resNavBar/qmldir</file>
+  </qresource>
+</RCC>
+
