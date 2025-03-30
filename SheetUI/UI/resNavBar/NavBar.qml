@@ -23,11 +23,17 @@ Item {
                 minimizeArea.visible = true
                 maximizeArea.visible = true
 
+                closeArea.topLeftRadius = 0
+                closeArea.bottomLeftRadius = 0
+
             }
             else{
                 shrinkArea.running = true
                 minimizeArea.visible = false
                 maximizeArea.visible = false
+
+                closeArea.topLeftRadius = Material.LargeScale
+                closeArea.bottomLeftRadius = Material.LargeScale
             }
         }
     }
@@ -48,10 +54,21 @@ Item {
             topLeftRadius: Material.LargeScale
             bottomLeftRadius: Material.LargeScale
             visible: false
-            color: "red"
+            color: "#1c1e23"
             Image{
                 source: "qrc:/UI/assets/coreUI/icon_minimize.svg"
                 anchors.centerIn: parent
+            }
+            HoverHandler{
+                onHoveredChanged:{
+                    if(hovered){
+                        // minimizeArea.color= "#668cf0" <- click color
+                        parent.color = "#414652"
+                    }
+                    else{
+                        parent.color= "#1c1e23"
+                    }
+                }
             }
         }
         Rectangle{
@@ -59,10 +76,21 @@ Item {
             Layout.fillWidth: true
             Layout.fillHeight: true
             visible: false
-            color: "green"
+            color: "#1c1e23"
             Image{
                 source: "qrc:/UI/assets/coreUI/icon_maximize.svg"
                 anchors.centerIn: parent
+            }
+            HoverHandler{
+                onHoveredChanged:{
+                    if(hovered){
+                        // minimizeArea.color= "#668cf0" <- click color
+                        parent.color = "#414652"
+                    }
+                    else{
+                        parent.color= "#1c1e23"
+                    }
+                }
             }
         }
         Rectangle{
@@ -71,10 +99,29 @@ Item {
             Layout.fillHeight: true
             topRightRadius: Material.LargeScale
             bottomRightRadius: Material.LargeScale
-            color: "blue"
+            topLeftRadius: Material.LargeScale
+            bottomLeftRadius: Material.LargeScale
+            color: "#1c1e23"
             Image{
                 source: "qrc:/UI/assets/coreUI/icon_close.svg"
                 anchors.centerIn: parent
+            }
+            HoverHandler{
+                onHoveredChanged:{
+                    if(hovered){
+                        // minimizeArea.color= "#668cf0" <- click color
+                        parent.color = "#ba5f5f"
+                    }
+                    else{
+                        parent.color= "#1c1e23"
+                    }
+                }
+            }
+            MouseArea{
+                id: closeButton
+                anchors.fill: parent
+                acceptedButtons: Qt.LeftButton
+
             }
         }
     }

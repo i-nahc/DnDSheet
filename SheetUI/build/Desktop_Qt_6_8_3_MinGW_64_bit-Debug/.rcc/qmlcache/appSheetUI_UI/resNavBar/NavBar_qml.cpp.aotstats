@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 269,
+                        "durationMicroseconds": 293,
                         "errorMessage": "",
                         "functionName": "right",
                         "line": 11
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 14,
-                        "durationMicroseconds": 128,
+                        "durationMicroseconds": 130,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 12
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 596,
+                        "durationMicroseconds": 1037,
                         "errorMessage": "",
                         "functionName": "onHoveredChanged",
                         "line": 20
@@ -30,10 +30,18 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 108,
+                        "durationMicroseconds": 96,
                         "errorMessage": "",
                         "functionName": "radius",
-                        "line": 38
+                        "line": 44
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 42
                     },
                     {
                         "codegenSuccessfull": true,
@@ -41,39 +49,23 @@
                         "durationMicroseconds": 61,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 36
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 23,
-                        "durationMicroseconds": 57,
-                        "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 42
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 28,
-                        "durationMicroseconds": 93,
-                        "errorMessage": "",
-                        "functionName": "topLeftRadius",
                         "line": 48
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 31,
-                        "durationMicroseconds": 89,
+                        "column": 28,
+                        "durationMicroseconds": 90,
                         "errorMessage": "",
-                        "functionName": "bottomLeftRadius",
-                        "line": 49
+                        "functionName": "topLeftRadius",
+                        "line": 54
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 35,
-                        "durationMicroseconds": 59,
+                        "column": 31,
+                        "durationMicroseconds": 99,
                         "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 54
+                        "functionName": "bottomLeftRadius",
+                        "line": 55
                     },
                     {
                         "codegenSuccessfull": true,
@@ -81,23 +73,63 @@
                         "durationMicroseconds": 65,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 65
+                        "line": 60
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 34,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "Type (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml)::parent with type QQuickItem does not have a property color for writing",
+                        "functionName": "onHoveredChanged",
+                        "line": 63
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 155,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 82
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 34,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "Type (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml)::parent with type QQuickItem does not have a property color for writing",
+                        "functionName": "onHoveredChanged",
+                        "line": 85
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 89,
+                        "durationMicroseconds": 96,
                         "errorMessage": "",
                         "functionName": "topRightRadius",
-                        "line": 72
+                        "line": 100
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 86,
+                        "durationMicroseconds": 87,
                         "errorMessage": "",
                         "functionName": "bottomRightRadius",
-                        "line": 73
+                        "line": 101
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 89,
+                        "errorMessage": "",
+                        "functionName": "topLeftRadius",
+                        "line": 102
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 84,
+                        "errorMessage": "",
+                        "functionName": "bottomLeftRadius",
+                        "line": 103
                     },
                     {
                         "codegenSuccessfull": true,
@@ -105,23 +137,31 @@
                         "durationMicroseconds": 68,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 77
+                        "line": 107
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 34,
+                        "durationMicroseconds": 39,
+                        "errorMessage": "Type (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml)::parent with type QQuickItem does not have a property color for writing",
+                        "functionName": "onHoveredChanged",
+                        "line": 110
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 65,
+                        "durationMicroseconds": 93,
                         "errorMessage": "",
                         "functionName": "target",
-                        "line": 84
+                        "line": 125
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 64,
                         "errorMessage": "",
                         "functionName": "target",
-                        "line": 90
+                        "line": 131
                     }
                 ],
                 "filepath": "D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml"
