@@ -70,6 +70,13 @@ Item {
                     }
                 }
             }
+            MouseArea{
+                id: minimizeButton
+                anchors.fill: parent
+                acceptedButtons: Qt.LeftButton
+                onPressed: parent.color = "#525866"
+                onClicked: windowManager.triggerMinimize()
+            }
         }
         Rectangle{
             id: maximizeArea
@@ -84,13 +91,19 @@ Item {
             HoverHandler{
                 onHoveredChanged:{
                     if(hovered){
-                        // minimizeArea.color= "#668cf0" <- click color
                         parent.color = "#414652"
                     }
                     else{
                         parent.color= "#1c1e23"
                     }
                 }
+            }
+            MouseArea{
+                id: maximizeButton
+                anchors.fill: parent
+                acceptedButtons: Qt.LeftButton
+                onPressed: parent.color = "#525866"
+                onClicked: windowManager.triggerMaximize()
             }
         }
         Rectangle{
@@ -121,6 +134,11 @@ Item {
                 id: closeButton
                 anchors.fill: parent
                 acceptedButtons: Qt.LeftButton
+                onPressed: parent.color = "#d94848"
+                onClicked:
+                {
+                    windowManager.triggerExit()
+                }
 
             }
         }

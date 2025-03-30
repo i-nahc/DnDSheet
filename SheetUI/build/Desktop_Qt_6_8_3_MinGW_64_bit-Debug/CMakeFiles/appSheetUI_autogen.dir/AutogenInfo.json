@@ -786,7 +786,15 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appSheetUI_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "appSheetUI_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"D:/DevTools/Projects/DnDSheet/SheetUI/backend.h",
+			"MU",
+			"EWIEGA46WW/moc_backend.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appSheetUI_autogen/include",
 	"MOC_COMPILATION_FILE" : "D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appSheetUI_autogen/mocs_compilation.cpp",
@@ -885,6 +893,7 @@
 	"SETTINGS_FILE" : "D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/appSheetUI_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "D:/DevTools/Projects/DnDSheet/SheetUI/backend.cpp", "MU", null ],
 		[ "D:/DevTools/Projects/DnDSheet/SheetUI/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

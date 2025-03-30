@@ -280,5 +280,6 @@
         <file>UI/assets/weapon/trident.svg</file>
         <file>UI/assets/weapon/whip.svg</file>
         <file>UI/assets/coreUI/icon_maximize.svg</file>
+        <file>UI/settings/SettingsDialog.qml</file>
     </qresource>
 </RCC>

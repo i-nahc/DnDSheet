@@ -7,6 +7,9 @@
 #include <QtQml/qqml.h>
 #include <QtQml/qqmlmoduleregistration.h>
 
+#if __has_include(<backend.h>)
+#  include <backend.h>
+#endif
 
 
 #if !defined(QT_STATIC)
@@ -17,6 +20,7 @@
 Q_QMLTYPE_EXPORT void qml_register_types_SheetUI()
 {
     QT_WARNING_PUSH QT_WARNING_DISABLE_DEPRECATED
+    qmlRegisterTypesAndRevisions<Backend>("SheetUI", 1);
     QT_WARNING_POP
     qmlRegisterModule("SheetUI", 1, 0);
 }

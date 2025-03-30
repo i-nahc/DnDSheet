@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 355,
+                        "durationMicroseconds": 357,
                         "errorMessage": "",
                         "functionName": "flags",
                         "line": 21
@@ -14,34 +14,58 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 98,
+                        "durationMicroseconds": 179,
                         "errorMessage": "",
                         "functionName": "theme",
-                        "line": 9
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 22,
-                        "durationMicroseconds": 108,
-                        "errorMessage": "",
-                        "functionName": "accent",
                         "line": 10
                     },
                     {
                         "codegenSuccessfull": true,
+                        "column": 22,
+                        "durationMicroseconds": 115,
+                        "errorMessage": "",
+                        "functionName": "accent",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 99,
+                        "durationMicroseconds": 77,
+                        "errorMessage": "Cannot access value for name windowManager",
+                        "functionName": "target",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 9,
+                        "durationMicroseconds": 1333,
+                        "errorMessage": "",
+                        "functionName": "onMaximizeTriggered",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 9,
+                        "durationMicroseconds": 139,
+                        "errorMessage": "",
+                        "functionName": "onMinimizeTriggered",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 105,
                         "errorMessage": "",
                         "functionName": "radius",
-                        "line": 65
+                        "line": 77
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 105,
+                        "durationMicroseconds": 107,
                         "errorMessage": "",
                         "functionName": "acceptedButtons",
-                        "line": 29
+                        "line": 41
                     },
                     {
                         "codegenSuccessfull": false,
@@ -49,47 +73,47 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Functions without type annotations won't be compiled",
                         "functionName": "setEdges",
-                        "line": 34
+                        "line": 46
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 26,
-                        "durationMicroseconds": 931,
+                        "durationMicroseconds": 791,
                         "errorMessage": "",
                         "functionName": "cursorShape",
-                        "line": 42
+                        "line": 54
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 32,
-                        "durationMicroseconds": 236,
+                        "durationMicroseconds": 231,
                         "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
                         "functionName": "onPositionChanged",
-                        "line": 50
+                        "line": 62
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 306,
+                        "durationMicroseconds": 290,
                         "errorMessage": "method startSystemResize cannot be resolved.",
                         "functionName": "onPressed",
-                        "line": 51
+                        "line": 63
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 71,
+                        "durationMicroseconds": 70,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 27
+                        "line": 39
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 30,
-                        "durationMicroseconds": 126,
+                        "column": 34,
+                        "durationMicroseconds": 123,
                         "errorMessage": "method startSystemMove cannot be resolved.",
                         "functionName": "onActiveChanged",
-                        "line": 60
+                        "line": 71
                     },
                     {
                         "codegenSuccessfull": true,
@@ -97,7 +121,7 @@
                         "durationMicroseconds": 63,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 64
+                        "line": 76
                     }
                 ],
                 "filepath": "D:/DevTools/Projects/DnDSheet/SheetUI/Main.qml"

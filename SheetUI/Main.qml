@@ -6,19 +6,31 @@ import QtQuick.Controls.Material
 import "UI/resNavBar"
 
 ApplicationWindow {
+    id: primaryWindow
     Material.theme: Material.Dark
     Material.accent: Material.Indigo
     minimumWidth: 600
     minimumHeight: 500
     maximumWidth: 1200
-    maximumHeight: 900
+    maximumHeight: 800
     width: 600
     height: 500
     visible: true
     title: qsTr("DNDSheet")
     color: "transparent"
-
     flags: Qt.FramelessWindowHint | Qt.Window
+    Connections{
+        target: windowManager
+        function onMaximizeTriggered() {
+            primaryWindow.width = primaryWindow.maximumWidth
+            primaryWindow.height = primaryWindow.maximumHeight
+            primaryWindow.x = Screen.width / 2 - primaryWindow.width / 2
+            primaryWindow.y = Screen.height / 2 - primaryWindow.height / 2
+        }
+        function onMinimizeTriggered() {
+            primaryWindow.showMinimized()
+        }
+    }
 
     Rectangle{
         // Mouse functions
@@ -54,10 +66,10 @@ ApplicationWindow {
                     startSystemResize(edges);
                 }
             }
-        }
 
-        DragHandler{
-            onActiveChanged: if (active) startSystemMove();
+            DragHandler{
+                onActiveChanged: if (active) startSystemMove();
+            }
         }
         id: viewport
 
@@ -67,6 +79,9 @@ ApplicationWindow {
 
         NavBar
         {
+            // Put this drag handler here to supersede the main window
+            DragHandler{
+            }
             id: topNavBar
         }
     }
