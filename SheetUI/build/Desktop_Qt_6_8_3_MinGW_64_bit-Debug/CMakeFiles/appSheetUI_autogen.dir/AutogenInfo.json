@@ -776,6 +776,7 @@
 		"C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
 		"C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
+		"C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
 		"C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
 		"C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
@@ -880,6 +881,7 @@
 		"D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_SheetUI.cpp",
 		"D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appSheetUI_Main_qml.cpp",
 		"D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appSheetUI_UI/resNavBar/NavBar_qml.cpp",
+		"D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appSheetUI_UI/settings/Style_qml.cpp",
 		"D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appSheetUI_qmlcache_loader.cpp",
 		"D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appsheetui_qmltyperegistrations.cpp"
 	],
@@ -905,6 +907,7 @@
 		"D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_SheetUI.cpp",
 		"D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appSheetUI_Main_qml.cpp",
 		"D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appSheetUI_UI/resNavBar/NavBar_qml.cpp",
+		"D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appSheetUI_UI/settings/Style_qml.cpp",
 		"D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appSheetUI_qmlcache_loader.cpp",
 		"D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appsheetui_qmltyperegistrations.cpp"
 	],

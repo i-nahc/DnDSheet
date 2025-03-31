@@ -75,7 +75,8 @@ ApplicationWindow {
 
         anchors.fill: parent
         radius: Material.MediumScale
-        color: "#2d313c"
+        color: Style.primaryColor
+        //color: "#2d313c"
 
         NavBar
         {

@@ -15,6 +15,8 @@ qt_add_executable(appSheetUI
     icons.qrc
 )
 
+set_source_files_properties(UI/settings/Style.qml PROPERTIES QT_QML_SINGLETON_TYPE TRUE)
+
 qt_add_qml_module(appSheetUI
     URI SheetUI
     VERSION 1.0
@@ -23,6 +25,8 @@ qt_add_qml_module(appSheetUI
         QML_FILES UI/resNavBar/NavBar.qml
         RESOURCES icons.qrc
         SOURCES backend.h backend.cpp
+        QML_FILES
+        QML_FILES UI/settings/Style.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

@@ -40,7 +40,7 @@ Item {
 
     Rectangle{
         anchors.fill: parent
-        color: "#1c1e23"
+        color: Style.primaryColorDark
         radius: Material.LargeScale
     }
 
@@ -54,7 +54,7 @@ Item {
             topLeftRadius: Material.LargeScale
             bottomLeftRadius: Material.LargeScale
             visible: false
-            color: "#1c1e23"
+            color: Style.primaryColorDark
             Image{
                 source: "qrc:/UI/assets/coreUI/icon_minimize.svg"
                 anchors.centerIn: parent
@@ -83,7 +83,7 @@ Item {
             Layout.fillWidth: true
             Layout.fillHeight: true
             visible: false
-            color: "#1c1e23"
+            color: Style.primaryColorDark
             Image{
                 source: "qrc:/UI/assets/coreUI/icon_maximize.svg"
                 anchors.centerIn: parent
@@ -114,7 +114,7 @@ Item {
             bottomRightRadius: Material.LargeScale
             topLeftRadius: Material.LargeScale
             bottomLeftRadius: Material.LargeScale
-            color: "#1c1e23"
+            color: Style.primaryColorDark
             Image{
                 source: "qrc:/UI/assets/coreUI/icon_close.svg"
                 anchors.centerIn: parent
