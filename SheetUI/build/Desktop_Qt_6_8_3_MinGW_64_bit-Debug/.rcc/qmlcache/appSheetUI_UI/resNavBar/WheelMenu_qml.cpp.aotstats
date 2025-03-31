@@ -1,0 +1,164 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 29,
+                        "durationMicroseconds": 449,
+                        "errorMessage": "",
+                        "functionName": "dimension",
+                        "line": 4
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 12,
+                        "durationMicroseconds": 142,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 5
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 13,
+                        "durationMicroseconds": 123,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 6
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 65,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 8
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 16,
+                        "durationMicroseconds": 3733,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 16,
+                        "durationMicroseconds": 94,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 93,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 56,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 16,
+                        "durationMicroseconds": 158,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 131,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 56,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 18
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 21,
+                        "durationMicroseconds": 151,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 87,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 21,
+                        "durationMicroseconds": 83,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 112,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 22
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 144,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 21,
+                        "durationMicroseconds": 135,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 29
+                    }
+                ],
+                "filepath": "D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/WheelMenu.qml"
+            }
+        ],
+        "moduleId": "SheetUI(appSheetUI)"
+    }
+]

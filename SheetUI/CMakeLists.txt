@@ -27,6 +27,7 @@ qt_add_qml_module(appSheetUI
         SOURCES backend.h backend.cpp
         QML_FILES
         QML_FILES UI/settings/Style.qml
+        QML_FILES UI/resNavBar/WheelMenu.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

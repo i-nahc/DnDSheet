@@ -85,5 +85,10 @@ ApplicationWindow {
             }
             id: topNavBar
         }
+
+        WheelMenu
+        {
+
+        }
     }
 }
