@@ -33,6 +33,13 @@ namespace _qt_qml_SheetUI_UI_resNavBar_WheelMenu_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_SheetUI_UI_resNavBar_WheelOption_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -51,6 +58,7 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/SheetUI/UI/resNavBar/NavBar.qml"), &QmlCacheGeneratedCode::_qt_qml_SheetUI_UI_resNavBar_NavBar_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/SheetUI/UI/settings/Style.qml"), &QmlCacheGeneratedCode::_qt_qml_SheetUI_UI_settings_Style_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/SheetUI/UI/resNavBar/WheelMenu.qml"), &QmlCacheGeneratedCode::_qt_qml_SheetUI_UI_resNavBar_WheelMenu_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/SheetUI/UI/resNavBar/WheelOption.qml"), &QmlCacheGeneratedCode::_qt_qml_SheetUI_UI_resNavBar_WheelOption_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

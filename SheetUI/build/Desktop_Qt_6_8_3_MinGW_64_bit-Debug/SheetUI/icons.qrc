@@ -282,5 +282,6 @@
         <file>UI/assets/coreUI/icon_maximize.svg</file>
         <file>UI/settings/SettingsDialog.qml</file>
         <file>UI/assets/dice/d20white.svg</file>
+        <file>UI/assets/logo/dndWhite.svg</file>
     </qresource>
 </RCC>

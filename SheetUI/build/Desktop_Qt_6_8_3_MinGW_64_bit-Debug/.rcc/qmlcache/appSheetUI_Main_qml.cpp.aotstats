@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 362,
+                        "durationMicroseconds": 339,
                         "errorMessage": "",
                         "functionName": "flags",
                         "line": 21
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 99,
+                        "durationMicroseconds": 98,
                         "errorMessage": "",
                         "functionName": "theme",
                         "line": 10
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 120,
+                        "durationMicroseconds": 383,
                         "errorMessage": "",
                         "functionName": "accent",
                         "line": 11
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 441,
                         "errorMessage": "Cannot access value for name windowManager",
                         "functionName": "target",
                         "line": 23
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 9,
-                        "durationMicroseconds": 1022,
+                        "durationMicroseconds": 985,
                         "errorMessage": "",
                         "functionName": "onMaximizeTriggered",
                         "line": 24
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 9,
-                        "durationMicroseconds": 123,
+                        "durationMicroseconds": 124,
                         "errorMessage": "",
                         "functionName": "onMinimizeTriggered",
                         "line": 30
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 109,
+                        "durationMicroseconds": 98,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 77
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 4002,
+                        "durationMicroseconds": 4168,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 78
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 126,
+                        "durationMicroseconds": 125,
                         "errorMessage": "",
                         "functionName": "acceptedButtons",
                         "line": 41
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 26,
-                        "durationMicroseconds": 996,
+                        "durationMicroseconds": 942,
                         "errorMessage": "",
                         "functionName": "cursorShape",
                         "line": 54
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 32,
-                        "durationMicroseconds": 259,
+                        "durationMicroseconds": 232,
                         "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
                         "functionName": "onPositionChanged",
                         "line": 62
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 300,
+                        "durationMicroseconds": 292,
                         "errorMessage": "method startSystemResize cannot be resolved.",
                         "functionName": "onPressed",
                         "line": 63
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 71,
+                        "durationMicroseconds": 72,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 39
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 34,
-                        "durationMicroseconds": 209,
+                        "durationMicroseconds": 125,
                         "errorMessage": "method startSystemMove cannot be resolved.",
                         "functionName": "onActiveChanged",
                         "line": 71
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 61,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 76
