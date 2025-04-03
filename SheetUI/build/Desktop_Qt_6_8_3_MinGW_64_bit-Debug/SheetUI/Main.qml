@@ -9,12 +9,13 @@ ApplicationWindow {
     id: primaryWindow
     Material.theme: Material.Dark
     Material.accent: Material.Indigo
-    minimumWidth: 600
-    minimumHeight: 500
-    maximumWidth: 1200
-    maximumHeight: 800
-    width: 600
-    height: 500
+    minimumWidth: Screen.width/3.2
+    minimumHeight: Screen.height/2.4
+    maximumWidth: Screen.width
+    maximumHeight: Screen.height
+
+    width: Screen.width/3.2
+    height: Screen.height/2.4
     visible: true
     title: qsTr("DNDSheet")
     color: "transparent"
@@ -22,10 +23,23 @@ ApplicationWindow {
     Connections{
         target: windowManager
         function onMaximizeTriggered() {
-            primaryWindow.width = primaryWindow.maximumWidth
-            primaryWindow.height = primaryWindow.maximumHeight
-            primaryWindow.x = Screen.width / 2 - primaryWindow.width / 2
-            primaryWindow.y = Screen.height / 2 - primaryWindow.height / 2
+            if(!mainNavBar.isMaximized)
+            {
+                primaryWindow.width = primaryWindow.maximumWidth
+                primaryWindow.height = primaryWindow.maximumHeight
+                primaryWindow.x = Screen.width / 2 - primaryWindow.width / 2
+                primaryWindow.y = Screen.height / 2 - primaryWindow.height / 2
+                mainNavBar.isMaximized = true
+            }
+            else
+            {
+                primaryWindow.width = primaryWindow.minimumWidth
+                primaryWindow.height = primaryWindow.minimumHeight
+                primaryWindow.x = Screen.width / 2 - primaryWindow.width / 2
+                primaryWindow.y = Screen.height / 2 - primaryWindow.height / 2
+                mainNavBar.isMaximized = false
+            }
+
         }
         function onMinimizeTriggered() {
             primaryWindow.showMinimized()
@@ -64,6 +78,7 @@ ApplicationWindow {
                 setEdges(mouseX, mouseY);
                 if(edges && containsMouse) {
                     startSystemResize(edges);
+                    mainNavBar.isMaximized = false
                 }
             }
 
@@ -80,10 +95,11 @@ ApplicationWindow {
 
         NavBar
         {
+            id: mainNavBar
             // Put this drag handler here to supersede the main window
             DragHandler{
             }
-            id: topNavBar
+
         }
 
         WheelMenu

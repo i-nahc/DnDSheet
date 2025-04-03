@@ -7,14 +7,15 @@ import QtQuick.Effects
 Item {
     id: topLevel
 
+    property bool isMaximized: false
     anchors{
         right: parent.right
         top: parent.top
     }
-    height: 30
-    width: 30 // expanded: 120
-    anchors.rightMargin: 25
-    anchors.topMargin: 20
+    height: Screen.width/48
+    width: Screen.width/48 // expanded: 160
+    anchors.rightMargin: Screen.width/76.8
+    anchors.topMargin: Screen.height/60
 
     HoverHandler{
         onHoveredChanged: {
@@ -32,8 +33,8 @@ Item {
                 minimizeArea.visible = false
                 maximizeArea.visible = false
 
-                closeArea.topLeftRadius = Material.LargeScale
-                closeArea.bottomLeftRadius = Material.LargeScale
+                closeArea.topLeftRadius = topLevel.width/2
+                closeArea.bottomLeftRadius = topLevel.width/2
             }
         }
     }
@@ -41,7 +42,7 @@ Item {
     Rectangle{
         anchors.fill: parent
         color: Style.primaryColorDark
-        radius: Material.LargeScale
+        radius: topLevel.width/2
     }
 
     RowLayout{
@@ -51,8 +52,8 @@ Item {
             id: minimizeArea
             Layout.fillWidth: true
             Layout.fillHeight: true
-            topLeftRadius: Material.LargeScale
-            bottomLeftRadius: Material.LargeScale
+            topLeftRadius: topLevel.width/2
+            bottomLeftRadius: topLevel.width/2
             visible: false
             color: Style.primaryColorDark
             Image{
@@ -87,7 +88,16 @@ Item {
             Image{
                 source: "qrc:/UI/assets/coreUI/icon_maximize.svg"
                 anchors.centerIn: parent
+                z: 2
             }
+            Image{
+                source: "qrc:/UI/assets/coreUI/icon_maximize.svg"
+                anchors.centerIn: parent
+                anchors.horizontalCenterOffset: Screen.width/700
+                anchors.verticalCenterOffset: -Screen.width/700
+                z: 1
+            }
+
             HoverHandler{
                 onHoveredChanged:{
                     if(hovered){
@@ -110,10 +120,10 @@ Item {
             id: closeArea
             Layout.fillWidth: true
             Layout.fillHeight: true
-            topRightRadius: Material.LargeScale
-            bottomRightRadius: Material.LargeScale
-            topLeftRadius: Material.LargeScale
-            bottomLeftRadius: Material.LargeScale
+            topRightRadius: topLevel.width/2
+            bottomRightRadius: topLevel.width/2
+            topLeftRadius: topLevel.width/2
+            bottomLeftRadius: topLevel.width/2
             color: Style.primaryColorDark
             Image{
                 source: "qrc:/UI/assets/coreUI/icon_close.svg"
@@ -148,12 +158,12 @@ Item {
         id: expandArea
         target: topLevel
         properties: "width"
-        to: 120; duration: 200
+        to: Screen.width/12; duration: 200
     }
     NumberAnimation{
         id: shrinkArea
         target: topLevel
         properties: "width"
-        to: 30; duration: 200
+        to: Screen.width/48; duration: 200
     }
 }

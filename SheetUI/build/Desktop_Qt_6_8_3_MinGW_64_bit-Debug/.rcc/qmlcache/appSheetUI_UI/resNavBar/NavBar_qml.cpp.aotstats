@@ -5,235 +5,123 @@
                 "entries": [
                     {
                         "codegenSuccessfull": true,
-                        "column": 16,
-                        "durationMicroseconds": 285,
+                        "column": 13,
+                        "durationMicroseconds": 324,
                         "errorMessage": "",
-                        "functionName": "right",
-                        "line": 11
+                        "functionName": "height",
+                        "line": 15
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 14,
-                        "durationMicroseconds": 130,
+                        "column": 12,
+                        "durationMicroseconds": 154,
                         "errorMessage": "",
-                        "functionName": "top",
+                        "functionName": "width",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 16,
+                        "durationMicroseconds": 143,
+                        "errorMessage": "",
+                        "functionName": "right",
                         "line": 12
                     },
                     {
                         "codegenSuccessfull": true,
+                        "column": 14,
+                        "durationMicroseconds": 127,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 26,
+                        "durationMicroseconds": 159,
+                        "errorMessage": "",
+                        "functionName": "rightMargin",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 152,
+                        "errorMessage": "",
+                        "functionName": "topMargin",
+                        "line": 18
+                    },
+                    {
+                        "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 1037,
+                        "durationMicroseconds": 1303,
                         "errorMessage": "",
                         "functionName": "onHoveredChanged",
-                        "line": 20
+                        "line": 21
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 4606,
+                        "durationMicroseconds": 4854,
                         "errorMessage": "",
                         "functionName": "color",
-                        "line": 43
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 17,
-                        "durationMicroseconds": 100,
-                        "errorMessage": "",
-                        "functionName": "radius",
                         "line": 44
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 23,
-                        "durationMicroseconds": 61,
+                        "column": 17,
+                        "durationMicroseconds": 144,
                         "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 42
+                        "functionName": "radius",
+                        "line": 45
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 63,
+                        "durationMicroseconds": 65,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 48
+                        "line": 43
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 49
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 102,
+                        "durationMicroseconds": 139,
                         "errorMessage": "",
                         "functionName": "topLeftRadius",
-                        "line": 54
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 31,
-                        "durationMicroseconds": 90,
-                        "errorMessage": "",
-                        "functionName": "bottomLeftRadius",
                         "line": 55
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 20,
-                        "durationMicroseconds": 115,
-                        "errorMessage": "",
-                        "functionName": "color",
-                        "line": 57
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 35,
-                        "durationMicroseconds": 64,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 60
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 34,
-                        "durationMicroseconds": 181,
-                        "errorMessage": "Type (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml)::parent with type QQuickItem does not have a property color for writing",
-                        "functionName": "onHoveredChanged",
-                        "line": 63
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 34,
-                        "durationMicroseconds": 110,
-                        "errorMessage": "",
-                        "functionName": "acceptedButtons",
-                        "line": 76
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 28,
-                        "durationMicroseconds": 26,
-                        "errorMessage": "Type (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml)::parent with type QQuickItem does not have a property color for writing",
-                        "functionName": "onPressed",
-                        "line": 77
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 28,
-                        "durationMicroseconds": 436,
-                        "errorMessage": "Cannot access value for name windowManager",
-                        "functionName": "onClicked",
-                        "line": 78
-                    },
-                    {
-                        "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 72,
-                        "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 75
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 20,
-                        "durationMicroseconds": 173,
-                        "errorMessage": "",
-                        "functionName": "color",
-                        "line": 86
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 35,
-                        "durationMicroseconds": 65,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 89
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 34,
-                        "durationMicroseconds": 35,
-                        "errorMessage": "Type (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml)::parent with type QQuickItem does not have a property color for writing",
-                        "functionName": "onHoveredChanged",
-                        "line": 92
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 34,
-                        "durationMicroseconds": 105,
-                        "errorMessage": "",
-                        "functionName": "acceptedButtons",
-                        "line": 104
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 28,
-                        "durationMicroseconds": 21,
-                        "errorMessage": "Type (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml)::parent with type QQuickItem does not have a property color for writing",
-                        "functionName": "onPressed",
-                        "line": 105
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 28,
-                        "durationMicroseconds": 205,
-                        "errorMessage": "Cannot access value for name windowManager",
-                        "functionName": "onClicked",
-                        "line": 106
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 31,
-                        "durationMicroseconds": 65,
-                        "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 103
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 29,
-                        "durationMicroseconds": 95,
-                        "errorMessage": "",
-                        "functionName": "topRightRadius",
-                        "line": 113
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 32,
-                        "durationMicroseconds": 86,
-                        "errorMessage": "",
-                        "functionName": "bottomRightRadius",
-                        "line": 114
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 28,
-                        "durationMicroseconds": 88,
-                        "errorMessage": "",
-                        "functionName": "topLeftRadius",
-                        "line": 115
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 31,
-                        "durationMicroseconds": 85,
+                        "durationMicroseconds": 133,
                         "errorMessage": "",
                         "functionName": "bottomLeftRadius",
-                        "line": 116
+                        "line": 56
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 114,
+                        "durationMicroseconds": 111,
                         "errorMessage": "",
                         "functionName": "color",
-                        "line": 117
+                        "line": 58
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 67,
+                        "durationMicroseconds": 76,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 120
+                        "line": 61
                     },
                     {
                         "codegenSuccessfull": false,
@@ -241,15 +129,15 @@
                         "durationMicroseconds": 46,
                         "errorMessage": "Type (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml)::parent with type QQuickItem does not have a property color for writing",
                         "functionName": "onHoveredChanged",
-                        "line": 123
+                        "line": 64
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 107,
+                        "durationMicroseconds": 112,
                         "errorMessage": "",
                         "functionName": "acceptedButtons",
-                        "line": 136
+                        "line": 77
                     },
                     {
                         "codegenSuccessfull": false,
@@ -257,39 +145,223 @@
                         "durationMicroseconds": 21,
                         "errorMessage": "Type (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml)::parent with type QQuickItem does not have a property color for writing",
                         "functionName": "onPressed",
-                        "line": 137
+                        "line": 78
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 17,
-                        "durationMicroseconds": 203,
+                        "column": 28,
+                        "durationMicroseconds": 239,
                         "errorMessage": "Cannot access value for name windowManager",
                         "functionName": "onClicked",
-                        "line": 139
+                        "line": 79
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 61,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 135
+                        "line": 76
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 17,
-                        "durationMicroseconds": 67,
+                        "column": 20,
+                        "durationMicroseconds": 119,
                         "errorMessage": "",
-                        "functionName": "target",
+                        "functionName": "color",
+                        "line": 87
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 60,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 90
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 95
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 49,
+                        "durationMicroseconds": 248,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenterOffset",
+                        "line": 96
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 47,
+                        "durationMicroseconds": 195,
+                        "errorMessage": "",
+                        "functionName": "verticalCenterOffset",
+                        "line": 97
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 34,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "Type (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml)::parent with type QQuickItem does not have a property color for writing",
+                        "functionName": "onHoveredChanged",
+                        "line": 102
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 34,
+                        "durationMicroseconds": 110,
+                        "errorMessage": "",
+                        "functionName": "acceptedButtons",
+                        "line": 114
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 21,
+                        "errorMessage": "Type (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml)::parent with type QQuickItem does not have a property color for writing",
+                        "functionName": "onPressed",
+                        "line": 115
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 198,
+                        "errorMessage": "Cannot access value for name windowManager",
+                        "functionName": "onClicked",
+                        "line": 116
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 62,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 113
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 29,
+                        "durationMicroseconds": 140,
+                        "errorMessage": "",
+                        "functionName": "topRightRadius",
+                        "line": 123
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 32,
+                        "durationMicroseconds": 135,
+                        "errorMessage": "",
+                        "functionName": "bottomRightRadius",
+                        "line": 124
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 126,
+                        "errorMessage": "",
+                        "functionName": "topLeftRadius",
+                        "line": 125
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 180,
+                        "errorMessage": "",
+                        "functionName": "bottomLeftRadius",
+                        "line": 126
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 110,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 127
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 58,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 130
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 34,
+                        "durationMicroseconds": 34,
+                        "errorMessage": "Type (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml)::parent with type QQuickItem does not have a property color for writing",
+                        "functionName": "onHoveredChanged",
+                        "line": 133
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 34,
+                        "durationMicroseconds": 116,
+                        "errorMessage": "",
+                        "functionName": "acceptedButtons",
+                        "line": 146
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 21,
+                        "errorMessage": "Type (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml)::parent with type QQuickItem does not have a property color for writing",
+                        "functionName": "onPressed",
+                        "line": 147
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 17,
+                        "durationMicroseconds": 235,
+                        "errorMessage": "Cannot access value for name windowManager",
+                        "functionName": "onClicked",
                         "line": 149
                     },
                     {
                         "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 64,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 145
+                    },
+                    {
+                        "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 62,
+                        "durationMicroseconds": 66,
                         "errorMessage": "",
                         "functionName": "target",
-                        "line": 155
+                        "line": 159
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 13,
+                        "durationMicroseconds": 140,
+                        "errorMessage": "",
+                        "functionName": "to",
+                        "line": 161
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 121,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 165
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 13,
+                        "durationMicroseconds": 140,
+                        "errorMessage": "",
+                        "functionName": "to",
+                        "line": 167
                     }
                 ],
                 "filepath": "D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml"
