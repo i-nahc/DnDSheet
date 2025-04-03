@@ -90,13 +90,14 @@ Item {
                 anchors.centerIn: parent
                 z: 2
             }
-            Image{
-                source: "qrc:/UI/assets/coreUI/icon_maximize.svg"
-                anchors.centerIn: parent
-                anchors.horizontalCenterOffset: Screen.width/700
-                anchors.verticalCenterOffset: -Screen.width/700
-                z: 1
-            }
+
+            // Image{
+            //     source: "qrc:/UI/assets/coreUI/icon_maximize2.svg"
+            //     anchors.centerIn: parent
+            //     anchors.horizontalCenterOffset: Screen.width/700
+            //     anchors.verticalCenterOffset: -Screen.width/700
+            //     z: 1
+            // }
 
             HoverHandler{
                 onHoveredChanged:{

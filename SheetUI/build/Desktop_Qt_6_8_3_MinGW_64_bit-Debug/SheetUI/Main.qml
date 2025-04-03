@@ -30,6 +30,7 @@ ApplicationWindow {
                 primaryWindow.x = Screen.width / 2 - primaryWindow.width / 2
                 primaryWindow.y = Screen.height / 2 - primaryWindow.height / 2
                 mainNavBar.isMaximized = true
+                viewport.radius = 0
             }
             else
             {
@@ -38,6 +39,7 @@ ApplicationWindow {
                 primaryWindow.x = Screen.width / 2 - primaryWindow.width / 2
                 primaryWindow.y = Screen.height / 2 - primaryWindow.height / 2
                 mainNavBar.isMaximized = false
+                viewport.radius = Material.MediumScale
             }
 
         }
@@ -66,24 +68,28 @@ ApplicationWindow {
             }
 
             cursorShape: {
+                if(!mainNavBar.isMaximized)
+                {
                         return !containsMouse ? Qt.ArrowCursor:
                                edges == 3 || edges == 12 ? Qt.SizeFDiagCursor :
                                edges == 5 || edges == 10 ? Qt.SizeBDiagCursor :
                                edges & 9 ? Qt.SizeVerCursor :
                                edges & 6 ? Qt.SizeHorCursor : Qt.ArrowCursor;
-                    }
+                }
+            }
 
             onPositionChanged: setEdges(mouseX, mouseY);
             onPressed: {
                 setEdges(mouseX, mouseY);
-                if(edges && containsMouse) {
+                if(edges && containsMouse && !mainNavBar.isMaximized) {
                     startSystemResize(edges);
                     mainNavBar.isMaximized = false
+                    viewport.radius = Material.MediumScale
                 }
             }
 
             DragHandler{
-                onActiveChanged: if (active) startSystemMove();
+                onActiveChanged: if (active && !mainNavBar.isMaximized) startSystemMove();
             }
         }
         id: viewport

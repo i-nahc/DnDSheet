@@ -1,62 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="icon_maximize.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   id="svg8"
-   version="1.1"
-   viewBox="0 0 2.6458332 2.6458332"
-   height="10"
-   width="10">
-  <defs
-     id="defs2" />
-  <sodipodi:namedview
-     inkscape:window-maximized="1"
-     inkscape:window-y="-8"
-     inkscape:window-x="1912"
-     inkscape:window-height="1027"
-     inkscape:window-width="1920"
-     units="px"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="mm"
-     inkscape:cy="10"
-     inkscape:cx="10"
-     inkscape:zoom="39.690974"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     borderopacity="1.0"
-     bordercolor="#666666"
-     pagecolor="#3b3b3b"
-     id="base" />
-  <metadata
-     id="metadata5">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     id="layer1"
-     inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
-    <path
-		fill="#bf5454"
-       sodipodi:nodetypes="cccccccccc"
-       id="rect835"
-       style="fill:#f9f9f9;stroke-width:0.00635566"
-       d="M -3.2833333e-6,1.6666666e-8 V 2.6458333 H 2.6458366 V 1.6666666e-8 Z M 0.22430672,0.22430932 H 2.4215167 V 2.4215241 H 0.22430672 Z" />
+<svg width="2.6458332" height="2.6458332" xmlns="http://www.w3.org/2000/svg" xmlns:undefined="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:undefined="http://www.inkscape.org/namespaces/inkscape" version="1.1">
+
+ <metadata id="metadata5">image/svg+xml</metadata>
+ <g>
+  <title>Layer 1</title>
+  <g   id="layer1">
+   <path stroke-width="0.00636" d="m0,0l0,2.64583l2.64584,0l0,-2.64583l-2.64584,0zm0.22431,0.22431l2.19721,0l0,2.19721l-2.19721,0l0,-2.19721z" id="rect835"  fill="#f9f9f9"/>
   </g>
+  <rect stroke="null" id="svg_8" height="2.04724" width="2.40879" y="0.80388" x="-0.46375" stroke-width="0.5" fill="#000"/>
+ </g>
 </svg>

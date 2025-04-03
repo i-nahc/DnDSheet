@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 327,
+                        "durationMicroseconds": 321,
                         "errorMessage": "",
                         "functionName": "minimumWidth",
                         "line": 12
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 158,
+                        "durationMicroseconds": 159,
                         "errorMessage": "",
                         "functionName": "minimumHeight",
                         "line": 13
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 82,
+                        "durationMicroseconds": 90,
                         "errorMessage": "",
                         "functionName": "maximumWidth",
                         "line": 14
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 81,
+                        "durationMicroseconds": 85,
                         "errorMessage": "",
                         "functionName": "maximumHeight",
                         "line": 15
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 147,
+                        "durationMicroseconds": 151,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 17
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 151,
+                        "durationMicroseconds": 158,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 18
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 203,
+                        "durationMicroseconds": 218,
                         "errorMessage": "",
                         "functionName": "flags",
                         "line": 22
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 94,
+                        "durationMicroseconds": 96,
                         "errorMessage": "",
                         "functionName": "theme",
                         "line": 10
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 106,
+                        "durationMicroseconds": 118,
                         "errorMessage": "",
                         "functionName": "accent",
                         "line": 11
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 70,
                         "errorMessage": "Cannot access value for name windowManager",
                         "functionName": "target",
                         "line": 24
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 9,
-                        "durationMicroseconds": 2387,
+                        "durationMicroseconds": 2660,
                         "errorMessage": "",
                         "functionName": "onMaximizeTriggered",
                         "line": 25
@@ -94,34 +94,34 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 9,
-                        "durationMicroseconds": 114,
+                        "durationMicroseconds": 118,
                         "errorMessage": "",
                         "functionName": "onMinimizeTriggered",
-                        "line": 44
+                        "line": 46
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 95,
+                        "durationMicroseconds": 98,
                         "errorMessage": "",
                         "functionName": "radius",
-                        "line": 92
+                        "line": 98
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 3888,
+                        "durationMicroseconds": 3872,
                         "errorMessage": "",
                         "functionName": "color",
-                        "line": 93
+                        "line": 99
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 114,
+                        "durationMicroseconds": 113,
                         "errorMessage": "",
                         "functionName": "acceptedButtons",
-                        "line": 55
+                        "line": 57
                     },
                     {
                         "codegenSuccessfull": false,
@@ -129,55 +129,55 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Functions without type annotations won't be compiled",
                         "functionName": "setEdges",
-                        "line": 60
+                        "line": 62
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 26,
-                        "durationMicroseconds": 758,
+                        "durationMicroseconds": 18962,
                         "errorMessage": "",
                         "functionName": "cursorShape",
-                        "line": 68
+                        "line": 70
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 32,
-                        "durationMicroseconds": 226,
+                        "durationMicroseconds": 248,
                         "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
                         "functionName": "onPositionChanged",
-                        "line": 76
+                        "line": 81
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 293,
+                        "durationMicroseconds": 324,
                         "errorMessage": "method startSystemResize cannot be resolved.",
                         "functionName": "onPressed",
-                        "line": 77
+                        "line": 82
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 63,
+                        "durationMicroseconds": 68,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 53
+                        "line": 55
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 34,
-                        "durationMicroseconds": 129,
+                        "durationMicroseconds": 155,
                         "errorMessage": "method startSystemMove cannot be resolved.",
                         "functionName": "onActiveChanged",
-                        "line": 86
+                        "line": 92
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 67,
+                        "durationMicroseconds": 73,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 91
+                        "line": 97
                     }
                 ],
                 "filepath": "D:/DevTools/Projects/DnDSheet/SheetUI/Main.qml"
