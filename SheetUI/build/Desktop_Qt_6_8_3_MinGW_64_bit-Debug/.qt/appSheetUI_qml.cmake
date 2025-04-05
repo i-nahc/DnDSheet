@@ -12,6 +12,8 @@ set(src_and_dest_list
     "D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/SheetUI/UI/resNavBar/WheelMenu.qml"
     "D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/WheelOption.qml"
     "D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/SheetUI/UI/resNavBar/WheelOption.qml"
+    "D:/DevTools/Projects/DnDSheet/SheetUI/UI/navigation/MenuOption.qml"
+    "D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/SheetUI/UI/navigation/MenuOption.qml"
 
 )
 set(timestamp_file "D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/appSheetUI_qml.txt")

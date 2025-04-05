@@ -1,0 +1,148 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 12,
+                        "durationMicroseconds": 188,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 13,
+                        "durationMicroseconds": 66,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 8,
+                        "durationMicroseconds": 61,
+                        "errorMessage": "",
+                        "functionName": "x",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 8,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 22
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 16,
+                        "durationMicroseconds": 116,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 27
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 91,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 28
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 25,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "Cannot access value for name imageCropOffsetX",
+                        "functionName": "sourceClipRect",
+                        "line": 29
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 17,
+                        "durationMicroseconds": 23,
+                        "errorMessage": "Cannot access value for name imageSrc",
+                        "functionName": "source",
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 79,
+                        "errorMessage": "",
+                        "functionName": "source",
+                        "line": 39
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 21,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "maskSource",
+                        "line": 42
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 40
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 16,
+                        "durationMicroseconds": 83,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 50
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 83,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 51
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 141,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 55
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 21,
+                        "durationMicroseconds": 79,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 56
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 21,
+                        "durationMicroseconds": 136,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 57
+                    }
+                ],
+                "filepath": "D:/DevTools/Projects/DnDSheet/SheetUI/UI/navigation/MenuOption.qml"
+            }
+        ],
+        "moduleId": "SheetUI(appSheetUI)"
+    }
+]

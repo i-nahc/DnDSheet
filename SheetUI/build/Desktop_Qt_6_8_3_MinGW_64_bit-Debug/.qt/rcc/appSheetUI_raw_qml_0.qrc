@@ -5,6 +5,7 @@
     <file alias="UI/settings/Style.qml">D:/DevTools/Projects/DnDSheet/SheetUI/UI/settings/Style.qml</file>
     <file alias="UI/resNavBar/WheelMenu.qml">D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/WheelMenu.qml</file>
     <file alias="UI/resNavBar/WheelOption.qml">D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/WheelOption.qml</file>
+    <file alias="UI/navigation/MenuOption.qml">D:/DevTools/Projects/DnDSheet/SheetUI/UI/navigation/MenuOption.qml</file>
     <file alias="icons.qrc">D:/DevTools/Projects/DnDSheet/SheetUI/icons.qrc</file>
   </qresource>
 </RCC>

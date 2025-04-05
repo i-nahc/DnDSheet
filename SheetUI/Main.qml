@@ -4,6 +4,7 @@ import QtQuick.Controls
 import QtQuick.Controls.Material
 
 import "UI/resNavBar"
+import "UI/navigation"
 
 ApplicationWindow {
     id: primaryWindow
@@ -108,9 +109,32 @@ ApplicationWindow {
 
         }
 
-        WheelMenu
-        {
-
+        Item{
+            id: menuOptionsArea
+            // Create -- Character Planner
+            MenuOption{
+                id: createButton
+                iconWidth: primaryWindow.width/6
+                iconHeight: primaryWindow.width/3
+            }
+            // Party -- Party Builder/Display
+            MenuOption{
+                id: partyButton
+                iconWidth: primaryWindow.width/3
+                iconHeight: primaryWindow.width/6
+            }
+            // Items -- Items, custom or core
+            MenuOption{
+                id: itemsButton
+                iconWidth: primaryWindow.width/3
+                iconHeight: primaryWindow.width/6
+            }
+            // User Guide -- Spell list and feats
+            MenuOption{
+                id: guideButton
+                iconWidth: primaryWindow.width/6
+                iconHeight: primaryWindow.width/3
+            }
         }
     }
 }

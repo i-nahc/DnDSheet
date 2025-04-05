@@ -4,6 +4,7 @@ import QtQuick.Controls
 import QtQuick.Controls.Material
 
 import "UI/resNavBar"
+import "UI/navigation"
 
 ApplicationWindow {
     id: primaryWindow
@@ -70,11 +71,11 @@ ApplicationWindow {
             cursorShape: {
                 if(!mainNavBar.isMaximized)
                 {
-                        return !containsMouse ? Qt.ArrowCursor:
-                               edges == 3 || edges == 12 ? Qt.SizeFDiagCursor :
-                               edges == 5 || edges == 10 ? Qt.SizeBDiagCursor :
-                               edges & 9 ? Qt.SizeVerCursor :
-                               edges & 6 ? Qt.SizeHorCursor : Qt.ArrowCursor;
+                    return !containsMouse ? Qt.ArrowCursor:
+                           edges == 3 || edges == 12 ? Qt.SizeFDiagCursor :
+                           edges == 5 || edges == 10 ? Qt.SizeBDiagCursor :
+                           edges & 9 ? Qt.SizeVerCursor :
+                           edges & 6 ? Qt.SizeHorCursor : Qt.ArrowCursor;
                 }
             }
 
@@ -108,9 +109,32 @@ ApplicationWindow {
 
         }
 
-        WheelMenu
-        {
-
+        Item{
+            id: menuOptionsArea
+            // Create -- Character Planner
+            MenuOption{
+                id: createButton
+                iconWidth: primaryWindow.width/6
+                iconHeight: primaryWindow.width/3
+            }
+            // Party -- Party Builder/Display
+            MenuOption{
+                id: partyButton
+                iconWidth: primaryWindow.width/3
+                iconHeight: primaryWindow.width/6
+            }
+            // Items -- Items, custom or core
+            MenuOption{
+                id: itemsButton
+                iconWidth: primaryWindow.width/3
+                iconHeight: primaryWindow.width/6
+            }
+            // User Guide -- Spell list and feats
+            MenuOption{
+                id: guideButton
+                iconWidth: primaryWindow.width/6
+                iconHeight: primaryWindow.width/3
+            }
         }
     }
 }
