@@ -1,4 +1,4 @@
-import QtQuick 2.15
+import QtQuick
 import QtQuick.Effects
 import QtQuick.Controls.Material
 import Qt5Compat.GraphicalEffects
@@ -10,13 +10,16 @@ Item {
 
     property string associatedPage: ""
 
-    property int cropXOffset: 0
-    property int cropYOffset: 0
+    property int xOffset: 0
+    property int yOffset: 0
 
     property double imageScale: 1
 
     property int sourceWidth: 0
     property int sourceHeight: 0
+
+    property int labelHeight: parent.width/10
+    property string labelText: "PLACEHOLDER"
 
     width: parent.width
     height: parent.height
@@ -26,36 +29,66 @@ Item {
         anchors.fill: parent
         radius: Material.SmallScale
         visible: false
+        layer.enabled: true
         layer.smooth: true
         width: imageItem.width
         height: imageItem.height
         scale: 1
     }
-
-    Image{
-        id: imageItem
-        source: imageDir + imageSrc
+    Rectangle
+    {
+        id: img
         anchors.fill: parent
-        scale: 1
-        fillMode: Image.PreserveAspectCrop
-        sourceSize.width: sourceWidth
-        sourceSize.height: sourceHeight
-        sourceClipRect: Qt.rect(0, 0, sourceWidth, sourceHeight)
+
+        // Place the image within a rectangle/item and then target the rectangle for masking to keep image fill and positioning
+        Image{
+            id: imageItem
+            source: imageDir + imageSrc
+            anchors.fill: parent
+            scale: 1
+            fillMode: Image.PreserveAspectCrop
+            sourceClipRect: Qt.rect(xOffset, yOffset, sourceWidth, sourceHeight)
+        }
         visible: false
-
+        layer.enabled: true
     }
-    ShaderEffect {
-        id: roundedImage
-        property Image src: imageItem
-        property real radius: Material.SmallScale
-        // property real topLeftRadius: 0
-        // property real topRightRadius: 0
-        // property real bottomLeftRadius: 0
-        // property real bottomRightRadius: 0
-        property real softness: 0
+    MultiEffect{
+        source: img
+        anchors.fill: img
+        maskEnabled: true
+        maskSource: mask
+        maskThresholdMin: 0.5
+        maskSpreadAtMin: 1.0
+    }
+    Rectangle{
+        id: optionName
+        anchors.bottom: parent.bottom
+        bottomLeftRadius: Material.SmallScale-2
+        bottomRightRadius: Material.SmallScale-2
+        color: Style.primaryColorDark
+        height: labelHeight
+        width: parent.width
+        opacity: 0.95
 
-        anchors.fill: parent
-        vertexShader: "qrc:/UI/shaders/roundImage.vert"
-        fragmentShader: "qrc:/UI/shaders/roundImage.frag"
+        Text{
+            text: labelText
+            width: parent.width
+            height: parent.height
+            horizontalAlignment: Text.AlignHCenter
+            anchors.centerIn: parent
+            fontSizeMode: Text.Fit
+            color: "white"
+            font.bold: true
+            minimumPixelSize: 10
+            font.pixelSize: 72
+
+        }
+    }
+
+    ParallelAnimation{
+        id: focus
+    }
+    ParallelAnimation{
+        id: defocus
     }
 }

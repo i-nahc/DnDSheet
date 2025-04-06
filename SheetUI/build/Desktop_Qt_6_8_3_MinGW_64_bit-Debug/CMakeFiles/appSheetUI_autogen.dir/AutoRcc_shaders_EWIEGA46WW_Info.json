@@ -9,8 +9,8 @@
 	"INCLUDE_DIR" : "D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appSheetUI_autogen/include",
 	"INPUTS" : 
 	[
-		"D:/DevTools/Projects/DnDSheet/SheetUI/UI/shaders/roundImage.frag",
-		"D:/DevTools/Projects/DnDSheet/SheetUI/UI/shaders/roundImage.vert"
+		"D:/DevTools/Projects/DnDSheet/SheetUI/UI/shaders/roundedImage.vert",
+		"D:/DevTools/Projects/DnDSheet/SheetUI/UI/shaders/roundedImage.frag"
 	],
 	"LOCK_FILE" : "D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/appSheetUI_autogen.dir/AutoRcc_shaders_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,

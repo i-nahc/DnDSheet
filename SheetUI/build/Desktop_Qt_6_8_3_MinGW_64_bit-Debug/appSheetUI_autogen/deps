@@ -929,6 +929,23 @@ appSheetUI_autogen/timestamp: \
 	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets-relwithdebinfo.cmake \
 	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets.cmake \
 	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsVersionlessTargets.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsAdditionalTargetInfo.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsConfig.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsConfigVersion.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsConfigVersionImpl.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsDependencies.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsTargets-relwithdebinfo.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsTargets.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6ShaderTools/Qt6ShaderToolsVersionlessAliasTargets.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsMacros.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsToolsAdditionalTargetInfo.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsToolsConfig.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsToolsConfigVersion.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsToolsConfigVersionImpl.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsToolsDependencies.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsToolsTargets-relwithdebinfo.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsToolsTargets.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6ShaderToolsTools/Qt6ShaderToolsToolsVersionlessTargets.cmake \
 	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateAdditionalTargetInfo.cmake \
 	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfig.cmake \
 	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersion.cmake \

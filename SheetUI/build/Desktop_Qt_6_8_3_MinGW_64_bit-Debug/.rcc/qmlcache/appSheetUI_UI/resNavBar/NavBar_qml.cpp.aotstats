@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 346,
+                        "durationMicroseconds": 532,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 15
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 193,
+                        "durationMicroseconds": 240,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 16
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 184,
+                        "durationMicroseconds": 221,
                         "errorMessage": "",
                         "functionName": "right",
                         "line": 12
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 14,
-                        "durationMicroseconds": 137,
+                        "durationMicroseconds": 192,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 13
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 26,
-                        "durationMicroseconds": 185,
+                        "durationMicroseconds": 233,
                         "errorMessage": "",
                         "functionName": "rightMargin",
                         "line": 17
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 161,
+                        "durationMicroseconds": 232,
                         "errorMessage": "",
                         "functionName": "topMargin",
                         "line": 18
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 1303,
+                        "durationMicroseconds": 1928,
                         "errorMessage": "",
                         "functionName": "onHoveredChanged",
                         "line": 21
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 4927,
+                        "durationMicroseconds": 6688,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 44
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 175,
+                        "durationMicroseconds": 268,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 45
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 75,
+                        "durationMicroseconds": 115,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 43
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 123,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 49
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 162,
+                        "durationMicroseconds": 255,
                         "errorMessage": "",
                         "functionName": "topLeftRadius",
                         "line": 55
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 172,
+                        "durationMicroseconds": 246,
                         "errorMessage": "",
                         "functionName": "bottomLeftRadius",
                         "line": 56
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 142,
+                        "durationMicroseconds": 219,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 58
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 80,
+                        "durationMicroseconds": 110,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 61
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 34,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 84,
                         "errorMessage": "Type (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml)::parent with type QQuickItem does not have a property color for writing",
                         "functionName": "onHoveredChanged",
                         "line": 64
@@ -134,7 +134,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 181,
+                        "durationMicroseconds": 204,
                         "errorMessage": "",
                         "functionName": "acceptedButtons",
                         "line": 77
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 47,
                         "errorMessage": "Type (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml)::parent with type QQuickItem does not have a property color for writing",
                         "functionName": "onPressed",
                         "line": 78
@@ -150,7 +150,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 383,
+                        "durationMicroseconds": 435,
                         "errorMessage": "Cannot access value for name windowManager",
                         "functionName": "onClicked",
                         "line": 79
@@ -158,7 +158,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 100,
+                        "durationMicroseconds": 107,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 76
@@ -166,7 +166,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 179,
+                        "durationMicroseconds": 204,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 87
@@ -174,7 +174,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 87,
+                        "durationMicroseconds": 110,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 90
@@ -182,7 +182,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 34,
-                        "durationMicroseconds": 51,
+                        "durationMicroseconds": 66,
                         "errorMessage": "Type (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml)::parent with type QQuickItem does not have a property color for writing",
                         "functionName": "onHoveredChanged",
                         "line": 103
@@ -190,7 +190,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 179,
+                        "durationMicroseconds": 193,
                         "errorMessage": "",
                         "functionName": "acceptedButtons",
                         "line": 115
@@ -198,7 +198,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 30,
+                        "durationMicroseconds": 38,
                         "errorMessage": "Type (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml)::parent with type QQuickItem does not have a property color for writing",
                         "functionName": "onPressed",
                         "line": 116
@@ -206,7 +206,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 333,
+                        "durationMicroseconds": 344,
                         "errorMessage": "Cannot access value for name windowManager",
                         "functionName": "onClicked",
                         "line": 117
@@ -214,7 +214,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 94,
+                        "durationMicroseconds": 115,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 114
@@ -222,7 +222,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 234,
+                        "durationMicroseconds": 261,
                         "errorMessage": "",
                         "functionName": "topRightRadius",
                         "line": 124
@@ -230,7 +230,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 217,
+                        "durationMicroseconds": 239,
                         "errorMessage": "",
                         "functionName": "bottomRightRadius",
                         "line": 125
@@ -238,7 +238,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 219,
+                        "durationMicroseconds": 236,
                         "errorMessage": "",
                         "functionName": "topLeftRadius",
                         "line": 126
@@ -246,7 +246,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 276,
+                        "durationMicroseconds": 299,
                         "errorMessage": "",
                         "functionName": "bottomLeftRadius",
                         "line": 127
@@ -254,7 +254,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 184,
+                        "durationMicroseconds": 213,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 128
@@ -262,7 +262,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 106,
+                        "durationMicroseconds": 120,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 131
@@ -270,7 +270,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 34,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 69,
                         "errorMessage": "Type (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml)::parent with type QQuickItem does not have a property color for writing",
                         "functionName": "onHoveredChanged",
                         "line": 134
@@ -278,7 +278,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 189,
+                        "durationMicroseconds": 152,
                         "errorMessage": "",
                         "functionName": "acceptedButtons",
                         "line": 147
@@ -286,7 +286,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 95,
+                        "durationMicroseconds": 84,
                         "errorMessage": "Type (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/NavBar.qml)::parent with type QQuickItem does not have a property color for writing",
                         "functionName": "onPressed",
                         "line": 148
@@ -294,7 +294,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 386,
+                        "durationMicroseconds": 409,
                         "errorMessage": "Cannot access value for name windowManager",
                         "functionName": "onClicked",
                         "line": 150
@@ -302,7 +302,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 101,
+                        "durationMicroseconds": 103,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 146
@@ -310,7 +310,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 103,
+                        "durationMicroseconds": 106,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 160
@@ -318,7 +318,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 222,
+                        "durationMicroseconds": 248,
                         "errorMessage": "",
                         "functionName": "to",
                         "line": 162
@@ -326,7 +326,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 105,
+                        "durationMicroseconds": 102,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 166
@@ -334,7 +334,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 206,
+                        "durationMicroseconds": 211,
                         "errorMessage": "",
                         "functionName": "to",
                         "line": 168

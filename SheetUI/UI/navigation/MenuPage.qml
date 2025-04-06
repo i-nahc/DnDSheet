@@ -1,4 +1,4 @@
-import QtQuick 2.15
+import QtQuick
 import QtQuick.Layouts
 Item {
     anchors.horizontalCenter: parent.horizontalCenter
@@ -15,6 +15,8 @@ Item {
 
         width: parent.width
         height: parent.height
+
+        // -- GUIDE --
         Item{
             Layout.column: 0
             Layout.row: 0
@@ -31,11 +33,12 @@ Item {
                 sourceWidth: 736
                 sourceHeight: 1104
 
-                cropXOffset: 100
-                cropYOffset: -100
+                xOffset: 0
+                yOffset: 0
             }
         }
 
+        // -- CREATE --
         Item{
             Layout.column: 1
             Layout.row: 0
@@ -50,11 +53,12 @@ Item {
             MenuOption{
                 imageSrc: "/party.jpeg"
 
-                cropXOffset: 100
-                cropYOffset: -100
+                xOffset: 0
+                yOffset: 0
             }
         }
 
+        // -- PARTY BUILDER --
         Item{
             Layout.column: 1
             Layout.row: 1
@@ -69,11 +73,12 @@ Item {
             MenuOption{
                 imageSrc: "/party.jpeg"
 
-                cropXOffset: 100
-                cropYOffset: -100
+                xOffset: 0
+                yOffset: 0
             }
         }
 
+        // -- ITEMS --
         Item{
             Layout.column: 3
             Layout.row: 0
@@ -90,7 +95,8 @@ Item {
                 sourceWidth: 1000
                 sourceHeight: 1282
 
-                cropYOffset: 150
+                xOffset: 0
+                yOffset: 0
             }
         }
 

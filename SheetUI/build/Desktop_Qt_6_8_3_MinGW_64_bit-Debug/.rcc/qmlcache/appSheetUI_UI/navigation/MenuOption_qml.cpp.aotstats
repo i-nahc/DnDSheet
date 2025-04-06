@@ -5,123 +5,219 @@
                 "entries": [
                     {
                         "codegenSuccessfull": true,
-                        "column": 12,
-                        "durationMicroseconds": 378,
+                        "column": 31,
+                        "durationMicroseconds": 316,
                         "errorMessage": "",
-                        "functionName": "width",
+                        "functionName": "labelHeight",
                         "line": 21
                     },
                     {
                         "codegenSuccessfull": true,
+                        "column": 12,
+                        "durationMicroseconds": 96,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 160,
+                        "durationMicroseconds": 91,
                         "errorMessage": "",
                         "functionName": "height",
-                        "line": 22
+                        "line": 25
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 179,
+                        "durationMicroseconds": 103,
                         "errorMessage": "",
                         "functionName": "radius",
-                        "line": 27
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 16,
-                        "durationMicroseconds": 162,
-                        "errorMessage": "",
-                        "functionName": "width",
                         "line": 30
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 17,
-                        "durationMicroseconds": 129,
-                        "errorMessage": "",
-                        "functionName": "height",
-                        "line": 31
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 23,
+                        "column": 16,
                         "durationMicroseconds": 93,
                         "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 26
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 17,
-                        "durationMicroseconds": 50,
-                        "errorMessage": "Cannot access value for name imageDir",
-                        "functionName": "source",
-                        "line": 37
+                        "functionName": "width",
+                        "line": 34
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 19,
-                        "durationMicroseconds": 101,
+                        "column": 17,
+                        "durationMicroseconds": 88,
                         "errorMessage": "",
-                        "functionName": "fillMode",
-                        "line": 40
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 25,
-                        "durationMicroseconds": 50,
-                        "errorMessage": "Cannot access value for name sourceWidth",
-                        "functionName": "sourceClipRect",
-                        "line": 43
+                        "functionName": "height",
+                        "line": 35
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 71,
+                        "durationMicroseconds": 61,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 38
+                        "line": 29
                     },
                     {
-                        "codegenSuccessfull": false,
-                        "column": 27,
-                        "durationMicroseconds": 27,
-                        "errorMessage": "Cannot access value for name sourceWidth",
-                        "functionName": "width",
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "",
+                        "functionName": "fill",
                         "line": 41
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 28,
-                        "durationMicroseconds": 22,
-                        "errorMessage": "Cannot access value for name sourceHeight",
-                        "functionName": "height",
-                        "line": 42
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 29,
-                        "durationMicroseconds": 88,
-                        "errorMessage": "",
-                        "functionName": "src",
-                        "line": 49
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 31,
-                        "durationMicroseconds": 113,
-                        "errorMessage": "",
-                        "functionName": "radius",
-                        "line": 50
+                        "column": 21,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "Cannot access value for name imageDir",
+                        "functionName": "source",
+                        "line": 46
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 85,
+                        "durationMicroseconds": 79,
+                        "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 49
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 29,
+                        "durationMicroseconds": 46,
+                        "errorMessage": "Cannot access value for name xOffset",
+                        "functionName": "sourceClipRect",
+                        "line": 50
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 72,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 47
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 79,
+                        "errorMessage": "",
+                        "functionName": "source",
+                        "line": 56
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 21,
+                        "durationMicroseconds": 66,
+                        "errorMessage": "",
+                        "functionName": "maskSource",
+                        "line": 59
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 66,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 57
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 183,
+                        "errorMessage": "",
+                        "functionName": "bottomLeftRadius",
+                        "line": 66
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 154,
+                        "errorMessage": "",
+                        "functionName": "bottomRightRadius",
+                        "line": 67
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 16,
+                        "durationMicroseconds": 4101,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 68
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 17,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "Cannot access value for name labelHeight",
+                        "functionName": "height",
+                        "line": 69
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 16,
+                        "durationMicroseconds": 95,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 70
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 25,
+                        "durationMicroseconds": 131,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 65
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 19,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "Cannot access value for name labelText",
+                        "functionName": "text",
+                        "line": 74
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 91,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 75
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 21,
+                        "durationMicroseconds": 159,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 76
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 34,
+                        "durationMicroseconds": 86,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 77
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 79,
+                        "errorMessage": "",
+                        "functionName": "fontSizeMode",
+                        "line": 79
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 78
                     }
                 ],
                 "filepath": "D:/DevTools/Projects/DnDSheet/SheetUI/UI/navigation/MenuOption.qml"
