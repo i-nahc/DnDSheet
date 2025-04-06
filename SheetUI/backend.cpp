@@ -41,3 +41,8 @@ void Backend::triggerMaximize()
 {
     emit maximizeTriggered();
 }
+
+void Backend::triggerMenuItem(QString redirect)
+{
+    emit menuTriggered(redirect);
+}

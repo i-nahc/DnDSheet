@@ -16,9 +16,17 @@ Module {
         Signal { name: "exitTriggered" }
         Signal { name: "minimizeTriggered" }
         Signal { name: "maximizeTriggered" }
+        Signal {
+            name: "menuTriggered"
+            Parameter { name: "redirect"; type: "QString" }
+        }
         Method { name: "triggerExit" }
         Method { name: "triggerMinimize" }
         Method { name: "triggerMaximize" }
+        Method {
+            name: "triggerMenuItem"
+            Parameter { name: "redirect"; type: "QString" }
+        }
         Method { name: "exitApplication" }
         Method { name: "minimizeApplication" }
         Method { name: "maximizeApplication" }

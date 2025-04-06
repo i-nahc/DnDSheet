@@ -46,6 +46,10 @@ ApplicationWindow {
         function onMinimizeTriggered() {
             primaryWindow.showMinimized()
         }
+
+        function onMenuTriggered(redirect){
+            console.log("Going to " + redirect);
+        }
     }
 
     Rectangle{

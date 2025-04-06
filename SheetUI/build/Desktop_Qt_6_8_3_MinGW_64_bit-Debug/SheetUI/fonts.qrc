@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>UI/settings/Montserrat-VariableFont_wght.ttf</file>
+    </qresource>
+</RCC>

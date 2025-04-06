@@ -14,7 +14,7 @@ qt_standard_project_setup(REQUIRES 6.8)
 qt_add_executable(appSheetUI
     main.cpp
     icons.qrc
-
+    fonts.qrc
 )
 
 set_source_files_properties(UI/settings/Style.qml PROPERTIES QT_QML_SINGLETON_TYPE TRUE)
@@ -33,6 +33,7 @@ qt_add_qml_module(appSheetUI
         QML_FILES UI/resNavBar/WheelOption.qml
         QML_FILES UI/navigation/MenuOption.qml
         QML_FILES UI/navigation/MenuPage.qml
+        RESOURCES fonts.qrc
 
 )
 

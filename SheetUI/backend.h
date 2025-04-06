@@ -17,11 +17,13 @@ signals:
     void exitTriggered();
     void minimizeTriggered();
     void maximizeTriggered();
+    void menuTriggered(QString redirect);
 
 public slots:
     void triggerExit();
     void triggerMinimize();
     void triggerMaximize();
+    void triggerMenuItem(QString redirect);
 };
 
 #endif // BACKEND_H

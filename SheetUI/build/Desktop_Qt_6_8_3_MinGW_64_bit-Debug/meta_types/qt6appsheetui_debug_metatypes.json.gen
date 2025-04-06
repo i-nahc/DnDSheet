@@ -13,19 +13,19 @@
                 "methods": [
                     {
                         "access": "public",
-                        "index": 6,
+                        "index": 8,
                         "name": "exitApplication",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
-                        "index": 7,
+                        "index": 9,
                         "name": "minimizeApplication",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
-                        "index": 8,
+                        "index": 10,
                         "name": "maximizeApplication",
                         "returnType": "void"
                     }
@@ -50,25 +50,49 @@
                         "index": 2,
                         "name": "maximizeTriggered",
                         "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "redirect",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 3,
+                        "name": "menuTriggered",
+                        "returnType": "void"
                     }
                 ],
                 "slots": [
                     {
                         "access": "public",
-                        "index": 3,
+                        "index": 4,
                         "name": "triggerExit",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
-                        "index": 4,
+                        "index": 5,
                         "name": "triggerMinimize",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
-                        "index": 5,
+                        "index": 6,
                         "name": "triggerMaximize",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "redirect",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 7,
+                        "name": "triggerMenuItem",
                         "returnType": "void"
                     }
                 ],

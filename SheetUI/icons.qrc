@@ -288,5 +288,6 @@
         <file>UI/assets/wallpapers/party.jpeg</file>
         <file>UI/assets/wallpapers/verticalLeft.jpg</file>
         <file>UI/assets/wallpapers/verticalRight.jpg</file>
+        <file>UI/assets/wallpapers/armory.jpg</file>
     </qresource>
 </RCC>

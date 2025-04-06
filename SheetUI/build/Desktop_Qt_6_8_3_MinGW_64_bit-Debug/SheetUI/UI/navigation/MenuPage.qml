@@ -29,9 +29,13 @@ Item {
             Layout.preferredHeight: 2
             MenuOption{
                 imageSrc: "/verticalLeft.jpg"
+                associatedPage: "guide"
 
                 sourceWidth: 736
                 sourceHeight: 1104
+
+                labelText: "GUIDE"
+                labelHeight: parent.width/6.4
 
                 xOffset: 0
                 yOffset: 0
@@ -51,7 +55,14 @@ Item {
             Layout.preferredWidth: 2
             Layout.preferredHeight: 1
             MenuOption{
-                imageSrc: "/party.jpeg"
+                imageSrc: "/armory.jpg"
+                associatedPage: "characters"
+
+                sourceWidth: 1000
+                sourceHeight: 647
+
+                labelHeight: parent.width/13
+                labelText: "CHARACTERS"
 
                 xOffset: 0
                 yOffset: 0
@@ -72,6 +83,13 @@ Item {
             Layout.preferredHeight: 1
             MenuOption{
                 imageSrc: "/party.jpeg"
+                associatedPage: "party"
+
+                sourceWidth: 1920
+                sourceHeight: 980
+
+                labelHeight: parent.width/13
+                labelText: "PARTY"
 
                 xOffset: 0
                 yOffset: 0
@@ -91,9 +109,13 @@ Item {
             Layout.preferredHeight: 2
             MenuOption{
                 imageSrc: "/verticalRight.jpg"
+                associatedPage: "items"
 
                 sourceWidth: 1000
                 sourceHeight: 1282
+
+                labelText: "ITEMS"
+                labelHeight: parent.width/6.4
 
                 xOffset: 0
                 yOffset: 0
