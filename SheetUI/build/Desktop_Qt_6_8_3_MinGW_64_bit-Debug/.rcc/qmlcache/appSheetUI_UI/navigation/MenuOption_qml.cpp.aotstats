@@ -6,137 +6,121 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 188,
+                        "durationMicroseconds": 378,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 19
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 13,
-                        "durationMicroseconds": 66,
-                        "errorMessage": "",
-                        "functionName": "height",
-                        "line": 20
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 8,
-                        "durationMicroseconds": 61,
-                        "errorMessage": "",
-                        "functionName": "x",
                         "line": 21
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 8,
-                        "durationMicroseconds": 59,
+                        "column": 13,
+                        "durationMicroseconds": 160,
                         "errorMessage": "",
-                        "functionName": "y",
+                        "functionName": "height",
                         "line": 22
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 16,
-                        "durationMicroseconds": 116,
+                        "column": 17,
+                        "durationMicroseconds": 179,
                         "errorMessage": "",
-                        "functionName": "width",
+                        "functionName": "radius",
                         "line": 27
                     },
                     {
                         "codegenSuccessfull": true,
+                        "column": 16,
+                        "durationMicroseconds": 162,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 91,
+                        "durationMicroseconds": 129,
                         "errorMessage": "",
                         "functionName": "height",
-                        "line": 28
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 25,
-                        "durationMicroseconds": 63,
-                        "errorMessage": "Cannot access value for name imageCropOffsetX",
-                        "functionName": "sourceClipRect",
-                        "line": 29
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 17,
-                        "durationMicroseconds": 23,
-                        "errorMessage": "Cannot access value for name imageSrc",
-                        "functionName": "source",
-                        "line": 33
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 27,
-                        "durationMicroseconds": 59,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 26
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 17,
-                        "durationMicroseconds": 79,
-                        "errorMessage": "",
-                        "functionName": "source",
-                        "line": 39
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 21,
-                        "durationMicroseconds": 63,
-                        "errorMessage": "",
-                        "functionName": "maskSource",
-                        "line": 42
+                        "line": 31
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 73,
+                        "durationMicroseconds": 93,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 40
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 17,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "Cannot access value for name imageDir",
+                        "functionName": "source",
+                        "line": 37
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 16,
-                        "durationMicroseconds": 83,
+                        "column": 19,
+                        "durationMicroseconds": 101,
                         "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 40
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 25,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "Cannot access value for name sourceWidth",
+                        "functionName": "sourceClipRect",
+                        "line": 43
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 71,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 27,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "Cannot access value for name sourceWidth",
                         "functionName": "width",
+                        "line": 41
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "Cannot access value for name sourceHeight",
+                        "functionName": "height",
+                        "line": 42
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 29,
+                        "durationMicroseconds": 88,
+                        "errorMessage": "",
+                        "functionName": "src",
+                        "line": 49
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 113,
+                        "errorMessage": "",
+                        "functionName": "radius",
                         "line": 50
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 17,
-                        "durationMicroseconds": 83,
+                        "column": 23,
+                        "durationMicroseconds": 85,
                         "errorMessage": "",
-                        "functionName": "height",
-                        "line": 51
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 20,
-                        "durationMicroseconds": 141,
-                        "errorMessage": "",
-                        "functionName": "width",
-                        "line": 55
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 21,
-                        "durationMicroseconds": 79,
-                        "errorMessage": "",
-                        "functionName": "height",
-                        "line": 56
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 21,
-                        "durationMicroseconds": 136,
-                        "errorMessage": "",
-                        "functionName": "radius",
+                        "functionName": "fill",
                         "line": 57
                     }
                 ],

@@ -440,6 +440,14 @@ appSheetUI_autogen/timestamp: \
 	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
 	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
 	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Core5Compat/Qt6Core5CompatAdditionalTargetInfo.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Core5Compat/Qt6Core5CompatConfig.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Core5Compat/Qt6Core5CompatConfigVersion.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Core5Compat/Qt6Core5CompatConfigVersionImpl.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Core5Compat/Qt6Core5CompatDependencies.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Core5Compat/Qt6Core5CompatTargets-relwithdebinfo.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Core5Compat/Qt6Core5CompatTargets.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Core5Compat/Qt6Core5CompatVersionlessAliasTargets.cmake \
 	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
 	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
 	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
@@ -643,6 +651,14 @@ appSheetUI_autogen/timestamp: \
 	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Config.cmake \
 	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Targets-relwithdebinfo.cmake \
 	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Targets.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginAdditionalTargetInfo.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginConfig.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginTargets-relwithdebinfo.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginTargets.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateAdditionalTargetInfo.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateConfig.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateTargets-relwithdebinfo.cmake \
+	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateTargets.cmake \
 	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginAdditionalTargetInfo.cmake \
 	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginConfig.cmake \
 	C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginTargets-relwithdebinfo.cmake \
@@ -1303,4 +1319,5 @@ appSheetUI_autogen/timestamp: \
 	D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appSheetUI_autogen/moc_predefs.h \
 	D:/DevTools/Projects/DnDSheet/SheetUI/icons.qrc \
 	D:/DevTools/Projects/DnDSheet/SheetUI/main.cpp \
+	D:/DevTools/Projects/DnDSheet/SheetUI/shaders.qrc \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

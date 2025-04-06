@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>UI/shaders/roundImage.frag</file>
+        <file>UI/shaders/roundImage.vert</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,116 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 12,
+                        "durationMicroseconds": 282,
+                        "errorMessage": "Cannot access value for name primaryWindow",
+                        "functionName": "width",
+                        "line": 7
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 13,
+                        "durationMicroseconds": 279,
+                        "errorMessage": "Cannot access value for name primaryWindow",
+                        "functionName": "height",
+                        "line": 8
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 497,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 4
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 29,
+                        "durationMicroseconds": 210,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 5
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 15,
+                        "durationMicroseconds": 164,
+                        "errorMessage": "",
+                        "functionName": "flow",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 16,
+                        "durationMicroseconds": 136,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 100,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 152,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 133,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 98,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 164,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 47
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 86,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 66
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 87,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 84
+                    }
+                ],
+                "filepath": "D:/DevTools/Projects/DnDSheet/SheetUI/UI/navigation/MenuPage.qml"
+            }
+        ],
+        "moduleId": "SheetUI(appSheetUI)"
+    }
+]

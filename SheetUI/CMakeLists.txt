@@ -7,6 +7,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Quick)
+find_package(Qt6 REQUIRED COMPONENTS Core5Compat)
 
 qt_standard_project_setup(REQUIRES 6.8)
 
@@ -30,6 +31,9 @@ qt_add_qml_module(appSheetUI
         QML_FILES UI/resNavBar/WheelMenu.qml
         QML_FILES UI/resNavBar/WheelOption.qml
         QML_FILES UI/navigation/MenuOption.qml
+        QML_FILES UI/navigation/MenuPage.qml
+        RESOURCES UI/shaders/roundedImage.vert
+        RESOURCES UI/shaders/roundedImage.frag
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
@@ -45,6 +49,7 @@ set_target_properties(appSheetUI PROPERTIES
 
 target_link_libraries(appSheetUI
     PRIVATE Qt6::Quick
+    PRIVATE Qt6::Core5Compat
 )
 
 include(GNUInstallDirs)
@@ -53,3 +58,4 @@ install(TARGETS appSheetUI
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
+

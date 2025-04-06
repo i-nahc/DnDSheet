@@ -2,6 +2,7 @@ import QtQuick
 import QtQuick.Window
 import QtQuick.Controls
 import QtQuick.Controls.Material
+import QtQuick.Layouts
 
 import "UI/resNavBar"
 import "UI/navigation"
@@ -26,11 +27,8 @@ ApplicationWindow {
         function onMaximizeTriggered() {
             if(!mainNavBar.isMaximized)
             {
-                primaryWindow.width = primaryWindow.maximumWidth
-                primaryWindow.height = primaryWindow.maximumHeight
-                primaryWindow.x = Screen.width / 2 - primaryWindow.width / 2
-                primaryWindow.y = Screen.height / 2 - primaryWindow.height / 2
                 mainNavBar.isMaximized = true
+                primaryWindow.showMaximized()
                 viewport.radius = 0
             }
             else
@@ -40,6 +38,7 @@ ApplicationWindow {
                 primaryWindow.x = Screen.width / 2 - primaryWindow.width / 2
                 primaryWindow.y = Screen.height / 2 - primaryWindow.height / 2
                 mainNavBar.isMaximized = false
+                primaryWindow.showNormal()
                 viewport.radius = Material.MediumScale
             }
 
@@ -100,6 +99,7 @@ ApplicationWindow {
         color: Style.primaryColor
         //color: "#2d313c"
 
+        // Active on all pages
         NavBar
         {
             id: mainNavBar
@@ -109,32 +109,19 @@ ApplicationWindow {
 
         }
 
-        Item{
-            id: menuOptionsArea
-            // Create -- Character Planner
-            MenuOption{
-                id: createButton
-                iconWidth: primaryWindow.width/6
-                iconHeight: primaryWindow.width/3
-            }
-            // Party -- Party Builder/Display
-            MenuOption{
-                id: partyButton
-                iconWidth: primaryWindow.width/3
-                iconHeight: primaryWindow.width/6
-            }
-            // Items -- Items, custom or core
-            MenuOption{
-                id: itemsButton
-                iconWidth: primaryWindow.width/3
-                iconHeight: primaryWindow.width/6
-            }
-            // User Guide -- Spell list and feats
-            MenuOption{
-                id: guideButton
-                iconWidth: primaryWindow.width/6
-                iconHeight: primaryWindow.width/3
-            }
+        // --- Pages ---
+
+        // Main Menu
+        MenuPage{
+
         }
+
+        // Create Character
+
+        // Party Builder/Display
+
+        // Items
+
+        // User Guide
     }
 }

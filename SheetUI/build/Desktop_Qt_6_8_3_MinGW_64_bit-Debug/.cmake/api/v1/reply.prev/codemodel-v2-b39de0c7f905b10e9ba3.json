@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-1f646641958e525ae032.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SheetUI",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-104b4771125abd75d80d.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-02dfa9a104c630e3e140.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-3dcbae705e28b328a7ee.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-d2c529d7f3f0143dd84a.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-7a99698dd17a721a4c28.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSheetUI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSheetUI-Debug-0b096f33be810409bd47.json",
+					"name" : "appSheetUI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSheetUI_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSheetUI_autogen-Debug-5af8552a7deb260d1a57.json",
+					"name" : "appSheetUI_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSheetUI_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSheetUI_autogen_timestamp_deps-Debug-665211f87f3d29ee0cb4.json",
+					"name" : "appSheetUI_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSheetUI_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSheetUI_copy_qml-Debug-c3e6d500299ec848b086.json",
+					"name" : "appSheetUI_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSheetUI_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSheetUI_copy_res-Debug-04c102baf93b59e576cc.json",
+					"name" : "appSheetUI_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSheetUI_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSheetUI_qmlimportscan-Debug-a76ff4e129a1aeb3d30d.json",
+					"name" : "appSheetUI_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSheetUI_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSheetUI_qmllint-Debug-f38ffaa86508997b23fd.json",
+					"name" : "appSheetUI_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSheetUI_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSheetUI_qmllint_json-Debug-cdffad1c744e28453566.json",
+					"name" : "appSheetUI_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSheetUI_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSheetUI_qmllint_module-Debug-bdb2ee5a227fd153a91f.json",
+					"name" : "appSheetUI_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSheetUI_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSheetUI_qmltyperegistration-Debug-716ef1683879277534b6.json",
+					"name" : "appSheetUI_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appSheetUI_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appSheetUI_aotstats_target-Debug-907b1df3f29a8ec3a47d.json",
+					"name" : "module_appSheetUI_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug",
+		"source" : "D:/DevTools/Projects/DnDSheet/SheetUI"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

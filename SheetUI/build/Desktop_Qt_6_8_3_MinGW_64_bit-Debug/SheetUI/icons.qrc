@@ -286,5 +286,7 @@
         <file>UI/assets/coreUI/icon_maximize2.svg</file>
         <file>UI/assets/wallpapers/dragon.jpg</file>
         <file>UI/assets/wallpapers/party.jpeg</file>
+        <file>UI/assets/wallpapers/verticalLeft.jpg</file>
+        <file>UI/assets/wallpapers/verticalRight.jpg</file>
     </qresource>
 </RCC>
