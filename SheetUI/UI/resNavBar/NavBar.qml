@@ -8,53 +8,71 @@ Item {
     id: topLevel
 
     property bool isMaximized: false
-    anchors{
-        right: parent.right
-        top: parent.top
-    }
-    height: Screen.width/48
-    width: Screen.width/48 // expanded: 160
-    anchors.rightMargin: Screen.width/76.8
-    anchors.topMargin: Screen.height/60
+    property string windowMessage: "DNDSheet: TTRPG Companion"
 
-    HoverHandler{
-        onHoveredChanged: {
-            if(hovered){
-                expandArea.running = true
-                minimizeArea.visible = true
-                maximizeArea.visible = true
-
-                closeArea.topLeftRadius = 0
-                closeArea.bottomLeftRadius = 0
-
-            }
-            else{
-                shrinkArea.running = true
-                minimizeArea.visible = false
-                maximizeArea.visible = false
-
-                closeArea.topLeftRadius = topLevel.width/2
-                closeArea.bottomLeftRadius = topLevel.width/2
-            }
-        }
-    }
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    width: parent.width
+    height: Screen.height/28
 
     Rectangle{
-        anchors.fill: parent
+        id: header
+        anchors.top: parent.top
         color: Style.primaryColorDark
-        radius: topLevel.width/2
+        width: parent.width
+        height: parent.height
+        topLeftRadius: isMaximized ? 0 : Material.MediumScale
+        topRightRadius: isMaximized ? 0 : Material.MediumScale
+
+        Image{
+            id: headerIcon
+            source: "qrc:/UI/assets/dice/d20white.svg"
+            anchors.left: parent.left
+            anchors.verticalCenter: parent.verticalCenter
+
+            transform: Translate{
+                x: 10
+            }
+
+            height: parent.height * 0.8
+            width: height
+        }
+
+        Text{
+            id: headerText
+            anchors.left: headerIcon.right
+            font.family: Style.primaryFont.name
+            color: "white"
+            anchors.verticalCenter: parent.verticalCenter
+            transform: Translate{
+                x: headerIcon.width /1.5
+            }
+
+            fontSizeMode: Text.Fit
+            text: windowMessage
+        }
+    }
+    Rectangle{
+        id: headerOutline
+        anchors.top: header.bottom
+        anchors.right: parent.right
+        height: Screen.height/500
+        width: parent.width
+        color: Style.secondaryColor
     }
 
     RowLayout{
-        anchors.fill: parent
+        anchors.right: parent.right
+        anchors.top: parent.top
+
+        width: Screen.width/10
+        height: header.height
         spacing: 0
         Rectangle{
             id: minimizeArea
             Layout.fillWidth: true
             Layout.fillHeight: true
-            topLeftRadius: topLevel.width/2
-            bottomLeftRadius: topLevel.width/2
-            visible: false
             color: Style.primaryColorDark
             Image{
                 source: "qrc:/UI/assets/coreUI/icon_minimize.svg"
@@ -83,21 +101,12 @@ Item {
             id: maximizeArea
             Layout.fillWidth: true
             Layout.fillHeight: true
-            visible: false
             color: Style.primaryColorDark
             Image{
                 source: "qrc:/UI/assets/coreUI/icon_maximize.svg"
                 anchors.centerIn: parent
                 z: 2
             }
-
-            // Image{
-            //     source: "qrc:/UI/assets/coreUI/icon_maximize2.svg"
-            //     anchors.centerIn: parent
-            //     anchors.horizontalCenterOffset: Screen.width/700
-            //     anchors.verticalCenterOffset: -Screen.width/700
-            //     z: 1
-            // }
 
             HoverHandler{
                 onHoveredChanged:{
@@ -121,10 +130,7 @@ Item {
             id: closeArea
             Layout.fillWidth: true
             Layout.fillHeight: true
-            topRightRadius: topLevel.width/2
-            bottomRightRadius: topLevel.width/2
-            topLeftRadius: topLevel.width/2
-            bottomLeftRadius: topLevel.width/2
+            topRightRadius: isMaximized ? 0 : Material.MediumScale
             color: Style.primaryColorDark
             Image{
                 source: "qrc:/UI/assets/coreUI/icon_close.svg"
@@ -150,21 +156,7 @@ Item {
                 {
                     windowManager.triggerExit()
                 }
-
             }
         }
-    }
-
-    NumberAnimation{
-        id: expandArea
-        target: topLevel
-        properties: "width"
-        to: Screen.width/12; duration: 200
-    }
-    NumberAnimation{
-        id: shrinkArea
-        target: topLevel
-        properties: "width"
-        to: Screen.width/48; duration: 200
     }
 }

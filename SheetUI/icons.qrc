@@ -284,10 +284,12 @@
         <file>UI/assets/dice/d20white.svg</file>
         <file>UI/assets/logo/dndWhite.svg</file>
         <file>UI/assets/coreUI/icon_maximize2.svg</file>
-        <file>UI/assets/wallpapers/dragon.jpg</file>
         <file>UI/assets/wallpapers/party.jpeg</file>
         <file>UI/assets/wallpapers/verticalLeft.jpg</file>
         <file>UI/assets/wallpapers/verticalRight.jpg</file>
         <file>UI/assets/wallpapers/armory.jpg</file>
+        <file>UI/assets/coreUI/home.svg</file>
+        <file>UI/assets/coreUI/homeWhite.svg</file>
+        <file>UI/assets/coreUI/chevron.svg</file>
     </qresource>
 </RCC>

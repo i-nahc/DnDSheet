@@ -48,7 +48,6 @@ Item {
             scale: 1
             fillMode: Image.PreserveAspectCrop
             sourceClipRect: Qt.rect(xOffset, yOffset, sourceWidth, sourceHeight)
-
         }
         visible: false
         layer.enabled: true
@@ -66,10 +65,11 @@ Item {
         anchors.bottom: parent.bottom
         bottomLeftRadius: Material.SmallScale-2
         bottomRightRadius: Material.SmallScale-2
+        anchors.horizontalCenter: parent.horizontalCenter
         color: Style.primaryColorDark
         height: labelHeight
-        width: parent.width
         opacity: 0.95
+        width: parent.width
 
         Text{
             text: labelText

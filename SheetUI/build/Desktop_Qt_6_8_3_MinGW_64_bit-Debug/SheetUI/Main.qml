@@ -6,6 +6,7 @@ import QtQuick.Layouts
 
 import "UI/resNavBar"
 import "UI/navigation"
+import "UI/itemsPage"
 
 ApplicationWindow {
     id: primaryWindow
@@ -29,7 +30,6 @@ ApplicationWindow {
             {
                 mainNavBar.isMaximized = true
                 primaryWindow.showMaximized()
-                viewport.radius = 0
             }
             else
             {
@@ -39,7 +39,6 @@ ApplicationWindow {
                 primaryWindow.y = Screen.height / 2 - primaryWindow.height / 2
                 mainNavBar.isMaximized = false
                 primaryWindow.showNormal()
-                viewport.radius = Material.MediumScale
             }
 
         }
@@ -52,80 +51,103 @@ ApplicationWindow {
         }
     }
 
-    Rectangle{
-        // Mouse functions
-        MouseArea {
-            id: mouseResize
-            anchors.fill: parent
-            hoverEnabled: true
-            acceptedButtons: Qt.LeftButton
+    // Mouse functions
+    MouseArea {
+        id: mouseResize
+        anchors.fill: parent
+        hoverEnabled: true
+        acceptedButtons: Qt.LeftButton
 
-            property int edges: 0;
-            property int edgeOffset: 5;
+        property int edges: 0;
+        property int edgeOffset: 5;
 
-            function setEdges(x,y){
-                edges = 0;
-                if(x < edgeOffset) edges |= Qt.LeftEdge
-                if(x > (width - edgeOffset))  edges |= Qt.RightEdge;
-                if(y < edgeOffset) edges |= Qt.TopEdge;
-                if(y > (height - edgeOffset)) edges |= Qt.BottomEdge;
-            }
+        function setEdges(x,y){
+            edges = 0;
+            if(x < edgeOffset) edges |= Qt.LeftEdge
+            if(x > (width - edgeOffset))  edges |= Qt.RightEdge;
+            if(y < edgeOffset) edges |= Qt.TopEdge;
+            if(y > (height - edgeOffset)) edges |= Qt.BottomEdge;
+        }
 
-            cursorShape: {
-                if(!mainNavBar.isMaximized)
-                {
-                    return !containsMouse ? Qt.ArrowCursor:
-                           edges == 3 || edges == 12 ? Qt.SizeFDiagCursor :
-                           edges == 5 || edges == 10 ? Qt.SizeBDiagCursor :
-                           edges & 9 ? Qt.SizeVerCursor :
-                           edges & 6 ? Qt.SizeHorCursor : Qt.ArrowCursor;
-                }
-            }
-
-            onPositionChanged: setEdges(mouseX, mouseY);
-            onPressed: {
-                setEdges(mouseX, mouseY);
-                if(edges && containsMouse && !mainNavBar.isMaximized) {
-                    startSystemResize(edges);
-                    mainNavBar.isMaximized = false
-                    viewport.radius = Material.MediumScale
-                }
-            }
-
-            DragHandler{
-                onActiveChanged: if (active && !mainNavBar.isMaximized) startSystemMove();
+        cursorShape: {
+            if(!mainNavBar.isMaximized)
+            {
+                return !containsMouse ? Qt.ArrowCursor:
+                       edges == 3 || edges == 12 ? Qt.SizeFDiagCursor :
+                       edges == 5 || edges == 10 ? Qt.SizeBDiagCursor :
+                       edges & 9 ? Qt.SizeVerCursor :
+                       edges & 6 ? Qt.SizeHorCursor : Qt.ArrowCursor;
             }
         }
+
+        onPositionChanged: setEdges(mouseX, mouseY);
+        onPressed: {
+            setEdges(mouseX, mouseY);
+            if(edges && containsMouse && !mainNavBar.isMaximized) {
+                startSystemResize(edges);
+                mainNavBar.isMaximized = false
+            }
+        }
+    }
+
+    Item{
         id: viewport
 
         anchors.fill: parent
-        radius: Material.MediumScale
-        color: Style.primaryColor
         //color: "#2d313c"
 
         // Active on all pages
+        LeftHandNav{
+            id: leftNavBar
+            topAnchor: mainNavBar.bottom
+            isMaximized: mainNavBar.isMaximized
+        }
         NavBar
         {
             id: mainNavBar
-            // Put this drag handler here to supersede the main window
-            DragHandler{
-            }
+            Item{
+                anchors.bottom: parent.bottom
+                anchors.left: parent.left
+                height: parent.height - 3
 
+                // Subtract to account for close/maximize/minimize buttons
+                width: parent.width - (Screen.width/10 + 3)
+                transform: Translate{
+                    x: 3
+                }
+
+                DragHandler{
+                    onActiveChanged: if (active && !mainNavBar.isMaximized) startSystemMove();
+                }
+            }
         }
 
         // --- Pages ---
+        Item{
+            id: contentView
+            anchors.left: leftNavBar.right
+            anchors.top: mainNavBar.bottom
+            anchors.topMargin: Screen.height/500
+            anchors.right: viewport.right
+            anchors.bottom: viewport.bottom
+            Rectangle{
+                anchors.fill: parent
+                color: Style.primaryColor
+                bottomRightRadius: mainNavBar.isMaximized ? 0 : Material.MediumScale
+            }
 
-        // Main Menu
-        MenuPage{
+            // Main Menu
+            MenuPage{
 
+            }
+
+            // Create Character
+
+            // Party Builder/Display
+
+            // Items
+
+            // User Guide
         }
-
-        // Create Character
-
-        // Party Builder/Display
-
-        // Items
-
-        // User Guide
     }
 }

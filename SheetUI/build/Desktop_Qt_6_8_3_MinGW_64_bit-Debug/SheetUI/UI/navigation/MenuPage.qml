@@ -4,8 +4,9 @@ Item {
     anchors.horizontalCenter: parent.horizontalCenter
     anchors.verticalCenter: parent.verticalCenter
 
-    width: primaryWindow.width/1.5
-    height: primaryWindow.height/1.5
+    width: parent.width/2.5
+    height: parent.height/2.5
+
     GridLayout{
         id: grid
         flow: GridLayout.TopToBottom

@@ -34,6 +34,8 @@ qt_add_qml_module(appSheetUI
         QML_FILES UI/navigation/MenuOption.qml
         QML_FILES UI/navigation/MenuPage.qml
         RESOURCES fonts.qrc
+        QML_FILES UI/resNavBar/LeftHandNav.qml
+        QML_FILES UI/resNavBar/LeftHandOptions.qml
 
 )
 
