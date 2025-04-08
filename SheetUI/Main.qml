@@ -6,7 +6,6 @@ import QtQuick.Layouts
 
 import "UI/resNavBar"
 import "UI/navigation"
-import "UI/itemsPage"
 
 ApplicationWindow {
     id: primaryWindow

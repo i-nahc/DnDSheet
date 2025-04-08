@@ -1,21 +1,48 @@
 import QtQuick
 import QtQuick.Layouts
-Item {
-    anchors.horizontalCenter: parent.horizontalCenter
-    anchors.verticalCenter: parent.verticalCenter
+import QtQuick.Controls
+import QtQuick.Controls.Material
 
-    width: parent.width/2.5
-    height: parent.height/2.5
+Item {
+    property bool changelogVisible: true
+    anchors.fill: parent
+
+    Item{
+        id: changelog
+        anchors.left: parent.left
+        anchors.right: grid.left
+        anchors.verticalCenter: parent.verticalCenter
+
+        Rectangle{
+            anchors.fill: parent
+            color: "blue"
+        }
+
+        Rectangle{
+
+        }
+
+        Text{
+
+        }
+    }
+
 
     GridLayout{
+
         id: grid
         flow: GridLayout.TopToBottom
         columns: 4
-        anchors.horizontalCenter: parent.horizontalCenter
-        anchors.verticalCenter: parent.verticalCenter
 
-        width: parent.width
-        height: parent.height
+        width: parent.width * 0.5
+        height: parent.height * 0.7
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.horizontalCenter: parent.horizontalCenter
+
+        transform: Translate{
+            x: parent.width * 0.15
+        }
+
 
         // -- GUIDE --
         Item{
@@ -122,7 +149,5 @@ Item {
                 yOffset: 0
             }
         }
-
-
     }
 }

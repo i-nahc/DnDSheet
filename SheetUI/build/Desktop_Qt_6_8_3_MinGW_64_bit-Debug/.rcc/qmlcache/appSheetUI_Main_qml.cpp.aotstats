@@ -6,98 +6,98 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 393,
+                        "durationMicroseconds": 319,
                         "errorMessage": "",
                         "functionName": "minimumWidth",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 156,
+                        "errorMessage": "",
+                        "functionName": "minimumHeight",
                         "line": 15
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 20,
-                        "durationMicroseconds": 203,
+                        "column": 19,
+                        "durationMicroseconds": 88,
                         "errorMessage": "",
-                        "functionName": "minimumHeight",
+                        "functionName": "maximumWidth",
                         "line": 16
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 19,
-                        "durationMicroseconds": 93,
+                        "column": 20,
+                        "durationMicroseconds": 84,
                         "errorMessage": "",
-                        "functionName": "maximumWidth",
+                        "functionName": "maximumHeight",
                         "line": 17
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 20,
-                        "durationMicroseconds": 95,
-                        "errorMessage": "",
-                        "functionName": "maximumHeight",
-                        "line": 18
-                    },
-                    {
-                        "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 155,
+                        "durationMicroseconds": 158,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 20
+                        "line": 19
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 154,
+                        "durationMicroseconds": 159,
                         "errorMessage": "",
                         "functionName": "height",
-                        "line": 21
+                        "line": 20
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 210,
+                        "durationMicroseconds": 227,
                         "errorMessage": "",
                         "functionName": "flags",
-                        "line": 25
+                        "line": 24
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 94,
+                        "durationMicroseconds": 89,
                         "errorMessage": "",
                         "functionName": "theme",
-                        "line": 13
+                        "line": 12
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 110,
+                        "durationMicroseconds": 109,
                         "errorMessage": "",
                         "functionName": "accent",
-                        "line": 14
+                        "line": 13
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 71,
+                        "durationMicroseconds": 65,
                         "errorMessage": "Cannot access value for name windowManager",
                         "functionName": "target",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 9,
+                        "durationMicroseconds": 1457,
+                        "errorMessage": "",
+                        "functionName": "onMaximizeTriggered",
                         "line": 27
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 9,
-                        "durationMicroseconds": 1510,
-                        "errorMessage": "",
-                        "functionName": "onMaximizeTriggered",
-                        "line": 28
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 9,
-                        "durationMicroseconds": 109,
+                        "durationMicroseconds": 104,
                         "errorMessage": "",
                         "functionName": "onMinimizeTriggered",
-                        "line": 45
+                        "line": 44
                     },
                     {
                         "codegenSuccessfull": false,
@@ -105,15 +105,15 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Functions without type annotations won't be compiled",
                         "functionName": "onMenuTriggered",
-                        "line": 49
+                        "line": 48
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 26,
-                        "durationMicroseconds": 114,
+                        "durationMicroseconds": 113,
                         "errorMessage": "",
                         "functionName": "acceptedButtons",
-                        "line": 59
+                        "line": 58
                     },
                     {
                         "codegenSuccessfull": false,
@@ -121,39 +121,39 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Functions without type annotations won't be compiled",
                         "functionName": "setEdges",
-                        "line": 64
+                        "line": 63
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 977,
+                        "durationMicroseconds": 938,
                         "errorMessage": "",
                         "functionName": "cursorShape",
-                        "line": 72
+                        "line": 71
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 232,
+                        "durationMicroseconds": 226,
                         "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
                         "functionName": "onPositionChanged",
-                        "line": 83
+                        "line": 82
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 20,
-                        "durationMicroseconds": 310,
+                        "durationMicroseconds": 307,
                         "errorMessage": "method startSystemResize cannot be resolved.",
                         "functionName": "onPressed",
-                        "line": 84
+                        "line": 83
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 70,
+                        "durationMicroseconds": 72,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 57
+                        "line": 56
                     },
                     {
                         "codegenSuccessfull": true,
@@ -161,127 +161,127 @@
                         "durationMicroseconds": 66,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 96
+                        "line": 95
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 118,
+                        "durationMicroseconds": 113,
                         "errorMessage": "",
                         "functionName": "topAnchor",
+                        "line": 101
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 26,
+                        "durationMicroseconds": 81,
+                        "errorMessage": "",
+                        "functionName": "isMaximized",
                         "line": 102
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 26,
-                        "durationMicroseconds": 83,
-                        "errorMessage": "",
-                        "functionName": "isMaximized",
-                        "line": 103
-                    },
-                    {
-                        "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 152,
+                        "durationMicroseconds": 155,
                         "errorMessage": "",
                         "functionName": "height",
-                        "line": 111
+                        "line": 110
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 379,
+                        "durationMicroseconds": 296,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 114
+                        "line": 113
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 33,
-                        "durationMicroseconds": 154,
+                        "durationMicroseconds": 148,
                         "errorMessage": "",
                         "functionName": "bottom",
-                        "line": 109
+                        "line": 108
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 134,
+                        "durationMicroseconds": 132,
                         "errorMessage": "",
                         "functionName": "left",
-                        "line": 110
+                        "line": 109
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 38,
-                        "durationMicroseconds": 162,
+                        "durationMicroseconds": 153,
                         "errorMessage": "method startSystemMove cannot be resolved.",
                         "functionName": "onActiveChanged",
-                        "line": 120
+                        "line": 119
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 131,
+                        "durationMicroseconds": 129,
                         "errorMessage": "",
                         "functionName": "left",
-                        "line": 128
+                        "line": 127
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 26,
-                        "durationMicroseconds": 120,
+                        "durationMicroseconds": 129,
                         "errorMessage": "",
                         "functionName": "top",
-                        "line": 129
+                        "line": 128
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 153,
+                        "durationMicroseconds": 142,
                         "errorMessage": "",
                         "functionName": "topMargin",
-                        "line": 130
+                        "line": 129
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 117,
+                        "durationMicroseconds": 125,
                         "errorMessage": "",
                         "functionName": "right",
-                        "line": 131
+                        "line": 130
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 118,
+                        "durationMicroseconds": 138,
                         "errorMessage": "",
                         "functionName": "bottom",
-                        "line": 132
+                        "line": 131
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 4160,
+                        "durationMicroseconds": 4065,
                         "errorMessage": "",
                         "functionName": "color",
-                        "line": 135
+                        "line": 134
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 36,
-                        "durationMicroseconds": 227,
+                        "durationMicroseconds": 284,
                         "errorMessage": "",
                         "functionName": "bottomRightRadius",
-                        "line": 136
+                        "line": 135
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 64,
+                        "durationMicroseconds": 66,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 134
+                        "line": 133
                     }
                 ],
                 "filepath": "D:/DevTools/Projects/DnDSheet/SheetUI/Main.qml"
