@@ -9,9 +9,10 @@ Item {
 
     Item{
         id: changelog
-        anchors.left: parent.left
-        anchors.right: grid.left
-        anchors.verticalCenter: parent.verticalCenter
+
+        width: parent.width * 0.35
+        anchors.top: parent.top
+        anchors.bottom: parent.bottom
 
         Rectangle{
             anchors.fill: parent
@@ -19,7 +20,8 @@ Item {
         }
 
         Rectangle{
-
+            anchors.right: parent.right
+            anchors.verticalCenter: parent.verticalCenter
         }
 
         Text{

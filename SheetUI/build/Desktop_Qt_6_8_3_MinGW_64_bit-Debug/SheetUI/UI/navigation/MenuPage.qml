@@ -9,9 +9,10 @@ Item {
 
     Item{
         id: changelog
-        anchors.left: parent.left
-        anchors.right: grid.left
-        anchors.verticalCenter: parent.verticalCenter
+
+        width: parent.width * 0.35
+        anchors.top: parent.top
+        anchors.bottom: parent.bottom
 
         Rectangle{
             anchors.fill: parent
@@ -19,23 +20,11 @@ Item {
         }
 
         Rectangle{
-            id: titleBox
-            anchors.horizontalCenter: parent.horizontalCenter
-            anchors.top: parent.top
-            anchors.topMargin: parent.height*0.12
-            width: parent.width*0.8
-            height: parent.height*0.05
-            color: Style.primaryColorDark
-            radius: Material.SmallScale
-            bottomRightRadius: 0
-            bottomLeftRadius: 0
-            opacity: 0.9
+
         }
 
         Text{
-            font.family: Style.primaryFont.name
-            text: "Placeholder"
-            fontSizeMode: Text.Fit
+
         }
     }
 
