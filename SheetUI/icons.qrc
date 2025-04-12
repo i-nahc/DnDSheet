@@ -291,5 +291,6 @@
         <file>UI/assets/coreUI/home.svg</file>
         <file>UI/assets/coreUI/homeWhite.svg</file>
         <file>UI/assets/coreUI/chevron.svg</file>
+        <file>UI/assets/coreUI/downArrow.svg</file>
     </qresource>
 </RCC>

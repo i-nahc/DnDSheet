@@ -51,6 +51,8 @@ Item {
             text: textDisplay
             fontSizeMode: Text.Fit
             font.family: Style.primaryFont.name
+            minimumPixelSize: 8
+            font.pixelSize: 20
             color: "white"
         }
     }

@@ -7,9 +7,10 @@ Item {
     property bool changelogVisible: true
     anchors.fill: parent
 
+    // ChangeLog
     Item{
         anchors.top: parent.top
-        width: parent.width * 0.2
+        width: parent.width * 0.3
         height: parent.height * 0.05
 
         transform: Translate{
@@ -22,10 +23,62 @@ Item {
             bottomLeftRadius: Material.SmallScale
             bottomRightRadius: Material.SmallScale
         }
-        Text{
+        ColumnLayout{
             anchors.fill: parent
-            fontSizeMode: Text.Fit
+            width: parent.width
+            height: parent.height
+            spacing: 0
+            Rectangle{
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+                color: "transparent"
+                Layout.preferredHeight: 6
+                Text{
+                    anchors.fill: parent
+                    color: "white"
+                    font.family: Style.primaryFont.name
+                    text: "CHANGELOG"
+                    fontSizeMode: Text.Fit
+                    minimumPixelSize: 8
+                    font.pixelSize: 50
+                    horizontalAlignment: Text.AlignHCenter
+                    verticalAlignment: Text.AlignVCenter
+                }
+            }
+            Rectangle{
+                id: changelogDropdown
+                Layout.fillHeight: true
+                Layout.fillWidth: true
+                Layout.preferredHeight: 4
+                color: "transparent"
+                bottomLeftRadius: Material.SmallScale
+                bottomRightRadius: Material.SmallScale
+                Image{
+                    source: "qrc:/UI/assets/coreUI/downArrow.svg"
+                    anchors.verticalCenter: parent.verticalCenter
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    fillMode: Image.PreserveAspectFit
+                    height: parent.height
+                    width: parent.width * 0.2
+                    mipmap: true
+                }
+                HoverHandler{
+                    onHoveredChanged: {
+                        if(hovered)
+                        {
+                            changelogDropdown.color = Style.primaryColorDarkHover
+                        }
+                        else
+                        {
+                            changelogDropdown.color = "transparent"
+                        }
+                    }
+                }
+            }
+
         }
+
+
 
     }
 
