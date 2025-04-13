@@ -4,30 +4,53 @@ import QtQuick.Controls
 import QtQuick.Controls.Material
 
 Item {
-    property bool changelogVisible: true
+    id: viewport
+    property bool changelogVisible: false
+    property bool changeTextVisible: false
     anchors.fill: parent
 
     // ChangeLog
     Item{
+        id: changelogParent
         anchors.top: parent.top
         width: parent.width * 0.3
         height: parent.height * 0.05
 
         transform: Translate{
+            id: translateChangelog
+            y: changelogVisible ? viewport.height * 0.1 + viewport.height*0.7 : 0
             x: parent.width * 0.05
         }
 
         Rectangle{
+            // the actual changelog part
+            id: changelogContainer
+            anchors.bottom: changelogLabelBkg.top
+            height: changelogVisible ? viewport.height * 0.7 - viewport.height*0.05 : 0
+            width: viewport.width * 0.3
+            topLeftRadius: Material.SmallScale
+            topRightRadius: Material.SmallScale
+
+            color: Style.primaryColorDark
+            ChangelogList{
+                visible: changeTextVisible
+            }
+        }
+
+        Rectangle{
+            id: changelogLabelBkg
             anchors.fill: parent
             color: Style.primaryColorDark
             bottomLeftRadius: Material.SmallScale
             bottomRightRadius: Material.SmallScale
         }
         ColumnLayout{
+            id: changelogLabel
             anchors.fill: parent
             width: parent.width
             height: parent.height
             spacing: 0
+
             Rectangle{
                 Layout.fillWidth: true
                 Layout.fillHeight: true
@@ -74,17 +97,131 @@ Item {
                         }
                     }
                 }
+                MouseArea{
+                    id: changelogDropdownClick
+                    anchors.fill: parent
+                    acceptedButtons: Qt.LeftButton
+                    onPressed: changelogDropdown.color = Style.primaryColorDarkClick
+                    onReleased: changelogDropdown.color = Style.primaryColorDarkHover
+                    onClicked: {
+                        // do animation to bring up the changelog
+                        if(!changelogVisible)
+                        {
+                            activateChangelogAnim.running = true
+                            //changelogVisible = true
+                        }
+                        else
+                        {
+                            deactivateChangelogAnim.running = true
+                            //changelogVisible = false
+                        }
+
+                    }
+                }
+            }
+        }
+
+        ParallelAnimation{
+            id: activateChangelogAnim
+            NumberAnimation{
+                property: "y"
+                target: translateChangelog
+                to: viewport.height * 0.1 + viewport.height*0.7; duration: 200
+            }
+            NumberAnimation{
+                property: "height"
+                target: changelogContainer
+                to: viewport.height * 0.7 - viewport.height*0.05; duration: 200
+            }
+            NumberAnimation{
+                target: changelogSpacer
+                property: "Layout.maximumWidth"
+                to: viewport.width * 0.3; duration: 200
+            }
+            NumberAnimation{
+                target: changelogSpacer
+                property: "Layout.leftMargin"
+                to: viewport.width * 0.05; duration: 200
+            }
+            NumberAnimation{
+                target: grid
+                properties: "Layout.rightMargin, Layout.leftMargin"
+                to: parent.width*0.1; duration: 0
+            }
+            PropertyAnimation{
+                target: viewport
+                property: "changelogVisible"
+                to: true; duration: 200
+            }
+            PropertyAnimation{
+                target: viewport
+                property: "changeTextVisible"
+                to: true; duration: 0
             }
 
         }
+        ParallelAnimation{
+            id: deactivateChangelogAnim
+            NumberAnimation{
+                property: "y"
+                target: translateChangelog
+                to: 0; duration: 200
+            }
+            NumberAnimation{
+                property: "height"
+                target: changelogContainer
+                to: 0; duration: 200
+            }
+            NumberAnimation{
+                target: changelogSpacer
+                property: "Layout.maximumWidth"
+                to: 0; duration: 200
+            }
+            NumberAnimation{
+                target: changelogSpacer
+                property: "Layout.leftMargin"
+                to: 0; duration: 200
+            }
+            NumberAnimation{
+                target: grid
+                properties: "Layout.rightMargin, Layout.leftMargin"
+                to: 0; duration: 200
+            }
 
-
-
+            PropertyAnimation{
+                target: viewport
+                property: "changelogVisible"
+                to: false; duration: 200
+            }
+            PropertyAnimation{
+                target: viewport
+                property: "changeTextVisible"
+                to: false; duration: 0
+            }
+        }
     }
 
     RowLayout{
         anchors.fill: parent
+        spacing: parent.width * 0.05
 
+        // This is a placeholder we will expand when the changelog is clicked in order to shift the menu
+        Rectangle{
+            id: changelogSpacer
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+
+            // Set margin + width to 0 while changelog inactive
+            Layout.maximumWidth: changelogVisible ? parent.width * 0.3 : 0
+            Layout.maximumHeight: parent.height * 0.7
+            Layout.leftMargin: changelogVisible ? parent.width * 0.05 : 0
+
+            //radius: Material.SmallScale
+
+            color: "transparent" // Style.primaryColorDark
+        }
+
+        // the grid of menu options
         GridLayout{
 
             id: grid
@@ -96,7 +233,8 @@ Item {
             Layout.maximumWidth: parent.width * 0.6
             Layout.maximumHeight: parent.height * 0.7
 
-
+            Layout.rightMargin: changelogVisible ? parent.width * 0.05 : 0
+            Layout.leftMargin: changelogVisible ? parent.width * 0.05 : 0
             // -- GUIDE --
             Item{
                 Layout.column: 0

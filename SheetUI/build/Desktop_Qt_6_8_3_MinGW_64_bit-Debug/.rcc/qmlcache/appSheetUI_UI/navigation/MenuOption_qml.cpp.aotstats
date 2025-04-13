@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 401,
+                        "durationMicroseconds": 458,
                         "errorMessage": "",
                         "functionName": "labelHeight",
                         "line": 21
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 106,
+                        "durationMicroseconds": 160,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 24
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 102,
+                        "durationMicroseconds": 155,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 25
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 123,
+                        "durationMicroseconds": 169,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 30
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 113,
+                        "durationMicroseconds": 154,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 34
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 106,
+                        "durationMicroseconds": 178,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 35
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 72,
+                        "durationMicroseconds": 101,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 29
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 110,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 41
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 60,
                         "errorMessage": "Cannot access value for name imageDir",
                         "functionName": "source",
                         "line": 46
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 87,
+                        "durationMicroseconds": 131,
                         "errorMessage": "",
                         "functionName": "fillMode",
                         "line": 49
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 29,
-                        "durationMicroseconds": 74,
+                        "durationMicroseconds": 81,
                         "errorMessage": "Cannot access value for name xOffset",
                         "functionName": "sourceClipRect",
                         "line": 50
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 97,
+                        "durationMicroseconds": 104,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 47
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 117,
+                        "durationMicroseconds": 121,
                         "errorMessage": "",
                         "functionName": "source",
                         "line": 56
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 108,
+                        "durationMicroseconds": 119,
                         "errorMessage": "",
                         "functionName": "maskSource",
                         "line": 59
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 111,
+                        "durationMicroseconds": 128,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 57
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 407,
+                        "durationMicroseconds": 299,
                         "errorMessage": "",
                         "functionName": "bottomLeftRadius",
                         "line": 66
@@ -134,7 +134,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 245,
+                        "durationMicroseconds": 252,
                         "errorMessage": "",
                         "functionName": "bottomRightRadius",
                         "line": 67
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 7653,
+                        "durationMicroseconds": 7125,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 69
@@ -150,7 +150,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 51,
+                        "durationMicroseconds": 47,
                         "errorMessage": "Cannot access value for name labelHeight",
                         "functionName": "height",
                         "line": 70
@@ -158,7 +158,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 159,
+                        "durationMicroseconds": 153,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 72
@@ -166,7 +166,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 210,
+                        "durationMicroseconds": 223,
                         "errorMessage": "",
                         "functionName": "bottom",
                         "line": 65
@@ -174,7 +174,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 201,
+                        "durationMicroseconds": 203,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 68
@@ -182,7 +182,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 19,
-                        "durationMicroseconds": 47,
+                        "durationMicroseconds": 48,
                         "errorMessage": "Cannot access value for name labelText",
                         "functionName": "text",
                         "line": 75
@@ -190,7 +190,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 147,
+                        "durationMicroseconds": 157,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 76
@@ -198,7 +198,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 141,
+                        "durationMicroseconds": 153,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 77
@@ -214,7 +214,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 126,
+                        "durationMicroseconds": 138,
                         "errorMessage": "",
                         "functionName": "fontSizeMode",
                         "line": 80
@@ -222,7 +222,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 101,
+                        "durationMicroseconds": 113,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 79
@@ -230,7 +230,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 26,
-                        "durationMicroseconds": 245,
+                        "durationMicroseconds": 231,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
                         "line": 81
@@ -238,7 +238,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 577,
+                        "durationMicroseconds": 483,
                         "errorMessage": "",
                         "functionName": "onHoveredChanged",
                         "line": 92
@@ -246,7 +246,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 26,
-                        "durationMicroseconds": 209,
+                        "durationMicroseconds": 147,
                         "errorMessage": "",
                         "functionName": "acceptedButtons",
                         "line": 107
@@ -254,7 +254,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 210,
+                        "durationMicroseconds": 479,
                         "errorMessage": "",
                         "functionName": "onPressed",
                         "line": 108
@@ -262,7 +262,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 209,
+                        "durationMicroseconds": 197,
                         "errorMessage": "",
                         "functionName": "onReleased",
                         "line": 111
@@ -270,7 +270,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 20,
-                        "durationMicroseconds": 363,
+                        "durationMicroseconds": 393,
                         "errorMessage": "Cannot access value for name windowManager",
                         "functionName": "onClicked",
                         "line": 115
@@ -278,7 +278,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 76,
+                        "durationMicroseconds": 126,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 106
@@ -286,7 +286,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 81,
+                        "durationMicroseconds": 121,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 124
@@ -294,7 +294,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 74,
+                        "durationMicroseconds": 101,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 132
@@ -302,7 +302,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 76,
+                        "durationMicroseconds": 92,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 140

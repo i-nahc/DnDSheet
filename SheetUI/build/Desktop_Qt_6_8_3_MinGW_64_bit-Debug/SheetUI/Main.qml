@@ -9,6 +9,11 @@ import "UI/navigation"
 
 ApplicationWindow {
     id: primaryWindow
+
+    property string pageDirBase: "UI"
+    property string pageDirAppend: ""
+    property string curPage: "home"
+
     Material.theme: Material.Dark
     Material.accent: Material.Indigo
     minimumWidth: Screen.width/3.2
@@ -47,6 +52,21 @@ ApplicationWindow {
 
         function onMenuTriggered(redirect){
             console.log("Going to " + redirect);
+            if(redirect !== curPage)
+            {
+                if(redirect === "home")
+                {
+                    pageDirAppend = "/navigation/MenuPage.qml"
+                }
+                else if(redirect === "characters")
+                {
+
+                }
+            }
+            else
+            {
+                console.log("No Redirect: Same page...")
+            }
         }
     }
 
@@ -136,8 +156,10 @@ ApplicationWindow {
             }
 
             // Main Menu
-            MenuPage{
-
+            Loader{
+                anchors.fill: parent
+                id: pageLoader
+                source: "UI/navigation/MenuPage.qml"
             }
 
             // Create Character

@@ -90,6 +90,10 @@ Item {
                 }
                 active = !active
             }
+            else
+            {
+                windowManager.triggerMenuItem(associatedPage)
+            }
         }
     }
 

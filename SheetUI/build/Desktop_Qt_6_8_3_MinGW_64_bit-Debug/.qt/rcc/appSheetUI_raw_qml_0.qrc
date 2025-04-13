@@ -9,6 +9,8 @@
     <file alias="UI/navigation/MenuPage.qml">D:/DevTools/Projects/DnDSheet/SheetUI/UI/navigation/MenuPage.qml</file>
     <file alias="UI/resNavBar/LeftHandNav.qml">D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/LeftHandNav.qml</file>
     <file alias="UI/resNavBar/LeftHandOptions.qml">D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/LeftHandOptions.qml</file>
+    <file alias="UI/navigation/ChangelogList.qml">D:/DevTools/Projects/DnDSheet/SheetUI/UI/navigation/ChangelogList.qml</file>
+    <file alias="UI/pages/characters.qml">D:/DevTools/Projects/DnDSheet/SheetUI/UI/pages/characters.qml</file>
     <file alias="icons.qrc">D:/DevTools/Projects/DnDSheet/SheetUI/icons.qrc</file>
     <file alias="fonts.qrc">D:/DevTools/Projects/DnDSheet/SheetUI/fonts.qrc</file>
   </qresource>

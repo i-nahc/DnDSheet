@@ -3,6 +3,7 @@
     <file alias="UI/resNavBar/qmldir">D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/SheetUI/UI/resNavBar/qmldir</file>
     <file alias="UI/settings/qmldir">D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/SheetUI/UI/settings/qmldir</file>
     <file alias="UI/navigation/qmldir">D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/SheetUI/UI/navigation/qmldir</file>
+    <file alias="UI/pages/qmldir">D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/SheetUI/UI/pages/qmldir</file>
   </qresource>
 </RCC>
 
