@@ -75,6 +75,13 @@ namespace _qt_qml_SheetUI_UI_navigation_ChangelogList_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_SheetUI_UI_pages_Items_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -99,6 +106,7 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/SheetUI/UI/resNavBar/LeftHandNav.qml"), &QmlCacheGeneratedCode::_qt_qml_SheetUI_UI_resNavBar_LeftHandNav_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/SheetUI/UI/resNavBar/LeftHandOptions.qml"), &QmlCacheGeneratedCode::_qt_qml_SheetUI_UI_resNavBar_LeftHandOptions_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/SheetUI/UI/navigation/ChangelogList.qml"), &QmlCacheGeneratedCode::_qt_qml_SheetUI_UI_navigation_ChangelogList_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/SheetUI/UI/pages/Items.qml"), &QmlCacheGeneratedCode::_qt_qml_SheetUI_UI_pages_Items_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

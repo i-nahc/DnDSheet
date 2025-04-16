@@ -11,7 +11,7 @@ ApplicationWindow {
     id: primaryWindow
 
     property string pageDirBase: "UI"
-    property string pageDirAppend: ""
+    property string pageDirAppend: "/navigation/MenuPage.qml"
     property string curPage: "home"
 
     Material.theme: Material.Dark
@@ -57,11 +57,26 @@ ApplicationWindow {
                 if(redirect === "home")
                 {
                     pageDirAppend = "/navigation/MenuPage.qml"
+                    leftNavBar.activatedMenu = 0
                 }
                 else if(redirect === "characters")
                 {
-
+                    leftNavBar.activatedMenu = 1
                 }
+                else if(redirect === "party")
+                {
+                    leftNavBar.activatedMenu = 2
+                }
+                else if(redirect === "items")
+                {
+                    pageDirAppend = "/pages/Items.qml"
+                    leftNavBar.activatedMenu = 3
+                }
+                else if(redirect === "guide")
+                {
+                    leftNavBar.activatedMenu = 4
+                }
+                curPage = redirect
             }
             else
             {
@@ -159,7 +174,7 @@ ApplicationWindow {
             Loader{
                 anchors.fill: parent
                 id: pageLoader
-                source: "UI/navigation/MenuPage.qml"
+                source: pageDirBase + pageDirAppend
             }
 
             // Create Character

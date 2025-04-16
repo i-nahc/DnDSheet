@@ -1,0 +1,124 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 19,
+                        "durationMicroseconds": 196,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 6
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 16,
+                        "durationMicroseconds": 187,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 152,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 130,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 9
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 124,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 10
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 62,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 22,
+                        "durationMicroseconds": 156,
+                        "errorMessage": "",
+                        "functionName": "spacing",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 2088,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 29,
+                        "durationMicroseconds": 101,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 32
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 64,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 124,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 45
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 29,
+                        "durationMicroseconds": 88,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 46
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 61,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 47
+                    }
+                ],
+                "filepath": "D:/DevTools/Projects/DnDSheet/SheetUI/UI/pages/Items.qml"
+            }
+        ],
+        "moduleId": "SheetUI(appSheetUI)"
+    }
+]

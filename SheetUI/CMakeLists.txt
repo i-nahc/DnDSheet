@@ -37,7 +37,7 @@ qt_add_qml_module(appSheetUI
         QML_FILES UI/resNavBar/LeftHandNav.qml
         QML_FILES UI/resNavBar/LeftHandOptions.qml
         QML_FILES UI/navigation/ChangelogList.qml
-        QML_FILES UI/pages/characters.qml
+        QML_FILES UI/pages/Items.qml
 
 )
 

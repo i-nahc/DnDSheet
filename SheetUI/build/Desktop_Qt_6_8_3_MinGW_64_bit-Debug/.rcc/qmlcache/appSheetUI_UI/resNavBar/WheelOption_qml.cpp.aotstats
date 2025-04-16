@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 289,
+                        "durationMicroseconds": 279,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 11
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 125,
+                        "durationMicroseconds": 116,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 12
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 458,
+                        "durationMicroseconds": 331,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 17
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 275,
+                        "durationMicroseconds": 155,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 18
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 147,
+                        "durationMicroseconds": 145,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 19
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 7332,
+                        "durationMicroseconds": 8163,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 20
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 115,
+                        "durationMicroseconds": 138,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 16
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 272,
+                        "durationMicroseconds": 277,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 25
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 244,
+                        "durationMicroseconds": 231,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 26
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 76,
+                        "durationMicroseconds": 74,
                         "errorMessage": "Cannot access value for name iconName",
                         "functionName": "source",
                         "line": 27
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 98,
+                        "durationMicroseconds": 112,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 24

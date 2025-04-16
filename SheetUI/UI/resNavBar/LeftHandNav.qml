@@ -7,6 +7,7 @@ Item {
 
     property bool isMaximized: false
     property bool isExpanded: false
+    property int activatedMenu: 0
     property var topAnchor: 0
 
     anchors.left: parent.left
@@ -38,31 +39,35 @@ Item {
             imageSrc: "/util/home.svg"
             associatedPage: "home"
             textDisplay: "Home"
-            active: true
+            active: activatedMenu == 0
         }
         LeftHandOptions{
             id: characterButton
             imageSrc: "/game/character.svg"
             associatedPage: "characters"
             textDisplay: "Characters"
+            active: activatedMenu == 1
         }
         LeftHandOptions{
             id: partyButton
             imageSrc: "/game/party.svg"
             associatedPage: "party"
             textDisplay: "Party"
+            active: activatedMenu == 2
         }
         LeftHandOptions{
             id: itemsButton
             imageSrc: "/game/adventure-book.svg"
             associatedPage: "items"
             textDisplay: "Items"
+            active: activatedMenu == 3
         }
         LeftHandOptions{
             id: guideButton
             imageSrc: "/entity/archive.svg"
             associatedPage: "guide"
             textDisplay: "Guide"
+            active: activatedMenu == 4
         }
     }
 
