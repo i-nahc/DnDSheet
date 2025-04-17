@@ -1,0 +1,52 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 19,
+                        "durationMicroseconds": 296,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 40
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 21,
+                        "durationMicroseconds": 56,
+                        "errorMessage": "Cannot access value for name itemCategory",
+                        "functionName": "source",
+                        "line": 45
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 25,
+                        "durationMicroseconds": 191,
+                        "errorMessage": "",
+                        "functionName": "source",
+                        "line": 55
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 55,
+                        "errorMessage": "Cannot access value for name itemSubCat",
+                        "functionName": "append",
+                        "line": 56
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 26,
+                        "durationMicroseconds": 24,
+                        "errorMessage": "Cannot access value for name itemCategory",
+                        "functionName": "visible",
+                        "line": 85
+                    }
+                ],
+                "filepath": "D:/DevTools/Projects/DnDSheet/SheetUI/UI/pages/ItemsComponents.qml"
+            }
+        ],
+        "moduleId": "SheetUI(appSheetUI)"
+    }
+]

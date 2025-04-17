@@ -203,7 +203,7 @@ Item {
 
     RowLayout{
         anchors.fill: parent
-        spacing: parent.width * 0.05
+        spacing: changelogVisible ? parent.width * 0.05 : 0
 
         // This is a placeholder we will expand when the changelog is clicked in order to shift the menu
         Rectangle{

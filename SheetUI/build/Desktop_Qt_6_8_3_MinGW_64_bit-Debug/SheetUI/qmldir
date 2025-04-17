@@ -12,4 +12,5 @@ LeftHandNav 1.0 UI/resNavBar/LeftHandNav.qml
 LeftHandOptions 1.0 UI/resNavBar/LeftHandOptions.qml
 ChangelogList 1.0 UI/navigation/ChangelogList.qml
 Items 1.0 UI/pages/Items.qml
+ItemsComponents 1.0 UI/pages/ItemsComponents.qml
 

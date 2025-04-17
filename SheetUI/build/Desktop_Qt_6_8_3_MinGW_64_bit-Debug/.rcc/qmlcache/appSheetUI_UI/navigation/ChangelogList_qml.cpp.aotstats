@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 485,
+                        "durationMicroseconds": 478,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 9
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 231,
+                        "durationMicroseconds": 218,
                         "errorMessage": "",
                         "functionName": "left",
                         "line": 5
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 18,
-                        "durationMicroseconds": 212,
+                        "durationMicroseconds": 208,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 6
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 210,
+                        "durationMicroseconds": 211,
                         "errorMessage": "",
                         "functionName": "bottom",
                         "line": 7
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 20,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 80,
                         "errorMessage": "Cannot access value for name mainArea",
                         "functionName": "width",
                         "line": 34
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 19,
-                        "durationMicroseconds": 339,
+                        "durationMicroseconds": 361,
                         "errorMessage": "Cannot access value for name model",
                         "functionName": "text",
                         "line": 36
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 108,
+                        "durationMicroseconds": 128,
                         "errorMessage": "",
                         "functionName": "wrapMode",
                         "line": 37
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 26,
-                        "durationMicroseconds": 7852,
+                        "durationMicroseconds": 8632,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
                         "line": 38
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 29,
-                        "durationMicroseconds": 51,
+                        "durationMicroseconds": 56,
                         "errorMessage": "Cannot access value for name mainArea",
                         "functionName": "pixelSize",
                         "line": 39
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 143,
+                        "durationMicroseconds": 127,
                         "errorMessage": "",
                         "functionName": "model",
                         "line": 45
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 110,
+                        "durationMicroseconds": 118,
                         "errorMessage": "",
                         "functionName": "delegate",
                         "line": 46
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 18,
-                        "durationMicroseconds": 258,
+                        "durationMicroseconds": 250,
                         "errorMessage": "",
                         "functionName": "spacing",
                         "line": 47
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 174,
+                        "durationMicroseconds": 166,
                         "errorMessage": "",
                         "functionName": "cacheBuffer",
                         "line": 52
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 118,
+                        "durationMicroseconds": 108,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 44
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 548,
+                        "durationMicroseconds": 277,
                         "errorMessage": "",
                         "functionName": "topMargin",
                         "line": 48
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 270,
+                        "durationMicroseconds": 336,
                         "errorMessage": "",
                         "functionName": "bottomMargin",
                         "line": 49
@@ -134,7 +134,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 251,
+                        "durationMicroseconds": 437,
                         "errorMessage": "",
                         "functionName": "leftMargin",
                         "line": 50
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 304,
+                        "durationMicroseconds": 257,
                         "errorMessage": "",
                         "functionName": "rightMargin",
                         "line": 51
