@@ -27,6 +27,7 @@ qt_add_qml_module(appSheetUI
         QML_FILES UI/resNavBar/NavBar.qml
         RESOURCES icons.qrc
         SOURCES backend.h backend.cpp
+        SOURCES UI/customClasses/dnditemlist.h UI/customClasses/dnditemlist.cpp
         QML_FILES
         QML_FILES UI/settings/Style.qml
         QML_FILES UI/resNavBar/WheelMenu.qml

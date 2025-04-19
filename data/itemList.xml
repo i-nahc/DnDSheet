@@ -1,0 +1,19 @@
+<itemList>
+    <item name="" category="weapon">
+        <proficiency mainType="martial or simple" value="greatsword/etc"/>
+        <damageDies>
+            <damage tag="conditional/default/versatile" value="xdy" type="acid/psychic/bludgeoning/etc"/>
+        </damageDies>
+        <properties>
+            <property value="heavy/reach/versatile/twohanded/finesse/light"/>
+        </properties>
+        <weight value=""/>
+    </item>
+    <item name="" category="armor">
+        <proficiency mainType="heavy/medium/light/shield" value="greatsword/etc"/>
+        <ac value=""/>
+        <strength requirement="none/15/etc"/>
+        <stealth disadvantage="true"/>
+        <weight value=""/>
+    </item>
+</itemList>

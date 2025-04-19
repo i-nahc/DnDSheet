@@ -46,6 +46,17 @@ Item {
                     radius: Material.SmallScale
                     anchors.fill: parent
                 }
+                ListModel{
+                    id: itemListModel
+                }
+                ListView{
+                    anchors.fill: parent
+                    clip: true
+                    model: itemListModel
+                    delegate: ItemsComponents{
+
+                    }
+                }
             }
         }
     }
