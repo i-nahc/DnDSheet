@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 308,
+                        "durationMicroseconds": 480,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 16
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 115,
+                        "durationMicroseconds": 174,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 17
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 178,
+                        "durationMicroseconds": 370,
                         "errorMessage": "",
                         "functionName": "left",
                         "line": 13
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 276,
+                        "durationMicroseconds": 211,
                         "errorMessage": "",
                         "functionName": "bottom",
                         "line": 14
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 18,
-                        "durationMicroseconds": 153,
+                        "durationMicroseconds": 181,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/LeftHandNav.qml)::topAnchor with type QVariant -> QQuickAnchorLine stored as QVariant",
                         "functionName": "top",
                         "line": 15
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 113,
+                        "durationMicroseconds": 169,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 21
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 99,
+                        "durationMicroseconds": 161,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 22
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 5313,
+                        "durationMicroseconds": 17882,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 24
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 27,
-                        "durationMicroseconds": 37,
+                        "durationMicroseconds": 80,
                         "errorMessage": "Cannot access value for name isMaximized",
                         "functionName": "bottomLeftRadius",
                         "line": 25
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 97,
+                        "durationMicroseconds": 161,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 28
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 338,
+                        "durationMicroseconds": 382,
                         "errorMessage": "",
                         "functionName": "sizeOverride",
                         "line": 34
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 51,
+                        "durationMicroseconds": 45,
                         "errorMessage": "Cannot access value for name activatedMenu",
                         "functionName": "active",
                         "line": 42
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 39,
                         "errorMessage": "Cannot access value for name activatedMenu",
                         "functionName": "active",
                         "line": 49
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 39,
                         "errorMessage": "Cannot access value for name activatedMenu",
                         "functionName": "active",
                         "line": 56
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 39,
                         "errorMessage": "Cannot access value for name activatedMenu",
                         "functionName": "active",
                         "line": 63
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 37,
+                        "durationMicroseconds": 40,
                         "errorMessage": "Cannot access value for name activatedMenu",
                         "functionName": "active",
                         "line": 70
@@ -134,7 +134,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 117,
+                        "durationMicroseconds": 137,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 76
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 18,
-                        "durationMicroseconds": 186,
+                        "durationMicroseconds": 210,
                         "errorMessage": "",
                         "functionName": "running",
                         "line": 77
@@ -150,7 +150,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 15,
-                        "durationMicroseconds": 239,
+                        "durationMicroseconds": 273,
                         "errorMessage": "",
                         "functionName": "from",
                         "line": 79
@@ -158,7 +158,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 246,
+                        "durationMicroseconds": 298,
                         "errorMessage": "",
                         "functionName": "to",
                         "line": 80
@@ -166,7 +166,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 110,
+                        "durationMicroseconds": 122,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 85
@@ -174,7 +174,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 18,
-                        "durationMicroseconds": 141,
+                        "durationMicroseconds": 147,
                         "errorMessage": "",
                         "functionName": "running",
                         "line": 86
@@ -182,7 +182,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 15,
-                        "durationMicroseconds": 244,
+                        "durationMicroseconds": 273,
                         "errorMessage": "",
                         "functionName": "from",
                         "line": 88
@@ -190,7 +190,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 222,
+                        "durationMicroseconds": 271,
                         "errorMessage": "",
                         "functionName": "to",
                         "line": 89

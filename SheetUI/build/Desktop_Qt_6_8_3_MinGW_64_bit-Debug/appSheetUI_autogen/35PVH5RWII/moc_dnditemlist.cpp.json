@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "DNDItemList",
+            "lineNumber": 8,
+            "object": true,
+            "qualifiedClassName": "DNDItemList",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "dnditemlist.h",
+    "outputRevision": 68
+}

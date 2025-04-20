@@ -1,21 +1,25 @@
 #ifndef DNDITEMLIST_H
 #define DNDITEMLIST_H
 
-#include <QAbstractTableModel>
+#include <QAbstractListModel>
 
-class DNDItemList : public QAbstractTableModel
+#include "dnditem.h"
+
+class DNDItemList : public QAbstractListModel
 {
     Q_OBJECT
 public:
     explicit DNDItemList(QObject *parent = nullptr);
     enum ItemRoles{
-        NameRole = Qt::UserRole + 1,    // name of item
+        IDRole = Qt::UserRole + 1,      // name of item
+        NameRole,
         CategoryRole,                   // weapon or armor
         ProficiencyRole,                // martial/simple or l/m/h/shield
-        ValueRole,                      // xdy or # AC
+        StatsRole,                      // xdy or # AC
         PropertiesRole,                 // heavy/reach/versatile/etc or stealth disadvantage, strength req.
         WeightRole,                     // #
-        IconRole,                       // text pointing to icon to use
+        IconNameRole,                       // text pointing to icon to use
+        StatIconNameRole
     };
 
 signals:
@@ -23,10 +27,11 @@ signals:
     // QAbstractItemModel interface
 public:
     int rowCount(const QModelIndex &parent) const;
-    int columnCount(const QModelIndex &parent) const;
     QVariant data(const QModelIndex &index, int role) const;
-    QVariant headerData(int section, Qt::Orientation orientation, int role) const;
     QHash<int, QByteArray> roleNames() const;
+
+private:
+    QList<DNDItem*> m_items;
 };
 
 #endif // DNDITEMLIST_H

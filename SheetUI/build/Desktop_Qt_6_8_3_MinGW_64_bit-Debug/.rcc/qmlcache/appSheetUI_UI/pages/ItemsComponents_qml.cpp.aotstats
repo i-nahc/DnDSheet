@@ -5,43 +5,51 @@
                 "entries": [
                     {
                         "codegenSuccessfull": true,
-                        "column": 19,
-                        "durationMicroseconds": 296,
+                        "column": 29,
+                        "durationMicroseconds": 3894,
                         "errorMessage": "",
-                        "functionName": "fill",
+                        "functionName": "append",
                         "line": 40
                     },
                     {
-                        "codegenSuccessfull": false,
-                        "column": 21,
-                        "durationMicroseconds": 56,
-                        "errorMessage": "Cannot access value for name itemCategory",
-                        "functionName": "source",
-                        "line": 45
+                        "codegenSuccessfull": true,
+                        "column": 19,
+                        "durationMicroseconds": 99,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 69
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 25,
-                        "durationMicroseconds": 191,
+                        "column": 23,
+                        "durationMicroseconds": 74,
                         "errorMessage": "",
-                        "functionName": "source",
-                        "line": 55
+                        "functionName": "fill",
+                        "line": 73
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 67,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 81
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 41,
-                        "durationMicroseconds": 55,
-                        "errorMessage": "Cannot access value for name itemSubCat",
-                        "functionName": "append",
-                        "line": 56
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 26,
-                        "durationMicroseconds": 24,
+                        "column": 29,
+                        "durationMicroseconds": 65,
                         "errorMessage": "Cannot access value for name itemCategory",
-                        "functionName": "visible",
-                        "line": 85
+                        "functionName": "source",
+                        "line": 84
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 30,
+                        "durationMicroseconds": 71,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 122
                     }
                 ],
                 "filepath": "D:/DevTools/Projects/DnDSheet/SheetUI/UI/pages/ItemsComponents.qml"

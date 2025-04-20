@@ -69,37 +69,79 @@ Rectangle{
     anchors.fill: parent
     color: "transparent"
     RowLayout{
-        // primary image/icon (category)
+
         anchors.fill: parent
-        Image{
-            source: if(itemCategory == 0)
-                    {"qrc:/UI/assets/entity/armor.svg"}
-                    else
-                    {"qrc:/UI/assets/entity/weapon/" + append}
+        spacing: 0
+        // item name + icon
+        Item{
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+            Layout.preferredWidth: 4
+            RowLayout{
+                anchors.fill: parent
+                spacing: 0
+                Image{
+                    source: if(itemCategory == 0)
+                            {"qrc:/UI/assets/entity/armor.svg"}
+                            else
+                            {"qrc:/UI/assets/entity/weapon/" + append}
+                }
+
+                Text{
+                    text: "Placeholder name longest"
+                }
+            }
         }
 
-        // item name
+        // Category
         Item{
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+            Layout.preferredWidth: 3
             Text{
-                text: "Placeholder name longest"
+                text: "Category"
             }
         }
 
-        // Rarity
+        // Proficiency
         Item{
-            Text{
-                text: "Rarity"
-            }
-        }
-
-        // AC/LMH Or Dies
-        Item{
-            Image{
-
-            }
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+            Layout.preferredWidth: 3
             Text{
                 text: "15 AC or 3d6"
             }
+        }
+
+        // Stats
+        Item{
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+            Layout.preferredWidth: 3
+            RowLayout{
+                anchors.fill:parent
+                spacing: 0
+                Image{
+
+                }
+                Text{
+
+                }
+            }
+        }
+
+        // Weight
+        Item{
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+            Layout.preferredWidth: 2
+        }
+
+        // Properties
+        Item{
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+            Layout.preferredWidth: 4
         }
     }
 }

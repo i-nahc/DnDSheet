@@ -1,4 +1,5 @@
 appSheetUI_autogen/timestamp: \
+	C:/Qt/6.8.3/mingw_64/include/QtCore/QAbstractListModel \
 	C:/Qt/6.8.3/mingw_64/include/QtCore/QByteArray \
 	C:/Qt/6.8.3/mingw_64/include/QtCore/QCryptographicHash \
 	C:/Qt/6.8.3/mingw_64/include/QtCore/QDeadlineTimer \
@@ -1309,6 +1310,10 @@ appSheetUI_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
 	D:/DevTools/Projects/DnDSheet/SheetUI/CMakeLists.txt \
+	D:/DevTools/Projects/DnDSheet/SheetUI/UI/customClasses/dnditem.cpp \
+	D:/DevTools/Projects/DnDSheet/SheetUI/UI/customClasses/dnditem.h \
+	D:/DevTools/Projects/DnDSheet/SheetUI/UI/customClasses/dnditemlist.cpp \
+	D:/DevTools/Projects/DnDSheet/SheetUI/UI/customClasses/dnditemlist.h \
 	D:/DevTools/Projects/DnDSheet/SheetUI/backend.cpp \
 	D:/DevTools/Projects/DnDSheet/SheetUI/backend.h \
 	D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/qml_imports/appSheetUI_conf.cmake \

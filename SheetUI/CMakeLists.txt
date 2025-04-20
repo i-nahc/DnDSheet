@@ -40,6 +40,7 @@ qt_add_qml_module(appSheetUI
         QML_FILES UI/navigation/ChangelogList.qml
         QML_FILES UI/pages/Items.qml
         QML_FILES UI/pages/ItemsComponents.qml
+        SOURCES UI/customClasses/dnditem.h UI/customClasses/dnditem.cpp
 
 )
 

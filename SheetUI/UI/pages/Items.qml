@@ -1,4 +1,4 @@
-import QtQuick 2.15
+import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls.Material
 
@@ -36,25 +36,202 @@ Item {
 
                 }
             }
-            Item{
-                id: itemListParent
+            ColumnLayout{
                 Layout.fillWidth: true
                 Layout.fillHeight: true
                 Layout.preferredHeight: 14
-                Rectangle{
-                    color: Style.primaryColorDark
-                    radius: Material.SmallScale
-                    anchors.fill: parent
-                }
-                ListModel{
-                    id: itemListModel
-                }
-                ListView{
-                    anchors.fill: parent
-                    clip: true
-                    model: itemListModel
-                    delegate: ItemsComponents{
+                spacing: 0
+                Item{
+                    id: itemListColumnHeaders
+                    Layout.fillWidth: true
+                    Layout.fillHeight:true
+                    Layout.preferredHeight: 1
 
+                    // header background
+                    Rectangle{
+                        color: Style.primaryColorDark
+                        anchors.fill:parent
+                        topRightRadius: Material.SmallScale
+                        topLeftRadius: Material.SmallScale
+                    }
+                    RowLayout{
+                        anchors.fill: parent
+                        spacing: 0
+                        Item{
+                            // name spacer
+                            Layout.fillHeight: true
+                            Layout.fillWidth: true
+                            Layout.preferredWidth: 4
+                            Text{
+                                anchors.fill: parent
+                                font.family: Style.primaryFont.name
+                                text: "Name"
+                                color: "white"
+                                verticalAlignment: Text.AlignVCenter
+                                leftPadding: 15
+                                clip: true
+                                fontSizeMode: Text.Fit
+                                font.pixelSize: 18
+                            }
+                            Rectangle{
+                                anchors.right: parent.right
+                                width: 1
+                                color: Style.primaryColorDarkHover
+                                anchors.top: parent.top
+                                anchors.bottom: parent.bottom
+                                anchors.topMargin: parent.height*0.15
+                                anchors.bottomMargin: parent.height*0.15
+                            }
+                        }
+                        Item{
+                            // Category spacer
+                            Layout.fillHeight: true
+                            Layout.fillWidth: true
+                            Layout.preferredWidth: 3
+                            Text{
+                                anchors.fill: parent
+                                font.family: Style.primaryFont.name
+                                text: "Category"
+                                color: "white"
+                                verticalAlignment: Text.AlignVCenter
+                                leftPadding: 15
+                                clip: true
+                                fontSizeMode: Text.Fit
+                                font.pixelSize: 18
+                            }
+                            Rectangle{
+                                anchors.right: parent.right
+                                width: 1
+                                color: Style.primaryColorDarkHover
+                                anchors.top: parent.top
+                                anchors.bottom: parent.bottom
+                                anchors.topMargin: parent.height*0.15
+                                anchors.bottomMargin: parent.height*0.15
+                            }
+                        }
+                        Item{
+                            // proficiency spacer
+                            Layout.fillHeight: true
+                            Layout.fillWidth: true
+                            Layout.preferredWidth: 3
+                            Text{
+                                anchors.fill: parent
+                                font.family: Style.primaryFont.name
+                                text: "Proficiency"
+                                color: "white"
+                                verticalAlignment: Text.AlignVCenter
+                                leftPadding: 15
+                                clip: true
+                                fontSizeMode: Text.Fit
+                                font.pixelSize: 18
+                            }
+                            Rectangle{
+                                anchors.right: parent.right
+                                width: 1
+                                color: Style.primaryColorDarkHover
+                                anchors.top: parent.top
+                                anchors.bottom: parent.bottom
+                                anchors.topMargin: parent.height*0.15
+                                anchors.bottomMargin: parent.height*0.15
+                            }
+                        }
+                        Item{
+                            // stats spacer
+                            Layout.fillHeight: true
+                            Layout.fillWidth: true
+                            Layout.preferredWidth: 3
+                            Text{
+                                anchors.fill: parent
+                                font.family: Style.primaryFont.name
+                                text: "Stats"
+                                color: "white"
+                                verticalAlignment: Text.AlignVCenter
+                                leftPadding: 15
+                                clip: true
+                                fontSizeMode: Text.Fit
+                                font.pixelSize: 18
+                            }
+                            Rectangle{
+                                anchors.right: parent.right
+                                width: 1
+                                color: Style.primaryColorDarkHover
+                                anchors.top: parent.top
+                                anchors.bottom: parent.bottom
+                                anchors.topMargin: parent.height*0.15
+                                anchors.bottomMargin: parent.height*0.15
+                            }
+                        }
+                        Item{
+                            // weight spacer
+                            Layout.fillHeight: true
+                            Layout.fillWidth: true
+                            Layout.preferredWidth: 2
+                            Text{
+                                anchors.fill: parent
+                                font.family: Style.primaryFont.name
+                                text: "Weight"
+                                color: "white"
+                                verticalAlignment: Text.AlignVCenter
+                                leftPadding: 15
+                                clip: true
+                                fontSizeMode: Text.Fit
+                                font.pixelSize: 18
+                            }
+                            Rectangle{
+                                anchors.right: parent.right
+                                width: 1
+                                color: Style.primaryColorDarkHover
+                                anchors.top: parent.top
+                                anchors.bottom: parent.bottom
+                                anchors.topMargin: parent.height*0.15
+                                anchors.bottomMargin: parent.height*0.15
+                            }
+                        }
+                        Item{
+                            // properties spacer
+                            Layout.fillHeight: true
+                            Layout.fillWidth: true
+                            Layout.preferredWidth: 4
+
+                            Text{
+                                anchors.fill: parent
+                                font.family: Style.primaryFont.name
+                                text: "Properties"
+                                color: "white"
+                                verticalAlignment: Text.AlignVCenter
+                                leftPadding: 15
+                                clip: true
+                                fontSizeMode: Text.Fit
+                                font.pixelSize: 18
+                            }
+                        }
+                    }
+                }
+
+                Item{
+                    id: itemListParent
+                    Layout.fillWidth: true
+                    Layout.fillHeight: true
+                    Layout.preferredHeight: 14
+
+                    // background of item list view
+                    Rectangle{
+                        color: Style.primaryColorDark
+                        bottomLeftRadius: Material.SmallScale
+                        bottomRightRadius: Material.SmallScale
+                        anchors.fill: parent
+                    }
+                    ListView{
+                        id: itemsListView
+                        anchors.fill: parent
+                        clip: true
+                        model: 20
+                        spacing: 10
+                        delegate: Rectangle{
+                            height: 40
+                            width: itemsListView.width
+
+                        }
                     }
                 }
             }
