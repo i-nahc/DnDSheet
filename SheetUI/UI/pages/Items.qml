@@ -46,15 +46,18 @@ Item {
                     Layout.fillWidth: true
                     Layout.fillHeight:true
                     Layout.preferredHeight: 1
+                    z: itemListParent.z + 1
 
                     // header background
                     Rectangle{
+                        id: itemsHeaderBackground
                         color: Style.primaryColorDark
                         anchors.fill:parent
                         topRightRadius: Material.SmallScale
                         topLeftRadius: Material.SmallScale
                     }
                     RowLayout{
+                        id: itemsListLayout
                         anchors.fill: parent
                         spacing: 0
                         Item{
@@ -206,6 +209,13 @@ Item {
                             }
                         }
                     }
+                    Rectangle{
+                        id: itemsHeaderBorder
+                        color: Style.secondaryColor
+                        anchors.top: itemListColumnHeaders.bottom
+                        width: itemListColumnHeaders.width
+                        height: 2
+                    }
                 }
 
                 Item{
@@ -216,6 +226,7 @@ Item {
 
                     // background of item list view
                     Rectangle{
+                        id: listBackground
                         color: Style.primaryColorDark
                         bottomLeftRadius: Material.SmallScale
                         bottomRightRadius: Material.SmallScale
@@ -225,12 +236,124 @@ Item {
                         id: itemsListView
                         anchors.fill: parent
                         clip: true
-                        model: 20
-                        spacing: 10
+                        model: items
+                        spacing: 0
                         delegate: Rectangle{
-                            height: 40
+                            id: itemEntry
+                            property int itemCategory: 0 // 0 = A 1 = W
+                            property int itemSubCat: 0
                             width: itemsListView.width
+                            height: 40
+                            color: "transparent"
+                            RowLayout{
+                                spacing: 0
+                                anchors.fill: parent
+                                Item{
+                                    Layout.fillHeight: true
+                                    Layout.fillWidth: true
+                                    Layout.preferredWidth: 4
+                                    RowLayout{
+                                        anchors.fill: parent
+                                        spacing: 0
+                                        Image{
+                                            height: Math.min()
+                                            source: "qrc:/UI/assets/entity/armor.svg"
+                                        }
 
+                                        Text{
+                                            leftPadding: 15
+                                            Layout.fillWidth: true
+                                            font.family: Style.primaryFont.name
+                                            color: "white"
+                                            text: "Placeholder"
+                                            clip: true
+                                            verticalAlignment: Text.AlignVCenter
+                                            font.pixelSize: 15
+                                        }
+                                    }
+                                }
+                                Item{
+                                    Layout.fillHeight: true
+                                    Layout.fillWidth: true
+                                    Layout.preferredWidth: 3
+                                    Text{
+                                        leftPadding: 15
+                                        anchors.fill: parent
+                                        text: "Placeholder"
+                                        font.family: Style.primaryFont.name
+                                        color: "white"
+                                        clip: true
+                                        verticalAlignment: Text.AlignVCenter
+                                        font.pixelSize: 15
+                                    }
+                                }
+                                Item{
+                                    Layout.fillHeight: true
+                                    Layout.fillWidth: true
+                                    Layout.preferredWidth: 3
+                                    Text{
+                                        leftPadding: 15
+                                        anchors.fill: parent
+                                        text: "Placeholder"
+                                        font.family: Style.primaryFont.name
+                                        color: "white"
+                                        clip: true
+                                        verticalAlignment: Text.AlignVCenter
+                                        font.pixelSize: 15
+                                    }
+                                }
+                                Item{
+                                    Layout.fillHeight: true
+                                    Layout.fillWidth: true
+                                    Layout.preferredWidth: 3
+                                    Text{
+                                        leftPadding: 15
+                                        anchors.fill: parent
+                                        text: "Placeholder"
+                                        font.family: Style.primaryFont.name
+                                        color: "white"
+                                        clip: true
+                                        verticalAlignment: Text.AlignVCenter
+                                        font.pixelSize: 15
+                                    }
+                                }
+                                Item{
+                                    Layout.fillHeight: true
+                                    Layout.fillWidth: true
+                                    Layout.preferredWidth: 2
+                                    Text{
+                                        leftPadding: 15
+                                        anchors.fill: parent
+                                        text: "Placeholder"
+                                        font.family: Style.primaryFont.name
+                                        color: "white"
+                                        clip: true
+                                        verticalAlignment: Text.AlignVCenter
+                                        font.pixelSize: 15
+                                    }
+                                }
+                                Item{
+                                    Layout.fillHeight: true
+                                    Layout.fillWidth: true
+                                    Layout.preferredWidth: 4
+                                    Text{
+                                        leftPadding: 15
+                                        anchors.fill: parent
+                                        text: "Placeholder"
+                                        font.family: Style.primaryFont.name
+                                        color: "white"
+                                        clip: true
+                                        verticalAlignment: Text.AlignVCenter
+                                        font.pixelSize: 15
+                                    }
+                                }
+                            }
+                        }
+                        ListModel{
+                            id: items
+                            ListElement{itemCategory: 0}
+                            ListElement{itemCategory: 0}
+                            ListElement{itemCategory: 0}
                         }
                     }
                 }

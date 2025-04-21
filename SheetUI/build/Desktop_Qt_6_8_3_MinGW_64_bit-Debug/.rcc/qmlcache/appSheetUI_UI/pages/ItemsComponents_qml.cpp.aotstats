@@ -5,16 +5,8 @@
                 "entries": [
                     {
                         "codegenSuccessfull": true,
-                        "column": 29,
-                        "durationMicroseconds": 3894,
-                        "errorMessage": "",
-                        "functionName": "append",
-                        "line": 40
-                    },
-                    {
-                        "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 99,
+                        "durationMicroseconds": 203,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 69
@@ -22,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 74,
+                        "durationMicroseconds": 72,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 73
@@ -30,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 67,
+                        "durationMicroseconds": 62,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 81
@@ -38,7 +30,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 29,
-                        "durationMicroseconds": 65,
+                        "durationMicroseconds": 58,
                         "errorMessage": "Cannot access value for name itemCategory",
                         "functionName": "source",
                         "line": 84
@@ -46,10 +38,34 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 71,
+                        "durationMicroseconds": 66,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 122
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 44,
+                        "durationMicroseconds": 65,
+                        "errorMessage": "",
+                        "functionName": "preferredWidth",
+                        "line": 127
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 108,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 144
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 156
                     }
                 ],
                 "filepath": "D:/DevTools/Projects/DnDSheet/SheetUI/UI/pages/ItemsComponents.qml"

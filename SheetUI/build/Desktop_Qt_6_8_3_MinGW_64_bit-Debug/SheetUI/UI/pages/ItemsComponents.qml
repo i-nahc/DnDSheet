@@ -37,7 +37,7 @@ Rectangle{
                             25: Whip
     */
     property int itemSubCat: 0
-    property string append: switch(itemSubCat){
+    /*property string append: switch(itemSubCat){
                             case 0: "battleaxe.svg"; break;
                             case 1: "bow.svg"; break;
                             case 2: "club.svg"; break;
@@ -65,7 +65,7 @@ Rectangle{
                             case 24: "trident.svg"; break;
                             case 25: "whip.svg"; break;
                             default: "sword.svg"; break;
-                            }
+                            }*/
     anchors.fill: parent
     color: "transparent"
     RowLayout{
@@ -109,7 +109,7 @@ Rectangle{
             Layout.fillWidth: true
             Layout.preferredWidth: 3
             Text{
-                text: "15 AC or 3d6"
+                text: "Martial or Heavy Armor"
             }
         }
 
@@ -122,10 +122,15 @@ Rectangle{
                 anchors.fill:parent
                 spacing: 0
                 Image{
-
+                    Layout.fillHeight: true
+                    Layout.fillWidth: true
+                    Layout.preferredWidth: height
+                    source: "qrc:/UI/assets/entity/armor.svg"
                 }
                 Text{
-
+                    Layout.fillHeight: true
+                    Layout.fillWidth: true
+                    text: "15 AC or 3d6"
                 }
             }
         }
@@ -135,6 +140,11 @@ Rectangle{
             Layout.fillHeight: true
             Layout.fillWidth: true
             Layout.preferredWidth: 2
+            Text{
+                anchors.fill: parent
+                text: "20 lb"
+
+            }
         }
 
         // Properties
@@ -142,6 +152,11 @@ Rectangle{
             Layout.fillHeight: true
             Layout.fillWidth: true
             Layout.preferredWidth: 4
+            Text{
+                anchors.fill: parent
+                clip: true
+                text: "List1, List2, List3, List4"
+            }
         }
     }
 }
