@@ -14,7 +14,7 @@ public:
         IDRole = Qt::UserRole + 1,      // name of item
         NameRole,
         CategoryRole,                   // weapon or armor
-        ProficiencyRole,                // martial/simple or l/m/h/shield
+        CostRole,                // martial/simple or l/m/h/shield
         StatsRole,                      // xdy or # AC
         PropertiesRole,                 // heavy/reach/versatile/etc or stealth disadvantage, strength req.
         WeightRole,                     // #

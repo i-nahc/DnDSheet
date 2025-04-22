@@ -2,7 +2,10 @@
 
 DNDItemList::DNDItemList(QObject *parent)
     : QAbstractListModel(parent)
-{}
+{
+    // populate from text file
+    m_items.append(new DNDItem("111", "good ole testing", "Greatsword", 111, "3d6", {"a"}, 13, "1", "1", this));
+}
 
 int DNDItemList::rowCount(const QModelIndex &parent) const
 {
@@ -29,9 +32,9 @@ QVariant DNDItemList::data(const QModelIndex &index, int role) const
     {
         return m_items[index.row()]->category();
     }
-    else if(role == ProficiencyRole)
+    else if(role == CostRole)
     {
-        return m_items[index.row()]->proficiency();
+        return m_items[index.row()]->cost();
     }
     else if(role == StatsRole)
     {
@@ -65,7 +68,7 @@ QHash<int, QByteArray> DNDItemList::roleNames() const{
     roles[IDRole] = "ID";
     roles[NameRole] = "name";
     roles[CategoryRole] = "category";
-    roles[ProficiencyRole] = "proficiency";
+    roles[CostRole] = "cost";
     roles[StatsRole] = "stats";
     roles[PropertiesRole] = "properties";
     roles[WeightRole] = "weight";

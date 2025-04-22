@@ -116,11 +116,11 @@ Item {
                             // proficiency spacer
                             Layout.fillHeight: true
                             Layout.fillWidth: true
-                            Layout.preferredWidth: 3
+                            Layout.preferredWidth: 2
                             Text{
                                 anchors.fill: parent
                                 font.family: Style.primaryFont.name
-                                text: "Proficiency"
+                                text: "Cost"
                                 color: "white"
                                 verticalAlignment: Text.AlignVCenter
                                 leftPadding: 15
@@ -236,124 +236,11 @@ Item {
                         id: itemsListView
                         anchors.fill: parent
                         clip: true
-                        model: items
+                        model: itemsManager
                         spacing: 0
-                        delegate: Rectangle{
-                            id: itemEntry
-                            property int itemCategory: 0 // 0 = A 1 = W
-                            property int itemSubCat: 0
-                            width: itemsListView.width
+                        delegate: ItemsComponents{
+                            width: parent.width
                             height: 40
-                            color: "transparent"
-                            RowLayout{
-                                spacing: 0
-                                anchors.fill: parent
-                                Item{
-                                    Layout.fillHeight: true
-                                    Layout.fillWidth: true
-                                    Layout.preferredWidth: 4
-                                    RowLayout{
-                                        anchors.fill: parent
-                                        spacing: 0
-                                        Image{
-                                            height: Math.min()
-                                            source: "qrc:/UI/assets/entity/armor.svg"
-                                        }
-
-                                        Text{
-                                            leftPadding: 15
-                                            Layout.fillWidth: true
-                                            font.family: Style.primaryFont.name
-                                            color: "white"
-                                            text: "Placeholder"
-                                            clip: true
-                                            verticalAlignment: Text.AlignVCenter
-                                            font.pixelSize: 15
-                                        }
-                                    }
-                                }
-                                Item{
-                                    Layout.fillHeight: true
-                                    Layout.fillWidth: true
-                                    Layout.preferredWidth: 3
-                                    Text{
-                                        leftPadding: 15
-                                        anchors.fill: parent
-                                        text: "Placeholder"
-                                        font.family: Style.primaryFont.name
-                                        color: "white"
-                                        clip: true
-                                        verticalAlignment: Text.AlignVCenter
-                                        font.pixelSize: 15
-                                    }
-                                }
-                                Item{
-                                    Layout.fillHeight: true
-                                    Layout.fillWidth: true
-                                    Layout.preferredWidth: 3
-                                    Text{
-                                        leftPadding: 15
-                                        anchors.fill: parent
-                                        text: "Placeholder"
-                                        font.family: Style.primaryFont.name
-                                        color: "white"
-                                        clip: true
-                                        verticalAlignment: Text.AlignVCenter
-                                        font.pixelSize: 15
-                                    }
-                                }
-                                Item{
-                                    Layout.fillHeight: true
-                                    Layout.fillWidth: true
-                                    Layout.preferredWidth: 3
-                                    Text{
-                                        leftPadding: 15
-                                        anchors.fill: parent
-                                        text: "Placeholder"
-                                        font.family: Style.primaryFont.name
-                                        color: "white"
-                                        clip: true
-                                        verticalAlignment: Text.AlignVCenter
-                                        font.pixelSize: 15
-                                    }
-                                }
-                                Item{
-                                    Layout.fillHeight: true
-                                    Layout.fillWidth: true
-                                    Layout.preferredWidth: 2
-                                    Text{
-                                        leftPadding: 15
-                                        anchors.fill: parent
-                                        text: "Placeholder"
-                                        font.family: Style.primaryFont.name
-                                        color: "white"
-                                        clip: true
-                                        verticalAlignment: Text.AlignVCenter
-                                        font.pixelSize: 15
-                                    }
-                                }
-                                Item{
-                                    Layout.fillHeight: true
-                                    Layout.fillWidth: true
-                                    Layout.preferredWidth: 4
-                                    Text{
-                                        leftPadding: 15
-                                        anchors.fill: parent
-                                        text: "Placeholder"
-                                        font.family: Style.primaryFont.name
-                                        color: "white"
-                                        clip: true
-                                        verticalAlignment: Text.AlignVCenter
-                                        font.pixelSize: 15
-                                    }
-                                }
-                            }
-                        }
-                        ListModel{
-                            id: items
-                            ListElement{itemCategory: 0}
-                            ListElement{itemCategory: 0}
-                            ListElement{itemCategory: 0}
                         }
                     }
                 }

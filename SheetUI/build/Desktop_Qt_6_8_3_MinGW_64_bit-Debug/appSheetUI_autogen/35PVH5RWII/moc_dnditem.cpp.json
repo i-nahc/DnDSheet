@@ -15,7 +15,7 @@
                     "required": false,
                     "scriptable": true,
                     "stored": true,
-                    "type": "int",
+                    "type": "QString",
                     "user": false
                 },
                 {
@@ -49,12 +49,12 @@
                     "designable": true,
                     "final": false,
                     "index": 3,
-                    "name": "proficiency",
-                    "read": "proficiency",
+                    "name": "cost",
+                    "read": "cost",
                     "required": false,
                     "scriptable": true,
                     "stored": true,
-                    "type": "QString",
+                    "type": "int",
                     "user": false
                 },
                 {

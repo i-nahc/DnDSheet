@@ -3,160 +3,210 @@ import QtQuick.Layouts
 
 // Supported categories: Armor, weapons
 
+// --- Subcategories ---
+// --- Armor ---        --- WP ---
+/*  0: Light            0: Battleaxe
+    1: Medium           1: Bow
+    2: Heavy            2: Club
+                        3: Crossbow
+                        4: Dagger
+                        5: Flail
+                        6: Glaive
+                        7: Halberd
+                        8: Hammer
+                        9: Handaxe
+                        10: Lance (unused)
+                        11: Mace
+                        12: Morningstar
+                        13: Musket
+                        14: Pike
+                        15: Pistol
+                        16: Rapier
+                        17: Scimitar
+                        18: Sickle
+                        19: Sling
+                        20: Spear
+                        21: Staff
+                        22: Strike (unused)
+                        23: Sword
+                        24: Trident
+                        25: Whip
+*/
+
+/*property string append: switch(itemSubCat){
+                        case 0: "battleaxe.svg"; break;
+                        case 1: "bow.svg"; break;
+                        case 2: "club.svg"; break;
+                        case 3: "crossbow.svg"; break;
+                        case 4: "dagger.svg"; break;
+                        case 5: "flail.svg"; break;
+                        case 6: "glaive.svg"; break;
+                        case 7: "halberd.svg"; break;
+                        case 8: "hammer.svg"; break;
+                        case 9: "handaxe.svg"; break;
+                        case 10: "lance.svg"; break;
+                        case 11: "mace.svg"; break;
+                        case 12: "morningstar.svg"; break;
+                        case 13: "musket.svg"; break;
+                        case 14: "pike.svg"; break;
+                        case 15: "pistol.svg"; break;
+                        case 16: "rapier.svg"; break;
+                        case 17: "scimitar.svg"; break;
+                        case 18: "sickle.svg"; break;
+                        case 19: "sling.svg"; break;
+                        case 20: "spear.svg"; break;
+                        case 21: "staff.svg"; break;
+                        case 22: "strike.svg"; break;
+                        case 23: "sword.svg"; break;
+                        case 24: "trident.svg"; break;
+                        case 25: "whip.svg"; break;
+                        default: "sword.svg"; break;
+                        }*/
 Rectangle{
     id: itemEntry
+
     property int itemCategory: 0 // 0 = A 1 = W
-
-    // --- Subcategories ---
-    // --- Armor ---        --- WP ---
-    /*  0: Light            0: Battleaxe
-        1: Medium           1: Bow
-        2: Heavy            2: Club
-                            3: Crossbow
-                            4: Dagger
-                            5: Flail
-                            6: Glaive
-                            7: Halberd
-                            8: Hammer
-                            9: Handaxe
-                            10: Lance (unused)
-                            11: Mace
-                            12: Morningstar
-                            13: Musket
-                            14: Pike
-                            15: Pistol
-                            16: Rapier
-                            17: Scimitar
-                            18: Sickle
-                            19: Sling
-                            20: Spear
-                            21: Staff
-                            22: Strike (unused)
-                            23: Sword
-                            24: Trident
-                            25: Whip
-    */
     property int itemSubCat: 0
-    /*property string append: switch(itemSubCat){
-                            case 0: "battleaxe.svg"; break;
-                            case 1: "bow.svg"; break;
-                            case 2: "club.svg"; break;
-                            case 3: "crossbow.svg"; break;
-                            case 4: "dagger.svg"; break;
-                            case 5: "flail.svg"; break;
-                            case 6: "glaive.svg"; break;
-                            case 7: "halberd.svg"; break;
-                            case 8: "hammer.svg"; break;
-                            case 9: "handaxe.svg"; break;
-                            case 10: "lance.svg"; break;
-                            case 11: "mace.svg"; break;
-                            case 12: "morningstar.svg"; break;
-                            case 13: "musket.svg"; break;
-                            case 14: "pike.svg"; break;
-                            case 15: "pistol.svg"; break;
-                            case 16: "rapier.svg"; break;
-                            case 17: "scimitar.svg"; break;
-                            case 18: "sickle.svg"; break;
-                            case 19: "sling.svg"; break;
-                            case 20: "spear.svg"; break;
-                            case 21: "staff.svg"; break;
-                            case 22: "strike.svg"; break;
-                            case 23: "sword.svg"; break;
-                            case 24: "trident.svg"; break;
-                            case 25: "whip.svg"; break;
-                            default: "sword.svg"; break;
-                            }*/
-    anchors.fill: parent
+    width: parent.width
+    height: parent.height
     color: "transparent"
-    RowLayout{
+    Rectangle{
+        id: hoverRectangle
+        height: parent.height
+        width: individualItemArea.containsMouse ? parent.width : 0
+        gradient: Gradient{
+            orientation: Gradient.Horizontal
+            GradientStop{
+                            position: 0
+                            color: "transparent"
+            }
+            GradientStop{
+                            position: 0.5
+                            color: Style.primaryColorDarkHover
+            }
+            GradientStop{
+                            position: 1
+                            color: "transparent"
+            }
+        }
+        Behavior on width{
+            SmoothedAnimation{
+                duration: 200
+            }
 
-        anchors.fill: parent
+        }
+    }
+    RowLayout{
         spacing: 0
-        // item name + icon
+        anchors.fill: parent
         Item{
             Layout.fillHeight: true
             Layout.fillWidth: true
             Layout.preferredWidth: 4
             RowLayout{
                 anchors.fill: parent
+                anchors.leftMargin: width * 0.05
                 spacing: 0
                 Image{
-                    source: if(itemCategory == 0)
-                            {"qrc:/UI/assets/entity/armor.svg"}
-                            else
-                            {"qrc:/UI/assets/entity/weapon/" + append}
-                }
-
-                Text{
-                    text: "Placeholder name longest"
-                }
-            }
-        }
-
-        // Category
-        Item{
-            Layout.fillHeight: true
-            Layout.fillWidth: true
-            Layout.preferredWidth: 3
-            Text{
-                text: "Category"
-            }
-        }
-
-        // Proficiency
-        Item{
-            Layout.fillHeight: true
-            Layout.fillWidth: true
-            Layout.preferredWidth: 3
-            Text{
-                text: "Martial or Heavy Armor"
-            }
-        }
-
-        // Stats
-        Item{
-            Layout.fillHeight: true
-            Layout.fillWidth: true
-            Layout.preferredWidth: 3
-            RowLayout{
-                anchors.fill:parent
-                spacing: 0
-                Image{
-                    Layout.fillHeight: true
-                    Layout.fillWidth: true
+                    Layout.preferredHeight: itemEntry.height * 0.8
                     Layout.preferredWidth: height
+                    verticalAlignment: Image.AlignVCenter
+                    horizontalAlignment: Image.AlignHCenter
                     source: "qrc:/UI/assets/entity/armor.svg"
                 }
+
                 Text{
-                    Layout.fillHeight: true
+                    leftPadding: 15
                     Layout.fillWidth: true
-                    text: "15 AC or 3d6"
+                    font.family: Style.primaryFont.name
+                    color: "white"
+                    text: name
+                    clip: true
+                    verticalAlignment: Text.AlignVCenter
+                    font.pixelSize: 15
                 }
             }
         }
-
-        // Weight
+        Item{
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+            Layout.preferredWidth: 3
+            Text{
+                leftPadding: 15
+                anchors.fill: parent
+                text: "Placeholder"
+                font.family: Style.primaryFont.name
+                color: "white"
+                clip: true
+                verticalAlignment: Text.AlignVCenter
+                font.pixelSize: 15
+            }
+        }
         Item{
             Layout.fillHeight: true
             Layout.fillWidth: true
             Layout.preferredWidth: 2
             Text{
+                leftPadding: 15
                 anchors.fill: parent
-                text: "20 lb"
-
+                text: "Placeholder"
+                font.family: Style.primaryFont.name
+                color: "white"
+                clip: true
+                verticalAlignment: Text.AlignVCenter
+                font.pixelSize: 15
             }
         }
-
-        // Properties
+        Item{
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+            Layout.preferredWidth: 3
+            Text{
+                leftPadding: 15
+                anchors.fill: parent
+                text: "Placeholder"
+                font.family: Style.primaryFont.name
+                color: "white"
+                clip: true
+                verticalAlignment: Text.AlignVCenter
+                font.pixelSize: 15
+            }
+        }
+        Item{
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+            Layout.preferredWidth: 2
+            Text{
+                leftPadding: 15
+                anchors.fill: parent
+                text: "Placeholder"
+                font.family: Style.primaryFont.name
+                color: "white"
+                clip: true
+                verticalAlignment: Text.AlignVCenter
+                font.pixelSize: 15
+            }
+        }
         Item{
             Layout.fillHeight: true
             Layout.fillWidth: true
             Layout.preferredWidth: 4
             Text{
+                leftPadding: 15
                 anchors.fill: parent
+                text: "Placeholder"
+                font.family: Style.primaryFont.name
+                color: "white"
                 clip: true
-                text: "List1, List2, List3, List4"
+                verticalAlignment: Text.AlignVCenter
+                font.pixelSize: 15
             }
         }
+    }
+
+    MouseArea{
+        id: individualItemArea
+        hoverEnabled: true
+        anchors.fill: parent
     }
 }
