@@ -5,12 +5,16 @@ import os
 
 DATA_PATH = "./data/"
 CLASS_FILE_NAME = "classList.xml"
-SUBCLASS_FILE_NAME = "SubclassList.xml"
+SUBCLASS_FILE_NAME = "subclassList.xml"
 
 def addDNDClass(className: str, classDesc: str, classInternalName: str, subclassArr):
-
+    # if exists
+    if(os.path.isfile(DATA_PATH + CLASS_FILE_NAME)):
+        parser = etree.XMLParser(remove_blank_text=True)
+        root = etree.parse(DATA_PATH + CLASS_FILE_NAME, parser).getroot()
     
-    root = etree.Element("classList")
+    else:
+        root = etree.Element("classList")
 
     classHead = etree.Element("class", name=className)
     etree.SubElement(classHead, "classInternalName", name=classInternalName)
@@ -22,9 +26,10 @@ def addDNDClass(className: str, classDesc: str, classInternalName: str, subclass
     for i in range(0, subclassCount, 2):
         etree.SubElement(subclassListHead, "subclass", 
                          name=subclassArr[i]).text = subclassArr[i+1]
-
+    
     root.append(classHead)
     tree = etree.ElementTree(root)
+    
     tree.write(DATA_PATH + CLASS_FILE_NAME, pretty_print=True)
 
 """
