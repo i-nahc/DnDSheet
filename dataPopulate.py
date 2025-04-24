@@ -6,11 +6,13 @@ import os
 DATA_PATH = "./data/"
 CLASS_FILE_NAME = "classList.xml"
 SUBCLASS_FILE_NAME = "subclassList.xml"
+ITEM_FILE_NAME = "commonItemList.xml"
+
+parser = etree.XMLParser(remove_blank_text=True)
 
 def addDNDClass(className: str, classDesc: str, classInternalName: str, subclassArr):
     # if exists
     if(os.path.isfile(DATA_PATH + CLASS_FILE_NAME)):
-        parser = etree.XMLParser(remove_blank_text=True)
         root = etree.parse(DATA_PATH + CLASS_FILE_NAME, parser).getroot()
     
     else:
@@ -64,3 +66,35 @@ def generateDNDSubclass():
 
     classTree = etree.parse(DATA_PATH + CLASS_FILE_NAME)
 
+def addWeapon(inName: str, inCost: str, inDamage: str, inWeight: str, inProperties: str, inSection: str):
+    if(os.path.isfile(DATA_PATH + ITEM_FILE_NAME)):
+        root = etree.parse(DATA_PATH + ITEM_FILE_NAME, parser).getroot()
+    else:
+        root = etree.Element("itemList")
+
+    itemHead = etree.Element("item", name = inName, category = "weapon")
+    damageHead = etree.SubElement(itemHead, "damageDies")
+    damageList = inDamage.lower().split()
+    etree.SubElement(damageHead, "damage", tag = "default", value = damageList[0], type = damageList[1])
+    propertiesHead = etree.SubElement(itemHead, "properties")
+
+    # check properties for versatile damage
+    prof = inSection.lower().split()
+    proficiency = etree.SubElement(itemHead, "proficiency", mainType = prof[0], attType = prof[1], value = inName.lower())
+
+    propertyList = inProperties.lower().split(', ')
+    for property in propertyList:
+        if("versatile" in property):
+            temp = property.split()
+            thisValue = temp[1].replace('(', '').replace(')', '')
+            etree.SubElement(damageHead, "damage", tag = "versatile", value = thisValue, type = damageList[1])
+            etree.SubElement(propertiesHead, "property", value = "versatile")
+        else:
+            etree.SubElement(propertiesHead, "property", value = property)
+    
+    weight = etree.SubElement(itemHead, "weight", inWeight)
+    cost = etree.SubElement(itemHead, "cost", inCost)
+
+    root.append(itemHead)
+    tree = etree.ElementTree(root)
+    tree.write(DATA_PATH + ITEM_FILE_NAME, pretty_print = True)
