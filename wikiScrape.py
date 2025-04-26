@@ -6,6 +6,7 @@ import os
 DATA_PATH = "./data/"
 CLASS_FILE_NAME = "classList.xml"
 SUBCLASS_FILE_NAME = "subclassList.xml"
+ITEM_FILE_NAME = "commonItemList.xml"
 
 driverInst = webdriver.Firefox()
 
@@ -51,6 +52,10 @@ def scrapeClass():
         addDNDClass(dndClassName, dndClassDesc, dndClassInternalName, subclassArr)
 
 def scrapeItems():
+    if(os.path.isfile(DATA_PATH + ITEM_FILE_NAME)):
+        # delete file to start fresh
+        os.remove(DATA_PATH + ITEM_FILE_NAME)
+
     print("Now scraping items")
 
     # scraping weapons
@@ -62,11 +67,10 @@ def scrapeItems():
     sectionName = ""
     skipSection = False
     hasHeader = False
-    iteration = 0
-    content = []
     isItem = False
 
     for table in tables: 
+        print(table.get_attribute("class"))
         hasHeader = False
         isItem = False
         # for each element in table
@@ -74,11 +78,15 @@ def scrapeItems():
         for items in itemRow:
             # if the item has colspan attribute, it is a header
             properties = items.find_elements(by="xpath", value='.//th')
+            itemProperties = items.find_elements(by="xpath", value='.//td')
+            content = []
 
             # skipping column header titles
             if(skipSection):
                 skipSection = False
                 continue
+            if(len(itemProperties) > 0):
+                properties = itemProperties
             for property in properties:
                 # if it has a property, it's the header for the section
                 # also skip next item because it will just be column headers
@@ -89,19 +97,15 @@ def scrapeItems():
                     hasHeader = True
                     print(property.text)
                 else:
+                    if(not hasHeader):
+                        break
                     isItem = True
-                    content = property.text
-                    content[iteration] = property.text
-                iteration += 1
-            
-            if(not hasHeader):
-                # if after first item no header, then skip the table
-                break
+                    content.append(property.text)
+                    print(property.text)
             
             # append to list
             if(isItem):
                 addWeapon(content[0], content[1], content[2], content[3], content[4], sectionName)
-        iteration = 0
 
         if(not hasHeader):
             continue

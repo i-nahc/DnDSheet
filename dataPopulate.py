@@ -75,7 +75,10 @@ def addWeapon(inName: str, inCost: str, inDamage: str, inWeight: str, inProperti
     itemHead = etree.Element("item", name = inName, category = "weapon")
     damageHead = etree.SubElement(itemHead, "damageDies")
     damageList = inDamage.lower().split()
-    etree.SubElement(damageHead, "damage", tag = "default", value = damageList[0], type = damageList[1])
+    if (len(damageList) > 1):
+        etree.SubElement(damageHead, "damage", tag = "default", value = damageList[0], type = damageList[1])
+    else:
+        etree.SubElement(damageHead, "damage", tag = "default", value = "null", type = "null")
     propertiesHead = etree.SubElement(itemHead, "properties")
 
     # check properties for versatile damage
@@ -92,8 +95,8 @@ def addWeapon(inName: str, inCost: str, inDamage: str, inWeight: str, inProperti
         else:
             etree.SubElement(propertiesHead, "property", value = property)
     
-    weight = etree.SubElement(itemHead, "weight", inWeight)
-    cost = etree.SubElement(itemHead, "cost", inCost)
+    weight = etree.SubElement(itemHead, "weight", value = inWeight)
+    cost = etree.SubElement(itemHead, "cost", value = inCost)
 
     root.append(itemHead)
     tree = etree.ElementTree(root)

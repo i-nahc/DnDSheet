@@ -1,0 +1,491 @@
+<itemList>
+  <item name="Club" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d4" type="bludgeoning"/>
+    </damageDies>
+    <properties>
+      <property value="light"/>
+    </properties>
+    <proficiency mainType="simple" attType="melee" value="club"/>
+    <weight value="2 lb."/>
+    <cost value="1 sp"/>
+  </item>
+  <item name="Dagger" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d4" type="piercing"/>
+    </damageDies>
+    <properties>
+      <property value="finesse"/>
+      <property value="light"/>
+      <property value="thrown (20/60)"/>
+    </properties>
+    <proficiency mainType="simple" attType="melee" value="dagger"/>
+    <weight value="1 lb."/>
+    <cost value="2 gp"/>
+  </item>
+  <item name="Greatclub" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d8" type="bludgeoning"/>
+    </damageDies>
+    <properties>
+      <property value="two-handed"/>
+    </properties>
+    <proficiency mainType="simple" attType="melee" value="greatclub"/>
+    <weight value="10 lb."/>
+    <cost value="2 sp"/>
+  </item>
+  <item name="Handaxe" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d6" type="slashing"/>
+    </damageDies>
+    <properties>
+      <property value="light"/>
+      <property value="thrown (20/60)"/>
+    </properties>
+    <proficiency mainType="simple" attType="melee" value="handaxe"/>
+    <weight value="2 lb."/>
+    <cost value="5 gp"/>
+  </item>
+  <item name="Javelin" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d6" type="piercing"/>
+    </damageDies>
+    <properties>
+      <property value="thrown (30/120)"/>
+    </properties>
+    <proficiency mainType="simple" attType="melee" value="javelin"/>
+    <weight value="2 lb."/>
+    <cost value="5 sp"/>
+  </item>
+  <item name="Light hammer" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d4" type="bludgeoning"/>
+    </damageDies>
+    <properties>
+      <property value="light"/>
+      <property value="thrown (20/60)"/>
+    </properties>
+    <proficiency mainType="simple" attType="melee" value="light hammer"/>
+    <weight value="2 lb."/>
+    <cost value="2 gp"/>
+  </item>
+  <item name="Mace" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d6" type="bludgeoning"/>
+    </damageDies>
+    <properties>
+      <property value="&#8212;"/>
+    </properties>
+    <proficiency mainType="simple" attType="melee" value="mace"/>
+    <weight value="4 lb."/>
+    <cost value="5 gp"/>
+  </item>
+  <item name="Quarterstaff" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d6" type="bludgeoning"/>
+      <damage tag="versatile" value="1d8" type="bludgeoning"/>
+    </damageDies>
+    <properties>
+      <property value="versatile"/>
+    </properties>
+    <proficiency mainType="simple" attType="melee" value="quarterstaff"/>
+    <weight value="4 lb."/>
+    <cost value="2 sp"/>
+  </item>
+  <item name="Sickle" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d4" type="slashing"/>
+    </damageDies>
+    <properties>
+      <property value="light"/>
+    </properties>
+    <proficiency mainType="simple" attType="melee" value="sickle"/>
+    <weight value="2 lb."/>
+    <cost value="1 gp"/>
+  </item>
+  <item name="Spear" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d6" type="piercing"/>
+      <damage tag="versatile" value="1d8" type="piercing"/>
+    </damageDies>
+    <properties>
+      <property value="thrown (20/60)"/>
+      <property value="versatile"/>
+    </properties>
+    <proficiency mainType="simple" attType="melee" value="spear"/>
+    <weight value="3 lb."/>
+    <cost value="1 gp"/>
+  </item>
+  <item name="Crossbow, light" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d8" type="piercing"/>
+    </damageDies>
+    <properties>
+      <property value="ammunition"/>
+      <property value="range (80/320)"/>
+      <property value="loading"/>
+      <property value="two-handed"/>
+    </properties>
+    <proficiency mainType="simple" attType="ranged" value="crossbow, light"/>
+    <weight value="5 lb."/>
+    <cost value="25 gp"/>
+  </item>
+  <item name="Dart" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d4" type="piercing"/>
+    </damageDies>
+    <properties>
+      <property value="finesse"/>
+      <property value="thrown (20/60)"/>
+    </properties>
+    <proficiency mainType="simple" attType="ranged" value="dart"/>
+    <weight value="1/4 lb."/>
+    <cost value="5 cp"/>
+  </item>
+  <item name="Shortbow" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d6" type="piercing"/>
+    </damageDies>
+    <properties>
+      <property value="ammunition"/>
+      <property value="range (80/320)"/>
+      <property value="two-handed"/>
+    </properties>
+    <proficiency mainType="simple" attType="ranged" value="shortbow"/>
+    <weight value="2 lb."/>
+    <cost value="25 gp"/>
+  </item>
+  <item name="Sling" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d4" type="bludgeoning"/>
+    </damageDies>
+    <properties>
+      <property value="ammunition"/>
+      <property value="range (30/120)"/>
+    </properties>
+    <proficiency mainType="simple" attType="ranged" value="sling"/>
+    <weight value="&#8212;"/>
+    <cost value="1 sp"/>
+  </item>
+  <item name="Battleaxe" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d8" type="slashing"/>
+      <damage tag="versatile" value="1d10" type="slashing"/>
+    </damageDies>
+    <properties>
+      <property value="versatile"/>
+    </properties>
+    <proficiency mainType="martial" attType="melee" value="battleaxe"/>
+    <weight value="4 lb."/>
+    <cost value="10 gp"/>
+  </item>
+  <item name="Flail" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d8" type="bludgeoning"/>
+    </damageDies>
+    <properties>
+      <property value="&#8212;"/>
+    </properties>
+    <proficiency mainType="martial" attType="melee" value="flail"/>
+    <weight value="2 lb."/>
+    <cost value="10 gp"/>
+  </item>
+  <item name="Glaive" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d10" type="slashing"/>
+    </damageDies>
+    <properties>
+      <property value="heavy"/>
+      <property value="reach"/>
+      <property value="two-handed"/>
+    </properties>
+    <proficiency mainType="martial" attType="melee" value="glaive"/>
+    <weight value="6 lb."/>
+    <cost value="20 gp"/>
+  </item>
+  <item name="Greataxe" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d12" type="slashing"/>
+    </damageDies>
+    <properties>
+      <property value="heavy"/>
+      <property value="two-handed"/>
+    </properties>
+    <proficiency mainType="martial" attType="melee" value="greataxe"/>
+    <weight value="7 lb."/>
+    <cost value="30 gp"/>
+  </item>
+  <item name="Greatsword" category="weapon">
+    <damageDies>
+      <damage tag="default" value="2d6" type="slashing"/>
+    </damageDies>
+    <properties>
+      <property value="heavy"/>
+      <property value="two-handed"/>
+    </properties>
+    <proficiency mainType="martial" attType="melee" value="greatsword"/>
+    <weight value="6 lb."/>
+    <cost value="50 gp"/>
+  </item>
+  <item name="Halberd" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d10" type="slashing"/>
+    </damageDies>
+    <properties>
+      <property value="heavy"/>
+      <property value="reach"/>
+      <property value="two-handed"/>
+    </properties>
+    <proficiency mainType="martial" attType="melee" value="halberd"/>
+    <weight value="6 lb."/>
+    <cost value="20 gp"/>
+  </item>
+  <item name="Lance" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d12" type="piercing"/>
+    </damageDies>
+    <properties>
+      <property value="reach"/>
+      <property value="special"/>
+    </properties>
+    <proficiency mainType="martial" attType="melee" value="lance"/>
+    <weight value="6 lb."/>
+    <cost value="10 gp"/>
+  </item>
+  <item name="Longsword" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d8" type="slashing"/>
+      <damage tag="versatile" value="1d10" type="slashing"/>
+    </damageDies>
+    <properties>
+      <property value="versatile"/>
+    </properties>
+    <proficiency mainType="martial" attType="melee" value="longsword"/>
+    <weight value="3 lb."/>
+    <cost value="15 gp"/>
+  </item>
+  <item name="Maul" category="weapon">
+    <damageDies>
+      <damage tag="default" value="2d6" type="bludgeoning"/>
+    </damageDies>
+    <properties>
+      <property value="heavy"/>
+      <property value="two-handed"/>
+    </properties>
+    <proficiency mainType="martial" attType="melee" value="maul"/>
+    <weight value="10 lb."/>
+    <cost value="10 gp"/>
+  </item>
+  <item name="Morningstar" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d8" type="piercing"/>
+    </damageDies>
+    <properties>
+      <property value="&#8212;"/>
+    </properties>
+    <proficiency mainType="martial" attType="melee" value="morningstar"/>
+    <weight value="4 lb."/>
+    <cost value="15 gp"/>
+  </item>
+  <item name="Pike" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d10" type="piercing"/>
+    </damageDies>
+    <properties>
+      <property value="heavy"/>
+      <property value="reach"/>
+      <property value="two-handed"/>
+    </properties>
+    <proficiency mainType="martial" attType="melee" value="pike"/>
+    <weight value="18 lb."/>
+    <cost value="5 gp"/>
+  </item>
+  <item name="Rapier" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d8" type="piercing"/>
+    </damageDies>
+    <properties>
+      <property value="finesse"/>
+    </properties>
+    <proficiency mainType="martial" attType="melee" value="rapier"/>
+    <weight value="2 lb."/>
+    <cost value="25 gp"/>
+  </item>
+  <item name="Scimitar" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d6" type="slashing"/>
+    </damageDies>
+    <properties>
+      <property value="finesse"/>
+      <property value="light"/>
+    </properties>
+    <proficiency mainType="martial" attType="melee" value="scimitar"/>
+    <weight value="3 lb."/>
+    <cost value="25 gp"/>
+  </item>
+  <item name="Shortsword" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d6" type="piercing"/>
+    </damageDies>
+    <properties>
+      <property value="finesse"/>
+      <property value="light"/>
+    </properties>
+    <proficiency mainType="martial" attType="melee" value="shortsword"/>
+    <weight value="2 lb."/>
+    <cost value="10 gp"/>
+  </item>
+  <item name="Trident" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d6" type="piercing"/>
+      <damage tag="versatile" value="1d8" type="piercing"/>
+    </damageDies>
+    <properties>
+      <property value="thrown (20/60)"/>
+      <property value="versatile"/>
+    </properties>
+    <proficiency mainType="martial" attType="melee" value="trident"/>
+    <weight value="4 lb."/>
+    <cost value="5 gp"/>
+  </item>
+  <item name="War pick" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d8" type="piercing"/>
+    </damageDies>
+    <properties>
+      <property value="&#8212;"/>
+    </properties>
+    <proficiency mainType="martial" attType="melee" value="war pick"/>
+    <weight value="2 lb."/>
+    <cost value="5 gp"/>
+  </item>
+  <item name="Warhammer" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d8" type="bludgeoning"/>
+      <damage tag="versatile" value="1d10" type="bludgeoning"/>
+    </damageDies>
+    <properties>
+      <property value="versatile"/>
+    </properties>
+    <proficiency mainType="martial" attType="melee" value="warhammer"/>
+    <weight value="2 lb."/>
+    <cost value="15 gp"/>
+  </item>
+  <item name="Whip" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d4" type="slashing"/>
+    </damageDies>
+    <properties>
+      <property value="finesse"/>
+      <property value="reach"/>
+    </properties>
+    <proficiency mainType="martial" attType="melee" value="whip"/>
+    <weight value="3 lb."/>
+    <cost value="2 gp"/>
+  </item>
+  <item name="Blowgun" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1" type="piercing"/>
+    </damageDies>
+    <properties>
+      <property value="ammunition"/>
+      <property value="range (25/100)"/>
+      <property value="loading"/>
+    </properties>
+    <proficiency mainType="martial" attType="ranged" value="blowgun"/>
+    <weight value="1 lb."/>
+    <cost value="10 gp"/>
+  </item>
+  <item name="Crossbow, hand" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d6" type="piercing"/>
+    </damageDies>
+    <properties>
+      <property value="ammunition"/>
+      <property value="range (30/120)"/>
+      <property value="light"/>
+      <property value="loading"/>
+    </properties>
+    <proficiency mainType="martial" attType="ranged" value="crossbow, hand"/>
+    <weight value="3 lb."/>
+    <cost value="75 gp"/>
+  </item>
+  <item name="Crossbow, heavy" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d10" type="piercing"/>
+    </damageDies>
+    <properties>
+      <property value="ammunition"/>
+      <property value="range (100/400)"/>
+      <property value="heavy"/>
+      <property value="loading"/>
+      <property value="two-handed"/>
+    </properties>
+    <proficiency mainType="martial" attType="ranged" value="crossbow, heavy"/>
+    <weight value="18 lb."/>
+    <cost value="50 gp"/>
+  </item>
+  <item name="Longbow" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d8" type="piercing"/>
+    </damageDies>
+    <properties>
+      <property value="ammunition"/>
+      <property value="range (150/600)"/>
+      <property value="heavy"/>
+      <property value="two-handed"/>
+    </properties>
+    <proficiency mainType="martial" attType="ranged" value="longbow"/>
+    <weight value="2 lb."/>
+    <cost value="50 gp"/>
+  </item>
+  <item name="Net" category="weapon">
+    <damageDies>
+      <damage tag="default" value="null" type="null"/>
+    </damageDies>
+    <properties>
+      <property value="special"/>
+      <property value="thrown (5/15)"/>
+    </properties>
+    <proficiency mainType="martial" attType="ranged" value="net"/>
+    <weight value="3 lb."/>
+    <cost value="1 gp"/>
+  </item>
+  <item name="Yklwa" category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d8" type="piercing"/>
+    </damageDies>
+    <properties>
+      <property value="thrown (10/30)"/>
+    </properties>
+    <proficiency mainType="simple" attType="melee" value="yklwa"/>
+    <weight value="3 lb."/>
+    <cost value="1 gp"/>
+  </item>
+  <item name="Hoopak&#10;* A hoopak is a sturdy stick with a sling at one end and a pointed tip at the other." category="weapon">
+    <damageDies>
+      <damage tag="default" value="1d6" type="piercing"/>
+    </damageDies>
+    <properties>
+      <property value="ammunition (range 40/160)"/>
+      <property value="finesse"/>
+      <property value="special"/>
+      <property value="two-handed"/>
+    </properties>
+    <proficiency mainType="martial" attType="melee" value="hoopak&#10;* a hoopak is a sturdy stick with a sling at one end and a pointed tip at the other."/>
+    <weight value="2 lb."/>
+    <cost value="1 gp"/>
+  </item>
+  <item name="Double-Bladed Scimitar" category="weapon">
+    <damageDies>
+      <damage tag="default" value="2d4" type="slashing"/>
+    </damageDies>
+    <properties>
+      <property value="special"/>
+      <property value="two-handed"/>
+    </properties>
+    <proficiency mainType="martial" attType="melee" value="double-bladed scimitar"/>
+    <weight value="6 lb."/>
+    <cost value="100 gp"/>
+  </item>
+</itemList>
