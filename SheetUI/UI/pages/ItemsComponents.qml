@@ -134,7 +134,7 @@ Rectangle{
             Text{
                 leftPadding: 15
                 anchors.fill: parent
-                text: "Placeholder"
+                text: category
                 font.family: Style.primaryFont.name
                 color: "white"
                 clip: true
@@ -149,7 +149,7 @@ Rectangle{
             Text{
                 leftPadding: 15
                 anchors.fill: parent
-                text: "Placeholder"
+                text: cost
                 font.family: Style.primaryFont.name
                 color: "white"
                 clip: true
@@ -164,7 +164,7 @@ Rectangle{
             Text{
                 leftPadding: 15
                 anchors.fill: parent
-                text: "Placeholder"
+                text: stats
                 font.family: Style.primaryFont.name
                 color: "white"
                 clip: true
@@ -179,7 +179,7 @@ Rectangle{
             Text{
                 leftPadding: 15
                 anchors.fill: parent
-                text: "Placeholder"
+                text: weight
                 font.family: Style.primaryFont.name
                 color: "white"
                 clip: true
@@ -194,7 +194,7 @@ Rectangle{
             Text{
                 leftPadding: 15
                 anchors.fill: parent
-                text: "Placeholder"
+                text: properties
                 font.family: Style.primaryFont.name
                 color: "white"
                 clip: true

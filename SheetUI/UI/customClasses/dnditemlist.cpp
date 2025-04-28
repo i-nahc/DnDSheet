@@ -24,9 +24,34 @@ DNDItemList::DNDItemList(QObject *parent)
         QString wepType = item.child("proficiency").attribute("value").value();
         QString cost = item.child("cost").attribute("value").value();
         QString weight = item.child("weight").attribute("value").value();
+        QString propertyString = "";
+        bool firstProp = true;
+
+        pugi::xml_node damageList = item.child("damageDies");
+        for(pugi::xml_node damage = damageList.first_child(); damage; damage = damage.next_sibling())
+        {
+            qInfo() << damage.attribute("tag").value();
+        }
+
+        pugi::xml_node propertyList = item.child("properties");
+        for(pugi::xml_node property = propertyList.first_child(); property; property = property.next_sibling())
+        {
+            if(firstProp)
+            {
+                propertyString.append(property.attribute("value").value());
+                firstProp = false;
+            }
+            else
+            {
+                propertyString.append(", ");
+                propertyString.append(property.attribute("value").value());
+            }
+            qInfo() << property.attribute("value").value();
+        }
+
         qInfo() << itemName;
 
-        m_items.append(new DNDItem(uuid, itemName, wepType, cost, "damageList", "propertyList", weight, "1", "1", this));
+        m_items.append(new DNDItem(uuid, itemName, wepType, cost, "damageList", propertyString, weight, "1", "1", this));
     }
 }
 
