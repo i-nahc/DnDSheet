@@ -239,7 +239,7 @@ Item {
                         model: itemsManager
                         spacing: 0
                         delegate: ItemsComponents{
-                            width: parent.width
+                            width: itemListParent.width
                             height: 40
                         }
                     }

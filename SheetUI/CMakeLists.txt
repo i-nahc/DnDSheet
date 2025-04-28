@@ -28,6 +28,7 @@ qt_add_qml_module(appSheetUI
         RESOURCES icons.qrc
         SOURCES backend.h backend.cpp
         SOURCES UI/customClasses/dnditemlist.h UI/customClasses/dnditemlist.cpp
+        SOURCES UI/customClasses/dnditem.h UI/customClasses/dnditem.cpp
         QML_FILES
         QML_FILES UI/settings/Style.qml
         QML_FILES UI/resNavBar/WheelMenu.qml
@@ -40,8 +41,6 @@ qt_add_qml_module(appSheetUI
         QML_FILES UI/navigation/ChangelogList.qml
         QML_FILES UI/pages/Items.qml
         QML_FILES UI/pages/ItemsComponents.qml
-        SOURCES UI/customClasses/dnditem.h UI/customClasses/dnditem.cpp
-
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
@@ -55,9 +54,15 @@ set_target_properties(appSheetUI PROPERTIES
     WIN32_EXECUTABLE TRUE
 )
 
+add_subdirectory(includes/pugixml)
+
 target_link_libraries(appSheetUI
     PRIVATE Qt6::Quick
     PRIVATE Qt6::Core5Compat
+)
+
+target_link_libraries(appSheetUI
+    PRIVATE pugixml-static
 )
 
 include(GNUInstallDirs)

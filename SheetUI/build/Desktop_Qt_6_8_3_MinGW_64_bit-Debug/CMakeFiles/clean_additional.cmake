@@ -6,5 +6,8 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "Debug")
   "CMakeFiles\\appSheetUI_autogen.dir\\AutogenUsed.txt"
   "CMakeFiles\\appSheetUI_autogen.dir\\ParseCache.txt"
   "appSheetUI_autogen"
+  "includes\\pugixml\\CMakeFiles\\pugixml-static_autogen.dir\\AutogenUsed.txt"
+  "includes\\pugixml\\CMakeFiles\\pugixml-static_autogen.dir\\ParseCache.txt"
+  "includes\\pugixml\\pugixml-static_autogen"
   )
 endif()

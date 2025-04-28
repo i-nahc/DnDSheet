@@ -54,7 +54,7 @@
                     "required": false,
                     "scriptable": true,
                     "stored": true,
-                    "type": "int",
+                    "type": "QString",
                     "user": false
                 },
                 {
@@ -80,7 +80,7 @@
                     "required": false,
                     "scriptable": true,
                     "stored": true,
-                    "type": "QList<QString>",
+                    "type": "QString",
                     "user": false
                 },
                 {
@@ -93,7 +93,7 @@
                     "required": false,
                     "scriptable": true,
                     "stored": true,
-                    "type": "int",
+                    "type": "QString",
                     "user": false
                 },
                 {

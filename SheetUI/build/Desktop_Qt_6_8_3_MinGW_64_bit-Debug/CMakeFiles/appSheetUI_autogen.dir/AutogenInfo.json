@@ -906,6 +906,7 @@
 	"MOC_INCLUDES" : 
 	[
 		"D:/DevTools/Projects/DnDSheet/SheetUI",
+		"D:/DevTools/Projects/DnDSheet/SheetUI/includes/pugixml/src",
 		"C:/Qt/6.8.3/mingw_64/include/QtQml/6.8.3",
 		"C:/Qt/6.8.3/mingw_64/include/QtQml/6.8.3/QtQml",
 		"C:/Qt/6.8.3/mingw_64/include/QtCore/6.8.3",

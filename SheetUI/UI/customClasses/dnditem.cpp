@@ -1,6 +1,6 @@
 #include "dnditem.h"
 
-DNDItem::DNDItem(QString ID, const QString &name, const QString &category, const int &cost, const QString &stats, const QList<QString> &properties, const int &weight, const QString &iconName, const QString &statIconName, QObject *parent)
+DNDItem::DNDItem(QString ID, const QString &name, const QString &category, const QString &cost, const QString &stats, const QString &properties, const QString &weight, const QString &iconName, const QString &statIconName, QObject *parent)
 :   QObject(parent),
     m_ID(ID),
     m_Name(name),
@@ -30,7 +30,7 @@ const QString &DNDItem::category() const
     return m_Category;
 }
 
-const int &DNDItem::cost() const
+const QString &DNDItem::cost() const
 {
     return m_Cost;
 }
@@ -40,12 +40,12 @@ const QString &DNDItem::stats() const
     return m_Stats;
 }
 
-const QList<QString> &DNDItem::properties() const
+const QString &DNDItem::properties() const
 {
     return m_Properties;
 }
 
-const int &DNDItem::weight() const
+const QString &DNDItem::weight() const
 {
     return m_Weight;
 }

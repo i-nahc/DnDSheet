@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//Build shared instead of static library
+BUILD_SHARED_LIBS:BOOL=OFF
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/Qt/Tools/mingw1310_64/bin/addr2line.exe
 
@@ -294,6 +297,27 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Build defines for custom options
+PUGIXML_BUILD_DEFINES:STRING=
+
+//Enable compact mode
+PUGIXML_COMPACT:BOOL=OFF
+
+//Enable installation rules
+PUGIXML_INSTALL:BOOL=ON
+
+//Disable Exceptions
+PUGIXML_NO_EXCEPTIONS:BOOL=OFF
+
+//Disable STL
+PUGIXML_NO_STL:BOOL=OFF
+
+//Disable XPath
+PUGIXML_NO_XPATH:BOOL=OFF
+
+//Enable wchar_t mode
+PUGIXML_WCHAR_MODE:BOOL=OFF
+
 //Additional directories where find(Qt6 ...) host Qt components
 // are searched
 QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH:STRING=
@@ -405,6 +429,15 @@ Vulkan_LIBRARY:FILEPATH=Vulkan_LIBRARY-NOTFOUND
 
 //Path to a program.
 WINDEPLOYQT_EXECUTABLE:FILEPATH=C:/Qt/6.8.3/mingw_64/bin/windeployqt.exe
+
+//Value Computed by CMake
+pugixml_BINARY_DIR:STATIC=D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/includes/pugixml
+
+//Value Computed by CMake
+pugixml_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+pugixml_SOURCE_DIR:STATIC=D:/DevTools/Projects/DnDSheet/SheetUI/includes/pugixml
 
 
 ########################
@@ -525,7 +558,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -587,6 +620,12 @@ FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 FIND_PACKAGE_MESSAGE_DETAILS_WrapAtomic:INTERNAL=[1][v()]
 //Test HAVE_STDATOMIC
 HAVE_STDATOMIC:INTERNAL=1
+//ADVANCED property for variable: PUGIXML_NO_EXCEPTIONS
+PUGIXML_NO_EXCEPTIONS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PUGIXML_NO_STL
+PUGIXML_NO_STL-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PUGIXML_NO_XPATH
+PUGIXML_NO_XPATH-ADVANCED:INTERNAL=1
 //Qt feature: accessibility (from target Qt6::Gui)
 QT_FEATURE_accessibility:INTERNAL=ON
 //Qt feature: accessibility_atspi_bridge (from target Qt6::Gui)
