@@ -1,5 +1,5 @@
 <classList>
-  <class name="Artificer">
+  <class name="Artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6">
     <classInternalName name="artificer"/>
     <classDesc>Makers of magic-infused objects, artificers are defined by their inventive nature. They see magic as a complex system waiting to be decoded and controlled. Instead of ephemeral spells, they seek to craft durable, useful, marvelous magical items.</classDesc>
     <subclassList count="4">
@@ -9,7 +9,7 @@
       <subclass name="artificer:battle-smith">Battle Smith</subclass>
     </subclassList>
   </class>
-  <class name="Barbarian">
+  <class name="Barbarian" UUID="43c16959-6831-47a1-b4a3-bdda634f2ed4">
     <classInternalName name="barbarian"/>
     <classDesc>For some, their rage springs from a communion with fierce animal spirits. Others draw from a roiling reservoir of anger at a world full of pain. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.</classDesc>
     <subclassList count="9">
@@ -24,7 +24,7 @@
       <subclass name="barbarian:zealot">Path of the Zealot</subclass>
     </subclassList>
   </class>
-  <class name="Bard">
+  <class name="Bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3">
     <classInternalName name="bard"/>
     <classDesc>Whether scholar, skald, or scoundrel, a bard weaves magic through words and music to inspire allies, demoralize foes, manipulate minds, create illusions, and even heal wounds. The bard is a master of song, speech, and the magic they contain.</classDesc>
     <subclassList count="8">
@@ -38,7 +38,7 @@
       <subclass name="bard:whispers">College of Whispers</subclass>
     </subclassList>
   </class>
-  <class name="Cleric">
+  <class name="Cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef">
     <classInternalName name="cleric"/>
     <classDesc>Clerics are intermediaries between the mortal world and the distant planes of the gods. As varied as the gods they serve, clerics strive to embody the handiwork of their deities. No ordinary priest, a cleric is imbued with divine magic.</classDesc>
     <subclassList count="14">
@@ -58,7 +58,7 @@
       <subclass name="cleric:war">War Domain</subclass>
     </subclassList>
   </class>
-  <class name="Druid">
+  <class name="Druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2">
     <classInternalName name="druid"/>
     <classDesc>Whether calling on the elemental forces of nature or emulating the creatures of the animal world, druids are an embodiment of nature's resilience, cunning, and fury. They claim no mastery over nature, but see themselves as extensions of nature's indomitable will.</classDesc>
     <subclassList count="7">
@@ -71,7 +71,7 @@
       <subclass name="druid:wildfire">Circle of Wildfire</subclass>
     </subclassList>
   </class>
-  <class name="Fighter">
+  <class name="Fighter" UUID="86ad58ae-094e-4fac-88a1-52d14681df89">
     <classInternalName name="fighter"/>
     <classDesc>Fighters share an unparalleled mastery with weapons and armor, and a thorough knowledge of the skills of combat. They are well acquainted with death, both meting it out and staring it defiantly in the face.</classDesc>
     <subclassList count="10">
@@ -87,7 +87,7 @@
       <subclass name="fighter:samurai">Samurai</subclass>
     </subclassList>
   </class>
-  <class name="Monk">
+  <class name="Monk" UUID="575bf2a1-a90e-479e-b454-8696d6fdbe9f">
     <classInternalName name="monk"/>
     <classDesc>Monks are united in their ability to magically harness the energy that flows in their bodies. Whether channeled as a striking display of combat prowess or a subtler focus of defensive ability and speed, this energy infuses all that a monk does.</classDesc>
     <subclassList count="10">
@@ -103,7 +103,7 @@
       <subclass name="monk:sun-soul">Way of the Sun Soul</subclass>
     </subclassList>
   </class>
-  <class name="Paladin">
+  <class name="Paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c">
     <classInternalName name="paladin"/>
     <classDesc>Whether sworn before a god's altar and the witness of a priest, in a sacred glade before nature spirits and fey beings, or in a moment of desperation and grief with the dead as the only witness, a paladin's oath is a powerful bond.</classDesc>
     <subclassList count="9">
@@ -118,7 +118,7 @@
       <subclass name="paladin:oathbreaker">Oathbreaker</subclass>
     </subclassList>
   </class>
-  <class name="Ranger">
+  <class name="Ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502">
     <classInternalName name="ranger"/>
     <classDesc>Far from the bustle of cities and towns, past the hedges that shelter the most distant farms from the terrors of the wild, amid the dense-packed trees of trackless forests and across wide and empty plains, rangers keep their unending watch.</classDesc>
     <subclassList count="8">
@@ -132,7 +132,7 @@
       <subclass name="ranger:swarmkeeper">Swarmkeeper</subclass>
     </subclassList>
   </class>
-  <class name="Rogue">
+  <class name="Rogue" UUID="883d0b75-e78e-44d6-a36f-e10bf3102032">
     <classInternalName name="rogue"/>
     <classDesc>Rogues rely on skill, stealth, and their foes' vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a resourcefulness and versatility that is the cornerstone of any successful adventuring party.</classDesc>
     <subclassList count="9">
@@ -147,7 +147,7 @@
       <subclass name="rogue:thief">Thief</subclass>
     </subclassList>
   </class>
-  <class name="Sorcerer">
+  <class name="Sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a">
     <classInternalName name="sorcerer"/>
     <classDesc>Sorcerers carry a magical birthright conferred upon them by an exotic bloodline, some otherworldly influence, or exposure to unknown cosmic forces. No one chooses sorcery; the power chooses the sorcerer.</classDesc>
     <subclassList count="8">
@@ -161,7 +161,7 @@
       <subclass name="sorcerer:wild-magic">Wild Magic</subclass>
     </subclassList>
   </class>
-  <class name="Warlock">
+  <class name="Warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e">
     <classInternalName name="warlock"/>
     <classDesc>Warlocks are seekers of the knowledge that lies hidden in the fabric of the multiverse. Through pacts made with mysterious beings of supernatural power, warlocks unlock magical effects both subtle and spectacular.</classDesc>
     <subclassList count="9">
@@ -176,7 +176,7 @@
       <subclass name="warlock:undying">Undying</subclass>
     </subclassList>
   </class>
-  <class name="Wizard">
+  <class name="Wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869">
     <classInternalName name="wizard"/>
     <classDesc>Wizards are supreme magic-users, defined and united as a class by the spells they cast. Drawing on the subtle weave of magic that permeates the cosmos, wizards cast spells of explosive fire, arcing lightning, subtle deception, brute-force mind control, and much more.</classDesc>
     <subclassList count="13">

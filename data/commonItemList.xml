@@ -1,5 +1,5 @@
 <itemList>
-  <item name="Club" category="weapon">
+  <item name="Club" category="weapon" UUID="552b66ff-76b9-4629-a94b-3cba5f0d2bf5">
     <damageDies>
       <damage tag="default" value="1d4" type="bludgeoning"/>
     </damageDies>
@@ -10,7 +10,7 @@
     <weight value="2 lb."/>
     <cost value="1 sp"/>
   </item>
-  <item name="Dagger" category="weapon">
+  <item name="Dagger" category="weapon" UUID="7e8a07ba-7fa6-4fc1-8fa7-c65ba9945d46">
     <damageDies>
       <damage tag="default" value="1d4" type="piercing"/>
     </damageDies>
@@ -23,7 +23,7 @@
     <weight value="1 lb."/>
     <cost value="2 gp"/>
   </item>
-  <item name="Greatclub" category="weapon">
+  <item name="Greatclub" category="weapon" UUID="5a187a40-730b-4945-aa31-acbf8b1538c1">
     <damageDies>
       <damage tag="default" value="1d8" type="bludgeoning"/>
     </damageDies>
@@ -34,7 +34,7 @@
     <weight value="10 lb."/>
     <cost value="2 sp"/>
   </item>
-  <item name="Handaxe" category="weapon">
+  <item name="Handaxe" category="weapon" UUID="d641661f-ed70-4fdd-8a92-bd8e2555bda8">
     <damageDies>
       <damage tag="default" value="1d6" type="slashing"/>
     </damageDies>
@@ -46,7 +46,7 @@
     <weight value="2 lb."/>
     <cost value="5 gp"/>
   </item>
-  <item name="Javelin" category="weapon">
+  <item name="Javelin" category="weapon" UUID="4a46cf43-9158-47e5-84e6-000397b34a40">
     <damageDies>
       <damage tag="default" value="1d6" type="piercing"/>
     </damageDies>
@@ -57,7 +57,7 @@
     <weight value="2 lb."/>
     <cost value="5 sp"/>
   </item>
-  <item name="Light hammer" category="weapon">
+  <item name="Light hammer" category="weapon" UUID="5dd05c59-45e4-47cd-b8e7-f9cec593febd">
     <damageDies>
       <damage tag="default" value="1d4" type="bludgeoning"/>
     </damageDies>
@@ -69,18 +69,16 @@
     <weight value="2 lb."/>
     <cost value="2 gp"/>
   </item>
-  <item name="Mace" category="weapon">
+  <item name="Mace" category="weapon" UUID="a3079f06-c873-4d00-9827-e8b798f57bfa">
     <damageDies>
       <damage tag="default" value="1d6" type="bludgeoning"/>
     </damageDies>
-    <properties>
-      <property value="&#8212;"/>
-    </properties>
+    <properties/>
     <proficiency mainType="simple" attType="melee" value="mace"/>
     <weight value="4 lb."/>
     <cost value="5 gp"/>
   </item>
-  <item name="Quarterstaff" category="weapon">
+  <item name="Quarterstaff" category="weapon" UUID="ee146858-c3e3-4459-9060-b6d840dda00c">
     <damageDies>
       <damage tag="default" value="1d6" type="bludgeoning"/>
       <damage tag="versatile" value="1d8" type="bludgeoning"/>
@@ -92,7 +90,7 @@
     <weight value="4 lb."/>
     <cost value="2 sp"/>
   </item>
-  <item name="Sickle" category="weapon">
+  <item name="Sickle" category="weapon" UUID="c329c86d-ae9c-4f6d-88fc-8a5d9a3aa22b">
     <damageDies>
       <damage tag="default" value="1d4" type="slashing"/>
     </damageDies>
@@ -103,7 +101,7 @@
     <weight value="2 lb."/>
     <cost value="1 gp"/>
   </item>
-  <item name="Spear" category="weapon">
+  <item name="Spear" category="weapon" UUID="f0176161-8d4b-463d-be34-cc66c8bee1b4">
     <damageDies>
       <damage tag="default" value="1d6" type="piercing"/>
       <damage tag="versatile" value="1d8" type="piercing"/>
@@ -116,7 +114,7 @@
     <weight value="3 lb."/>
     <cost value="1 gp"/>
   </item>
-  <item name="Crossbow, light" category="weapon">
+  <item name="Crossbow, light" category="weapon" UUID="3f1b868c-3122-480a-86e0-9c7ea990974e">
     <damageDies>
       <damage tag="default" value="1d8" type="piercing"/>
     </damageDies>
@@ -130,7 +128,7 @@
     <weight value="5 lb."/>
     <cost value="25 gp"/>
   </item>
-  <item name="Dart" category="weapon">
+  <item name="Dart" category="weapon" UUID="b2912ede-ddf7-4814-8b83-e31e189c5a74">
     <damageDies>
       <damage tag="default" value="1d4" type="piercing"/>
     </damageDies>
@@ -142,7 +140,7 @@
     <weight value="1/4 lb."/>
     <cost value="5 cp"/>
   </item>
-  <item name="Shortbow" category="weapon">
+  <item name="Shortbow" category="weapon" UUID="0b767725-9a10-4c63-8b88-6fc1fe7702f0">
     <damageDies>
       <damage tag="default" value="1d6" type="piercing"/>
     </damageDies>
@@ -155,7 +153,7 @@
     <weight value="2 lb."/>
     <cost value="25 gp"/>
   </item>
-  <item name="Sling" category="weapon">
+  <item name="Sling" category="weapon" UUID="5467f304-ba01-49d2-8086-f67f1a4449aa">
     <damageDies>
       <damage tag="default" value="1d4" type="bludgeoning"/>
     </damageDies>
@@ -164,10 +162,10 @@
       <property value="range (30/120)"/>
     </properties>
     <proficiency mainType="simple" attType="ranged" value="sling"/>
-    <weight value="&#8212;"/>
+    <weight value="null"/>
     <cost value="1 sp"/>
   </item>
-  <item name="Battleaxe" category="weapon">
+  <item name="Battleaxe" category="weapon" UUID="296a56a9-05b4-48f7-b50b-a4e10aa42b33">
     <damageDies>
       <damage tag="default" value="1d8" type="slashing"/>
       <damage tag="versatile" value="1d10" type="slashing"/>
@@ -179,18 +177,16 @@
     <weight value="4 lb."/>
     <cost value="10 gp"/>
   </item>
-  <item name="Flail" category="weapon">
+  <item name="Flail" category="weapon" UUID="8067fad5-1317-4b61-9f41-df64ba5f9213">
     <damageDies>
       <damage tag="default" value="1d8" type="bludgeoning"/>
     </damageDies>
-    <properties>
-      <property value="&#8212;"/>
-    </properties>
+    <properties/>
     <proficiency mainType="martial" attType="melee" value="flail"/>
     <weight value="2 lb."/>
     <cost value="10 gp"/>
   </item>
-  <item name="Glaive" category="weapon">
+  <item name="Glaive" category="weapon" UUID="0a809124-6de6-4f63-8e56-f6ae1cef8359">
     <damageDies>
       <damage tag="default" value="1d10" type="slashing"/>
     </damageDies>
@@ -203,7 +199,7 @@
     <weight value="6 lb."/>
     <cost value="20 gp"/>
   </item>
-  <item name="Greataxe" category="weapon">
+  <item name="Greataxe" category="weapon" UUID="7ac6b05a-7c93-46fe-979d-9ee2fdcf4ba6">
     <damageDies>
       <damage tag="default" value="1d12" type="slashing"/>
     </damageDies>
@@ -215,7 +211,7 @@
     <weight value="7 lb."/>
     <cost value="30 gp"/>
   </item>
-  <item name="Greatsword" category="weapon">
+  <item name="Greatsword" category="weapon" UUID="a8dc8f77-bfc1-4fc3-af18-880aa16b15ad">
     <damageDies>
       <damage tag="default" value="2d6" type="slashing"/>
     </damageDies>
@@ -227,7 +223,7 @@
     <weight value="6 lb."/>
     <cost value="50 gp"/>
   </item>
-  <item name="Halberd" category="weapon">
+  <item name="Halberd" category="weapon" UUID="57638d64-16fa-4d5e-989e-e2b5a5cc3e8b">
     <damageDies>
       <damage tag="default" value="1d10" type="slashing"/>
     </damageDies>
@@ -240,7 +236,7 @@
     <weight value="6 lb."/>
     <cost value="20 gp"/>
   </item>
-  <item name="Lance" category="weapon">
+  <item name="Lance" category="weapon" UUID="6d8dd0d2-d387-4fb8-8578-ada2916c8c59">
     <damageDies>
       <damage tag="default" value="1d12" type="piercing"/>
     </damageDies>
@@ -252,7 +248,7 @@
     <weight value="6 lb."/>
     <cost value="10 gp"/>
   </item>
-  <item name="Longsword" category="weapon">
+  <item name="Longsword" category="weapon" UUID="72733a02-e023-4ca4-813d-5aa96be6eced">
     <damageDies>
       <damage tag="default" value="1d8" type="slashing"/>
       <damage tag="versatile" value="1d10" type="slashing"/>
@@ -264,7 +260,7 @@
     <weight value="3 lb."/>
     <cost value="15 gp"/>
   </item>
-  <item name="Maul" category="weapon">
+  <item name="Maul" category="weapon" UUID="d3866109-79d5-4a9b-a99c-29c4b482f570">
     <damageDies>
       <damage tag="default" value="2d6" type="bludgeoning"/>
     </damageDies>
@@ -276,18 +272,16 @@
     <weight value="10 lb."/>
     <cost value="10 gp"/>
   </item>
-  <item name="Morningstar" category="weapon">
+  <item name="Morningstar" category="weapon" UUID="16894284-1c01-478f-80b3-dab62c8c2aec">
     <damageDies>
       <damage tag="default" value="1d8" type="piercing"/>
     </damageDies>
-    <properties>
-      <property value="&#8212;"/>
-    </properties>
+    <properties/>
     <proficiency mainType="martial" attType="melee" value="morningstar"/>
     <weight value="4 lb."/>
     <cost value="15 gp"/>
   </item>
-  <item name="Pike" category="weapon">
+  <item name="Pike" category="weapon" UUID="9f2b8f4a-7633-46d6-a8a4-af8a296f29b7">
     <damageDies>
       <damage tag="default" value="1d10" type="piercing"/>
     </damageDies>
@@ -300,7 +294,7 @@
     <weight value="18 lb."/>
     <cost value="5 gp"/>
   </item>
-  <item name="Rapier" category="weapon">
+  <item name="Rapier" category="weapon" UUID="cf56c47a-cbb9-46e3-9ff6-f847532cdf37">
     <damageDies>
       <damage tag="default" value="1d8" type="piercing"/>
     </damageDies>
@@ -311,7 +305,7 @@
     <weight value="2 lb."/>
     <cost value="25 gp"/>
   </item>
-  <item name="Scimitar" category="weapon">
+  <item name="Scimitar" category="weapon" UUID="d532b2ba-d031-43fe-90fa-0213bcdfb210">
     <damageDies>
       <damage tag="default" value="1d6" type="slashing"/>
     </damageDies>
@@ -323,7 +317,7 @@
     <weight value="3 lb."/>
     <cost value="25 gp"/>
   </item>
-  <item name="Shortsword" category="weapon">
+  <item name="Shortsword" category="weapon" UUID="43e50067-ab2b-4228-b0ac-b5e892ea298b">
     <damageDies>
       <damage tag="default" value="1d6" type="piercing"/>
     </damageDies>
@@ -335,7 +329,7 @@
     <weight value="2 lb."/>
     <cost value="10 gp"/>
   </item>
-  <item name="Trident" category="weapon">
+  <item name="Trident" category="weapon" UUID="8cb33171-939d-4862-9564-6135c7555651">
     <damageDies>
       <damage tag="default" value="1d6" type="piercing"/>
       <damage tag="versatile" value="1d8" type="piercing"/>
@@ -348,18 +342,16 @@
     <weight value="4 lb."/>
     <cost value="5 gp"/>
   </item>
-  <item name="War pick" category="weapon">
+  <item name="War pick" category="weapon" UUID="04826e23-3040-4e24-886f-83dc6fa57266">
     <damageDies>
       <damage tag="default" value="1d8" type="piercing"/>
     </damageDies>
-    <properties>
-      <property value="&#8212;"/>
-    </properties>
+    <properties/>
     <proficiency mainType="martial" attType="melee" value="war pick"/>
     <weight value="2 lb."/>
     <cost value="5 gp"/>
   </item>
-  <item name="Warhammer" category="weapon">
+  <item name="Warhammer" category="weapon" UUID="71a8809f-b3d9-4946-80a6-6eb745e27881">
     <damageDies>
       <damage tag="default" value="1d8" type="bludgeoning"/>
       <damage tag="versatile" value="1d10" type="bludgeoning"/>
@@ -371,7 +363,7 @@
     <weight value="2 lb."/>
     <cost value="15 gp"/>
   </item>
-  <item name="Whip" category="weapon">
+  <item name="Whip" category="weapon" UUID="2db10e55-1705-41a2-9f5b-ab7652ea932d">
     <damageDies>
       <damage tag="default" value="1d4" type="slashing"/>
     </damageDies>
@@ -383,7 +375,7 @@
     <weight value="3 lb."/>
     <cost value="2 gp"/>
   </item>
-  <item name="Blowgun" category="weapon">
+  <item name="Blowgun" category="weapon" UUID="cd06d0cb-4754-46d9-92d1-c0f8da76523f">
     <damageDies>
       <damage tag="default" value="1" type="piercing"/>
     </damageDies>
@@ -396,7 +388,7 @@
     <weight value="1 lb."/>
     <cost value="10 gp"/>
   </item>
-  <item name="Crossbow, hand" category="weapon">
+  <item name="Crossbow, hand" category="weapon" UUID="e8f3c1f3-ece0-480a-8f89-a85103cefa74">
     <damageDies>
       <damage tag="default" value="1d6" type="piercing"/>
     </damageDies>
@@ -410,7 +402,7 @@
     <weight value="3 lb."/>
     <cost value="75 gp"/>
   </item>
-  <item name="Crossbow, heavy" category="weapon">
+  <item name="Crossbow, heavy" category="weapon" UUID="dca775dd-78f5-450c-83ae-e9a383491744">
     <damageDies>
       <damage tag="default" value="1d10" type="piercing"/>
     </damageDies>
@@ -425,7 +417,7 @@
     <weight value="18 lb."/>
     <cost value="50 gp"/>
   </item>
-  <item name="Longbow" category="weapon">
+  <item name="Longbow" category="weapon" UUID="0b13fd56-5ea1-47b8-9c76-2f4d35cd1487">
     <damageDies>
       <damage tag="default" value="1d8" type="piercing"/>
     </damageDies>
@@ -439,7 +431,7 @@
     <weight value="2 lb."/>
     <cost value="50 gp"/>
   </item>
-  <item name="Net" category="weapon">
+  <item name="Net" category="weapon" UUID="505c893f-5ed2-4fdb-8ac7-aa5d61bfa356">
     <damageDies>
       <damage tag="default" value="null" type="null"/>
     </damageDies>
@@ -451,7 +443,7 @@
     <weight value="3 lb."/>
     <cost value="1 gp"/>
   </item>
-  <item name="Yklwa" category="weapon">
+  <item name="Yklwa" category="weapon" UUID="00a05ea6-4299-40bc-9fcf-84fbe4c525d0">
     <damageDies>
       <damage tag="default" value="1d8" type="piercing"/>
     </damageDies>
@@ -462,7 +454,7 @@
     <weight value="3 lb."/>
     <cost value="1 gp"/>
   </item>
-  <item name="Hoopak&#10;* A hoopak is a sturdy stick with a sling at one end and a pointed tip at the other." category="weapon">
+  <item name="Hoopak&#10;* A hoopak is a sturdy stick with a sling at one end and a pointed tip at the other." category="weapon" UUID="1ec6485e-fdc0-4668-ad10-3e301d71f1d1">
     <damageDies>
       <damage tag="default" value="1d6" type="piercing"/>
     </damageDies>
@@ -476,7 +468,7 @@
     <weight value="2 lb."/>
     <cost value="1 gp"/>
   </item>
-  <item name="Double-Bladed Scimitar" category="weapon">
+  <item name="Double-Bladed Scimitar" category="weapon" UUID="8311340e-c3c2-4cfa-a186-fa05c51c50f6">
     <damageDies>
       <damage tag="default" value="2d4" type="slashing"/>
     </damageDies>

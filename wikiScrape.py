@@ -24,9 +24,11 @@ def scrapeClass():
     classInfo = []
     classOffset = 0
 
+    """
     if(os.path.isfile(DATA_PATH + CLASS_FILE_NAME)):
         # delete file to start fresh
         os.remove(DATA_PATH + CLASS_FILE_NAME)
+    """
 
     # getting info for all classes
     for dndClass in classList:
@@ -52,9 +54,11 @@ def scrapeClass():
         addDNDClass(dndClassName, dndClassDesc, dndClassInternalName, subclassArr)
 
 def scrapeItems():
+    """
     if(os.path.isfile(DATA_PATH + ITEM_FILE_NAME)):
         # delete file to start fresh
         os.remove(DATA_PATH + ITEM_FILE_NAME)
+    """
 
     print("Now scraping items")
 
@@ -115,6 +119,7 @@ def scrapeItems():
 
 def main():
     scrapeItems()
+    scrapeClass()
 
 if __name__ == "__main__":
     main()

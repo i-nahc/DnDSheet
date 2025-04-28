@@ -2,6 +2,7 @@ from lxml import etree
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 import os
+import uuid
 
 DATA_PATH = "./data/"
 CLASS_FILE_NAME = "classList.xml"
@@ -18,7 +19,11 @@ def addDNDClass(className: str, classDesc: str, classInternalName: str, subclass
     else:
         root = etree.Element("classList")
 
-    classHead = etree.Element("class", name=className)
+    if(root.xpath("//class[@name=" + "'" + className + "']")):
+        print(className + " already exists, skipping")
+        return
+
+    classHead = etree.Element("class", name=className, UUID = str(uuid.uuid4()))
     etree.SubElement(classHead, "classInternalName", name=classInternalName)
     etree.SubElement(classHead, "classDesc").text = classDesc
 
@@ -72,7 +77,13 @@ def addWeapon(inName: str, inCost: str, inDamage: str, inWeight: str, inProperti
     else:
         root = etree.Element("itemList")
 
-    itemHead = etree.Element("item", name = inName, category = "weapon")
+    # check if already exists, if it does, then skip the item (I don't expect these to ever change, unlike the classes)
+    # If anything, only new items will be added
+    if(root.xpath("//item[@name=" + "'" + inName + "']")):
+        print("Skipped " + inName + ", Reason: Already exists")
+        return
+    
+    itemHead = etree.Element("item", name = inName, category = "weapon", UUID = str(uuid.uuid4()))
     damageHead = etree.SubElement(itemHead, "damageDies")
     damageList = inDamage.lower().split()
     if (len(damageList) > 1):
@@ -87,6 +98,9 @@ def addWeapon(inName: str, inCost: str, inDamage: str, inWeight: str, inProperti
 
     propertyList = inProperties.lower().split(', ')
     for property in propertyList:
+        if("—" in property):
+            # this means it was probably empty
+            continue
         if("versatile" in property):
             temp = property.split()
             thisValue = temp[1].replace('(', '').replace(')', '')
@@ -94,8 +108,10 @@ def addWeapon(inName: str, inCost: str, inDamage: str, inWeight: str, inProperti
             etree.SubElement(propertiesHead, "property", value = "versatile")
         else:
             etree.SubElement(propertiesHead, "property", value = property)
-    
-    weight = etree.SubElement(itemHead, "weight", value = inWeight)
+    if("—" in inWeight):
+        weight =  etree.SubElement(itemHead, "weight", value = "null")
+    else:
+        weight = etree.SubElement(itemHead, "weight", value = inWeight)
     cost = etree.SubElement(itemHead, "cost", value = inCost)
 
     root.append(itemHead)
