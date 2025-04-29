@@ -73,7 +73,7 @@ Rectangle{
     Rectangle{
         id: hoverRectangle
         height: parent.height
-        width: individualItemArea.containsMouse ? parent.width : 0
+        width: individualItemArea.containsMouse || propArea.containsMouse ? parent.width : 0
         gradient: Gradient{
             orientation: Gradient.Horizontal
             GradientStop{
@@ -95,6 +95,11 @@ Rectangle{
             }
 
         }
+    }
+    MouseArea{
+        id: individualItemArea
+        hoverEnabled: true
+        anchors.fill: parent
     }
     RowLayout{
         spacing: 0
@@ -188,25 +193,49 @@ Rectangle{
             }
         }
         Item{
+            property string propText: properties
+            property string spacing: "          "
+            property string combined: properties + spacing
+            property string displayedProp: combined.substring(step) + combined.substring(0, step)
+            property int step: 0
             Layout.fillHeight: true
             Layout.fillWidth: true
             Layout.preferredWidth: 4
+            Timer{
+                interval: 100
+                running: propArea.containsMouse && propTextChecker.width > (parent.width - 15)
+                repeat: true
+                onTriggered: propArea.containsMouse ? parent.step = (parent.step + 1) % parent.combined.length : 0
+            }
+            MouseArea{
+                id: propArea
+                hoverEnabled: true
+                anchors.fill: parent
+                onHoveredChanged: {
+                    if(!containsMouse){
+                        parent.step = 0
+                    }
+                }
+            }
+
             Text{
+                id: propertyTextHandler
                 leftPadding: 15
                 anchors.fill: parent
-                text: properties
+                text: parent.displayedProp
                 font.family: Style.primaryFont.name
                 color: "white"
-                clip: true
+                elide: Text.ElideNone
                 verticalAlignment: Text.AlignVCenter
                 font.pixelSize: 15
             }
-        }
-    }
+            TextMetrics{
+                id: propTextChecker
+                font.family: Style.primaryFont.name
+                font.pixelSize: 15
+                text: properties
 
-    MouseArea{
-        id: individualItemArea
-        hoverEnabled: true
-        anchors.fill: parent
+            }
+        }
     }
 }
