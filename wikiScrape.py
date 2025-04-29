@@ -1,6 +1,7 @@
 from selenium import webdriver
 from dataPopulate import addDNDClass
 from dataPopulate import addWeapon
+from dataPopulate import addArmor
 import os
 # file paths
 DATA_PATH = "./data/"
@@ -113,13 +114,41 @@ def scrapeItems():
 
         if(not hasHeader):
             continue
+
+def scrapeArmor():
+    print("Now scraping armor")
+
+    webPageURL = "https://dnd5e.wikidot.com/armor"
+    driverInst.get(webPageURL)
+
+    curSec = 0
+    sections = driverInst.find_elements(by="xpath", value="//h2[@id]")
+    tables = driverInst.find_elements(by="xpath", value="//table[@class]")
+    for section in sections:
+        sectionHeading = section.find_element(by="xpath", value=".//span").text
+        print(sectionHeading)
+        rows = tables[curSec].find_elements(by="xpath", value=".//tr")
+        for row in rows:
+            columns = row.find_elements(by="xpath", value=".//td")
+            rowContents = []
+            if(columns):
+                for column in columns:
+                    print(column.text)
+                    rowContents.append(column.text)
+                # insert to file
+                addArmor(rowContents[0], rowContents[5], rowContents[1], rowContents[4], rowContents[3], rowContents[2], sectionHeading)
+        curSec += 1
+        
+
+
                 
 
 
 
 def main():
-    scrapeItems()
-    scrapeClass()
+    #scrapeItems()
+    #scrapeClass()
+    scrapeArmor()
 
 if __name__ == "__main__":
     main()

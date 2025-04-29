@@ -1,0 +1,119 @@
+<armorList>
+  <item name="Padded" category="armor" UUID="11a739d9-8032-4fad-9595-3078ea0fee5b">
+    <ac value="11" dexMod="inf"/>
+    <properties>
+      <property value="stealth disadvantage"/>
+    </properties>
+    <proficiency mainType="armor" value="light"/>
+    <weight value="8 lb."/>
+    <cost value="5 gp"/>
+  </item>
+  <item name="Leather" category="armor" UUID="1c29e304-c02d-4016-895c-4972700a3d11">
+    <ac value="11" dexMod="inf"/>
+    <properties/>
+    <proficiency mainType="armor" value="light"/>
+    <weight value="10 lb."/>
+    <cost value="10 gp"/>
+  </item>
+  <item name="Studded Leather" category="armor" UUID="cb8b7526-f5e9-4b7c-810a-9fa279360a7f">
+    <ac value="12" dexMod="inf"/>
+    <properties/>
+    <proficiency mainType="armor" value="light"/>
+    <weight value="13 lb."/>
+    <cost value="45 gp"/>
+  </item>
+  <item name="Hide" category="armor" UUID="930ac91c-ddfa-41d6-b38e-8f4b25cf5d87">
+    <ac value="12" dexMod="2"/>
+    <properties/>
+    <proficiency mainType="armor" value="medium"/>
+    <weight value="12 lb."/>
+    <cost value="10 gp"/>
+  </item>
+  <item name="Chain Shirt" category="armor" UUID="cbbd0f30-d331-469c-921b-f7cfb0ffe480">
+    <ac value="13" dexMod="2"/>
+    <properties/>
+    <proficiency mainType="armor" value="medium"/>
+    <weight value="20 lb."/>
+    <cost value="50 gp"/>
+  </item>
+  <item name="Scale Mail" category="armor" UUID="65ce6886-7869-40e7-94a1-8512af40dba3">
+    <ac value="14" dexMod="2"/>
+    <properties>
+      <property value="stealth disadvantage"/>
+    </properties>
+    <proficiency mainType="armor" value="medium"/>
+    <weight value="45 lb."/>
+    <cost value="50 gp"/>
+  </item>
+  <item name="Spiked Armor" category="armor" UUID="764b8ce3-db15-4527-9b70-12b0e8ce14c8">
+    <ac value="14" dexMod="2"/>
+    <properties>
+      <property value="stealth disadvantage"/>
+    </properties>
+    <proficiency mainType="armor" value="medium"/>
+    <weight value="45 lb."/>
+    <cost value="75 gp"/>
+  </item>
+  <item name="Breastplate" category="armor" UUID="091d8dd6-11e5-4745-99df-4cc896fdbdaa">
+    <ac value="14" dexMod="2"/>
+    <properties/>
+    <proficiency mainType="armor" value="medium"/>
+    <weight value="20 lb."/>
+    <cost value="400 gp"/>
+  </item>
+  <item name="Halfplate" category="armor" UUID="a853ccbb-5e45-48e7-8aa9-ae59bfbfe08c">
+    <ac value="15" dexMod="2"/>
+    <properties>
+      <property value="stealth disadvantage"/>
+    </properties>
+    <proficiency mainType="armor" value="medium"/>
+    <weight value="40 lb."/>
+    <cost value="750 gp"/>
+  </item>
+  <item name="Ring Mail" category="armor" UUID="6c910b1a-f201-4ed4-a5a7-26f361406240">
+    <ac value="14" dexMod="0"/>
+    <properties>
+      <property value="stealth disadvantage"/>
+    </properties>
+    <proficiency mainType="armor" value="heavy"/>
+    <weight value="40 lb."/>
+    <cost value="30 gp"/>
+  </item>
+  <item name="Chain Mail" category="armor" UUID="8b19b798-23bf-436e-b4b1-f9bab6fb28b9">
+    <ac value="16" dexMod="0"/>
+    <properties>
+      <property value="str" subVal="13"/>
+      <property value="stealth disadvantage"/>
+    </properties>
+    <proficiency mainType="armor" value="heavy"/>
+    <weight value="55 lb."/>
+    <cost value="75 gp"/>
+  </item>
+  <item name="Splint" category="armor" UUID="eefa864d-94e7-4e4b-8ef9-5525d882e13c">
+    <ac value="17" dexMod="0"/>
+    <properties>
+      <property value="str" subVal="15"/>
+      <property value="stealth disadvantage"/>
+    </properties>
+    <proficiency mainType="armor" value="heavy"/>
+    <weight value="60 lb."/>
+    <cost value="200 gp"/>
+  </item>
+  <item name="Plate" category="armor" UUID="ca3ee85e-0e83-4894-a30f-df404b43ce44">
+    <ac value="18" dexMod="0"/>
+    <properties>
+      <property value="str" subVal="15"/>
+      <property value="stealth disadvantage"/>
+    </properties>
+    <proficiency mainType="armor" value="heavy"/>
+    <weight value="65 lb."/>
+    <cost value="1,500 gp"/>
+  </item>
+  <item name="Shield" category="armor" UUID="8b2f2b89-a2cf-44b3-8ca1-b2559e221ac8">
+    <ac value="+2" dexMod="null"/>
+    <properties/>
+    <proficiency mainType="shield" value="shield"/>
+    <weight value="6 lb."/>
+    <cost value="10 gp"/>
+  </item>
+</armorList>

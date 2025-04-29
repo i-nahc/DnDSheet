@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 345,
+                        "durationMicroseconds": 308,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 70
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 99,
+                        "durationMicroseconds": 94,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 71
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 114,
+                        "durationMicroseconds": 104,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 75
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 310,
+                        "durationMicroseconds": 293,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 76
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 26,
-                        "durationMicroseconds": 111,
+                        "durationMicroseconds": 89,
                         "errorMessage": "",
                         "functionName": "orientation",
                         "line": 78
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 36,
-                        "durationMicroseconds": 2016,
+                        "durationMicroseconds": 1920,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 85
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 65,
+                        "durationMicroseconds": 59,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 102
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 62,
+                        "durationMicroseconds": 56,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 106
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 61,
+                        "durationMicroseconds": 56,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 112
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 37,
-                        "durationMicroseconds": 137,
+                        "durationMicroseconds": 151,
                         "errorMessage": "",
                         "functionName": "leftMargin",
                         "line": 113
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 87,
+                        "durationMicroseconds": 80,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 118
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 42,
-                        "durationMicroseconds": 84,
+                        "durationMicroseconds": 74,
                         "errorMessage": "",
                         "functionName": "horizontalAlignment",
                         "line": 119
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 29,
-                        "durationMicroseconds": 241,
+                        "durationMicroseconds": 238,
                         "errorMessage": "Cannot access value for name iconName",
                         "functionName": "source",
                         "line": 120
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 45,
-                        "durationMicroseconds": 155,
+                        "durationMicroseconds": 142,
                         "errorMessage": "",
                         "functionName": "preferredHeight",
                         "line": 116
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 44,
-                        "durationMicroseconds": 67,
+                        "durationMicroseconds": 60,
                         "errorMessage": "",
                         "functionName": "preferredWidth",
                         "line": 117
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 27,
-                        "durationMicroseconds": 176,
+                        "durationMicroseconds": 178,
                         "errorMessage": "Cannot access value for name name",
                         "functionName": "text",
                         "line": 128
@@ -134,7 +134,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 83,
+                        "durationMicroseconds": 79,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 130
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 34,
-                        "durationMicroseconds": 145,
+                        "durationMicroseconds": 136,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
                         "line": 126
@@ -150,7 +150,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 23,
-                        "durationMicroseconds": 221,
+                        "durationMicroseconds": 202,
                         "errorMessage": "Cannot access value for name category",
                         "functionName": "text",
                         "line": 142
@@ -158,7 +158,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 36,
-                        "durationMicroseconds": 84,
+                        "durationMicroseconds": 78,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 146
@@ -166,7 +166,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 61,
+                        "durationMicroseconds": 57,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 141
@@ -174,7 +174,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 30,
-                        "durationMicroseconds": 136,
+                        "durationMicroseconds": 126,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
                         "line": 143
@@ -182,7 +182,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 23,
-                        "durationMicroseconds": 172,
+                        "durationMicroseconds": 162,
                         "errorMessage": "Cannot access value for name cost",
                         "functionName": "text",
                         "line": 157
@@ -190,7 +190,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 36,
-                        "durationMicroseconds": 88,
+                        "durationMicroseconds": 80,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 161
@@ -198,7 +198,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 61,
+                        "durationMicroseconds": 57,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 156
@@ -206,7 +206,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 30,
-                        "durationMicroseconds": 131,
+                        "durationMicroseconds": 127,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
                         "line": 158
@@ -214,7 +214,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 23,
-                        "durationMicroseconds": 182,
+                        "durationMicroseconds": 168,
                         "errorMessage": "Cannot access value for name stats",
                         "functionName": "text",
                         "line": 172
@@ -222,7 +222,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 36,
-                        "durationMicroseconds": 88,
+                        "durationMicroseconds": 86,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 176
@@ -230,7 +230,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 60,
+                        "durationMicroseconds": 58,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 171
@@ -238,7 +238,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 30,
-                        "durationMicroseconds": 130,
+                        "durationMicroseconds": 124,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
                         "line": 173
@@ -246,7 +246,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 23,
-                        "durationMicroseconds": 186,
+                        "durationMicroseconds": 181,
                         "errorMessage": "Cannot access value for name weight",
                         "functionName": "text",
                         "line": 187
@@ -254,7 +254,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 36,
-                        "durationMicroseconds": 87,
+                        "durationMicroseconds": 82,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 191
@@ -262,7 +262,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 61,
+                        "durationMicroseconds": 57,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 186
@@ -270,7 +270,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 30,
-                        "durationMicroseconds": 130,
+                        "durationMicroseconds": 125,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
                         "line": 188
@@ -278,7 +278,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 39,
-                        "durationMicroseconds": 136,
+                        "durationMicroseconds": 135,
                         "errorMessage": "Cannot access value for name properties",
                         "functionName": "propText",
                         "line": 196
@@ -286,7 +286,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 39,
-                        "durationMicroseconds": 132,
+                        "durationMicroseconds": 133,
                         "errorMessage": "Cannot access value for name properties",
                         "functionName": "combined",
                         "line": 198
@@ -294,7 +294,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 44,
-                        "durationMicroseconds": 559,
+                        "durationMicroseconds": 413,
                         "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
                         "functionName": "displayedProp",
                         "line": 199
@@ -302,7 +302,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 26,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 63,
                         "errorMessage": "Cannot load property width from (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/pages/ItemsComponents.qml)::parent with type QObject.",
                         "functionName": "running",
                         "line": 206
@@ -310,7 +310,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 30,
-                        "durationMicroseconds": 50,
+                        "durationMicroseconds": 51,
                         "errorMessage": "Cannot load property step from (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/pages/ItemsComponents.qml)::parent with type QObject.",
                         "functionName": "onTriggered",
                         "line": 208
@@ -318,7 +318,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 35,
-                        "durationMicroseconds": 42,
+                        "durationMicroseconds": 33,
                         "errorMessage": "Type (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/pages/ItemsComponents.qml)::parent with type QQuickItem does not have a property step for writing",
                         "functionName": "onHoveredChanged",
                         "line": 214
@@ -326,7 +326,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 125,
+                        "durationMicroseconds": 63,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 213
@@ -334,34 +334,34 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 23,
-                        "durationMicroseconds": 147,
+                        "durationMicroseconds": 60,
                         "errorMessage": "Cannot load property displayedProp from (component in D:/DevTools/Projects/DnDSheet/SheetUI/UI/pages/ItemsComponents.qml)::parent with type QQuickItem.",
                         "functionName": "text",
-                        "line": 225
+                        "line": 224
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 109,
+                        "durationMicroseconds": 82,
                         "errorMessage": "",
                         "functionName": "elide",
-                        "line": 228
+                        "line": 227
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 36,
-                        "durationMicroseconds": 99,
+                        "durationMicroseconds": 75,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
-                        "line": 229
+                        "line": 228
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 136,
+                        "durationMicroseconds": 57,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 224
+                        "line": 223
                     },
                     {
                         "codegenSuccessfull": false,
@@ -369,23 +369,23 @@
                         "durationMicroseconds": 146,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
-                        "line": 226
+                        "line": 225
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 23,
-                        "durationMicroseconds": 59,
+                        "durationMicroseconds": 54,
                         "errorMessage": "Cannot access value for name properties",
                         "functionName": "text",
-                        "line": 236
+                        "line": 235
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 30,
-                        "durationMicroseconds": 140,
+                        "durationMicroseconds": 138,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
-                        "line": 234
+                        "line": 233
                     }
                 ],
                 "filepath": "D:/DevTools/Projects/DnDSheet/SheetUI/UI/pages/ItemsComponents.qml"

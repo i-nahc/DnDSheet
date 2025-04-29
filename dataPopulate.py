@@ -8,6 +8,7 @@ DATA_PATH = "./data/"
 CLASS_FILE_NAME = "classList.xml"
 SUBCLASS_FILE_NAME = "subclassList.xml"
 ITEM_FILE_NAME = "commonItemList.xml"
+ARMOR_FILE_NAME = "commonArmorList.xml"
 
 parser = etree.XMLParser(remove_blank_text=True)
 
@@ -117,3 +118,49 @@ def addWeapon(inName: str, inCost: str, inDamage: str, inWeight: str, inProperti
     root.append(itemHead)
     tree = etree.ElementTree(root)
     tree.write(DATA_PATH + ITEM_FILE_NAME, pretty_print = True)
+
+def addArmor(inName: str, inCost: str, inAC: str, inWeight: str, disadvantage: str, strength: str, inSection: str):
+    if(os.path.isfile(DATA_PATH + ARMOR_FILE_NAME)):
+        root = etree.parse(DATA_PATH + ARMOR_FILE_NAME, parser).getroot()
+    else:
+        root = etree.Element("armorList")
+
+    if(root.xpath("//item[@name=" + "'" + inName + "']")):
+        print("Skipped " + inName + ", Reason: Already exists")
+        return
+    
+    itemHead = etree.Element("item", name = inName, category = "armor", UUID = str(uuid.uuid4()))
+    # splitting AC into components
+    acArr = inAC.split()
+    inSection = inSection.lower()
+    equipType = "armor"
+    subValue = ""
+
+    if("light" in inSection):
+        dexMod = "inf"
+        subValue = "light"
+    elif("medium" in inSection):
+        dexMod = "2"
+        subValue = "medium"
+    elif("heavy" in inSection):
+        dexMod = "0"
+        subValue = "heavy"
+    else:
+        dexMod = "null"
+        equipType = "shield"
+        subValue = "shield"
+
+    acHead = etree.SubElement(itemHead, "ac", value = acArr[0], dexMod = dexMod)
+    propertiesHead = etree.SubElement(itemHead, "properties")
+    proficiencyHead = etree.SubElement(itemHead, "proficiency", mainType = equipType, value = subValue)
+    if("-" not in strength):
+        etree.SubElement(propertiesHead, "property", value = "str", subVal = strength.split()[1])
+    if("-" not in disadvantage):
+        etree.SubElement(propertiesHead, "property", value = "stealth disadvantage")
+    weightHead = etree.SubElement(itemHead, "weight", value = inWeight)
+    costHead = etree.SubElement(itemHead, "cost", value = inCost)
+
+    root.append(itemHead)
+    tree = etree.ElementTree(root)
+    tree.write(DATA_PATH + ARMOR_FILE_NAME, pretty_print = True)
+

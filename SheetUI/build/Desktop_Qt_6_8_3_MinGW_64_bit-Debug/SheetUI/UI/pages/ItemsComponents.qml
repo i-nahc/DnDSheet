@@ -217,7 +217,6 @@ Rectangle{
                     }
                 }
             }
-
             Text{
                 id: propertyTextHandler
                 leftPadding: 15
