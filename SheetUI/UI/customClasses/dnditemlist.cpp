@@ -1,6 +1,8 @@
 #include "dnditemlist.h"
 
 #include "../../includes/pugixml/src/pugixml.hpp"
+#include <filesystem>
+#include <iostream>
 
 DNDItemList::DNDItemList(QObject *parent)
     : QAbstractListModel(parent)
@@ -9,6 +11,7 @@ DNDItemList::DNDItemList(QObject *parent)
     pugi::xml_document doc;
     pugi::xml_parse_result result = doc.load_file("../../../data/commonItemList.xml");
     pugi::xml_node itemsList = doc.child("itemList");
+    QString baseDir = "qrc:/UI/assets/weapon/";
     if(result)
     {
         qInfo() << "Successfully parsed document";
@@ -25,12 +28,60 @@ DNDItemList::DNDItemList(QObject *parent)
         QString cost = item.child("cost").attribute("value").value();
         QString weight = item.child("weight").attribute("value").value();
         QString propertyString = "";
+        QString damageString = "";
+        std::string iconName = wepType.toStdString() + ".svg";
+        QString iconPath = "";
+        std::filesystem::path path = __FILE__;
+        path = path.remove_filename();
+        path = path.parent_path();
+        path = path.parent_path();
+        path = path / "assets" / "weapon" / iconName;
+        //std::cout << path;
+        if(std::filesystem::exists(path))
+        {
+
+            iconPath = baseDir + wepType + ".svg";
+        }
+        else
+        {
+            iconPath = "qrc:/UI/assets/entity/weapon.svg";
+        }
         bool firstProp = true;
+        QList <QString> damArr = {};
 
         pugi::xml_node damageList = item.child("damageDies");
         for(pugi::xml_node damage = damageList.first_child(); damage; damage = damage.next_sibling())
         {
-            qInfo() << damage.attribute("tag").value();
+            damArr.append(damage.attribute("tag").value());
+            damArr.append(damage.attribute("value").value());
+            damArr.append(damage.attribute("type").value());
+        }
+
+        for(int i{0}; i < damArr.size(); i += 3)
+        {
+            if(damArr[i] ==  "default")
+            {
+                if(damArr[i + 2] != "null")
+                {
+                    damageString = damArr[i + 1] + " " + damArr[i + 2];
+                }
+                else
+                {
+                    damageString = "N/A";
+                }
+            }
+            else if(damArr[i] == "versatile")
+            {
+                if(damArr[i - 2] != "null")
+                {
+                    damageString = damArr[i - 2] + " (" + damArr[i + 1] + ") " + damArr[i + 2];
+                }
+                else
+                {
+                    damageString = "N/A";
+                }
+
+            }
         }
 
         pugi::xml_node propertyList = item.child("properties");
@@ -46,12 +97,12 @@ DNDItemList::DNDItemList(QObject *parent)
                 propertyString.append(", ");
                 propertyString.append(property.attribute("value").value());
             }
-            qInfo() << property.attribute("value").value();
+            //qInfo() << property.attribute("value").value();
         }
 
-        qInfo() << itemName;
+        //qInfo() << itemName;
 
-        m_items.append(new DNDItem(uuid, itemName, wepType, cost, "damageList", propertyString, weight, "1", "1", this));
+        m_items.append(new DNDItem(uuid, itemName, wepType, cost, damageString, propertyString, weight, iconPath, "1", this));
     }
 }
 

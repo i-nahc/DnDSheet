@@ -117,7 +117,7 @@ Rectangle{
                     Layout.preferredWidth: height
                     verticalAlignment: Image.AlignVCenter
                     horizontalAlignment: Image.AlignHCenter
-                    source: "qrc:/UI/assets/entity/armor.svg"
+                    source: iconName
                 }
 
                 Text{
