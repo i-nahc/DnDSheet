@@ -57,3 +57,4 @@ debug/
 saves/
 
 __pycache__/
+/SheetUI/build/
