@@ -1,0 +1,5 @@
+set(__QT_DEPLOY_TARGET_pugixml-static_FILE D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/includes/pugixml/libpugixml.a)
+set(__QT_DEPLOY_TARGET_pugixml-static_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_appSheetUI_FILE D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appSheetUI.exe)
+set(__QT_DEPLOY_TARGET_appSheetUI_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_appSheetUI_RUNTIME_DLLS C:/Qt/6.8.3/mingw_64/bin/Qt6Quick.dll;C:/Qt/6.8.3/mingw_64/bin/Qt6Core5Compat.dll;C:/Qt/6.8.3/mingw_64/bin/Qt6QmlMeta.dll;C:/Qt/6.8.3/mingw_64/bin/Qt6QmlWorkerScript.dll;C:/Qt/6.8.3/mingw_64/bin/Qt6QmlModels.dll;C:/Qt/6.8.3/mingw_64/bin/Qt6Qml.dll;C:/Qt/6.8.3/mingw_64/bin/Qt6Network.dll;C:/Qt/6.8.3/mingw_64/bin/Qt6OpenGL.dll;C:/Qt/6.8.3/mingw_64/bin/Qt6Gui.dll;C:/Qt/6.8.3/mingw_64/bin/Qt6Core.dll)
