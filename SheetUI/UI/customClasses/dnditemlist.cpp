@@ -7,103 +7,8 @@
 DNDItemList::DNDItemList(QObject *parent)
     : QAbstractListModel(parent)
 {
-    // populate from text file
-    pugi::xml_document doc;
-    pugi::xml_parse_result result = doc.load_file("../../../data/commonItemList.xml");
-    pugi::xml_node itemsList = doc.child("itemList");
-    QString baseDir = "qrc:/UI/assets/weapon/";
-    if(result)
-    {
-        qInfo() << "Successfully parsed document";
-    }
-    else
-    {
-        qInfo() << "Error reading document";
-    }
-    for(pugi::xml_node item = itemsList.first_child(); item; item = item.next_sibling())
-    {
-        QString itemName = item.attribute("name").value();
-        QString uuid = item.attribute("UUID").value();
-        QString wepType = item.child("proficiency").attribute("value").value();
-        QString cost = item.child("cost").attribute("value").value();
-        QString weight = item.child("weight").attribute("value").value();
-        QString propertyString = "";
-        QString damageString = "";
-        std::string iconName = wepType.toStdString() + ".svg";
-        QString iconPath = "";
-        std::filesystem::path path = __FILE__;
-        path = path.remove_filename();
-        path = path.parent_path();
-        path = path.parent_path();
-        path = path / "assets" / "weapon" / iconName;
-        //std::cout << path;
-        if(std::filesystem::exists(path))
-        {
-
-            iconPath = baseDir + wepType + ".svg";
-        }
-        else
-        {
-            iconPath = "qrc:/UI/assets/entity/weapon.svg";
-        }
-        bool firstProp = true;
-        QList <QString> damArr = {};
-
-        pugi::xml_node damageList = item.child("damageDies");
-        for(pugi::xml_node damage = damageList.first_child(); damage; damage = damage.next_sibling())
-        {
-            damArr.append(damage.attribute("tag").value());
-            damArr.append(damage.attribute("value").value());
-            damArr.append(damage.attribute("type").value());
-        }
-
-        for(int i{0}; i < damArr.size(); i += 3)
-        {
-            if(damArr[i] ==  "default")
-            {
-                if(damArr[i + 2] != "null")
-                {
-                    damageString = damArr[i + 1] + " " + damArr[i + 2];
-                }
-                else
-                {
-                    damageString = "N/A";
-                }
-            }
-            else if(damArr[i] == "versatile")
-            {
-                if(damArr[i - 2] != "null")
-                {
-                    damageString = damArr[i - 2] + " (" + damArr[i + 1] + ") " + damArr[i + 2];
-                }
-                else
-                {
-                    damageString = "N/A";
-                }
-
-            }
-        }
-
-        pugi::xml_node propertyList = item.child("properties");
-        for(pugi::xml_node property = propertyList.first_child(); property; property = property.next_sibling())
-        {
-            if(firstProp)
-            {
-                propertyString.append(property.attribute("value").value());
-                firstProp = false;
-            }
-            else
-            {
-                propertyString.append(", ");
-                propertyString.append(property.attribute("value").value());
-            }
-            //qInfo() << property.attribute("value").value();
-        }
-
-        //qInfo() << itemName;
-
-        m_items.append(new DNDItem(uuid, itemName, wepType, cost, damageString, propertyString, weight, iconPath, "1", this));
-    }
+    getItems();
+    getArmor();
 }
 
 int DNDItemList::rowCount(const QModelIndex &parent) const
@@ -175,4 +80,176 @@ QHash<int, QByteArray> DNDItemList::roleNames() const{
     roles[StatIconNameRole] = "statIconName";
 
     return roles;
+}
+
+void DNDItemList::getItems(){
+    // populate from text file
+    pugi::xml_document doc;
+    pugi::xml_parse_result result = doc.load_file("../../../data/commonItemList.xml");
+    pugi::xml_node itemsList = doc.child("itemList");
+    QString baseDir = "qrc:/UI/assets/weapon/";
+    if(result)
+    {
+        qInfo() << "Successfully parsed document";
+    }
+    else
+    {
+        qInfo() << "Error reading document";
+    }
+    for(pugi::xml_node item = itemsList.first_child(); item; item = item.next_sibling())
+    {
+        QString itemName = item.attribute("name").value();
+        QString uuid = item.attribute("UUID").value();
+        QString wepType = item.child("proficiency").attribute("value").value();
+        QString cost = item.child("cost").attribute("value").value();
+        QString weight = item.child("weight").attribute("value").value();
+        QString propertyString = "";
+        QString damageString = "";
+        std::string iconName = wepType.toStdString() + ".svg";
+        QString iconPath = "";
+        std::filesystem::path path = __FILE__;
+        path = path.remove_filename();
+        path = path.parent_path();
+        path = path.parent_path();
+        path = path / "assets" / "weapon" / iconName;
+        if(std::filesystem::exists(path))
+        {
+
+            iconPath = baseDir + wepType + ".svg";
+        }
+        else
+        {
+            iconPath = "qrc:/UI/assets/entity/weapon.svg";
+        }
+        bool firstProp = true;
+        QList <QString> damArr = {};
+
+        pugi::xml_node damageList = item.child("damageDies");
+        for(pugi::xml_node damage = damageList.first_child(); damage; damage = damage.next_sibling())
+        {
+            damArr.append(damage.attribute("tag").value());
+            damArr.append(damage.attribute("value").value());
+            damArr.append(damage.attribute("type").value());
+        }
+
+        for(int i{0}; i < damArr.size(); i += 3)
+        {
+            if(damArr[i] ==  "default")
+            {
+                if(damArr[i + 2] != "null")
+                {
+                    damageString = damArr[i + 1] + " " + damArr[i + 2];
+                }
+                else
+                {
+                    damageString = "N/A";
+                }
+            }
+            else if(damArr[i] == "versatile")
+            {
+                if(damArr[i - 2] != "null")
+                {
+                    damageString = damArr[i - 2] + " (" + damArr[i + 1] + ") " + damArr[i + 2];
+                }
+                else
+                {
+                    damageString = "N/A";
+                }
+
+            }
+        }
+
+        pugi::xml_node propertyList = item.child("properties");
+        for(pugi::xml_node property = propertyList.first_child(); property; property = property.next_sibling())
+        {
+            if(firstProp)
+            {
+                propertyString.append(property.attribute("value").value());
+                firstProp = false;
+            }
+            else
+            {
+                propertyString.append(", ");
+                propertyString.append(property.attribute("value").value());
+            }
+        }
+
+        m_items.append(new DNDItem(uuid, itemName, wepType, cost, damageString, propertyString, weight, iconPath, "1", this));
+    }
+
+}
+void DNDItemList::getArmor(){
+    // populate from text file
+    pugi::xml_document doc;
+    pugi::xml_parse_result result = doc.load_file("../../../data/commonArmorList.xml");
+    pugi::xml_node armorList = doc.child("armorList");
+    QString baseDir = "qrc:/UI/assets/";
+    if(result)
+    {
+        qInfo() << "Successfully parsed document";
+    }
+    else
+    {
+        qInfo() << "Error reading document";
+    }
+    for(pugi::xml_node item = armorList.first_child(); item; item = item.next_sibling())
+    {
+        QString itemName = item.attribute("name").value();
+        QString uuid = item.attribute("UUID").value();
+        QString mainType = item.child("proficiency").attribute("mainType").value();
+        QString subType = item.child("proficiency").attribute("value").value();
+        if(subType != "shield")
+        {
+            subType.append(" ").append(mainType);
+        }
+        QString cost = item.child("cost").attribute("value").value();
+        QString weight = item.child("weight").attribute("value").value();
+        QString propertyString = "";
+        QString acString = item.child("ac").attribute("value").value();
+        acString.append(" AC");
+        QString dexMod = item.child("ac").attribute("dexMod").value();
+        if(dexMod != "null")
+        {
+            acString.append(" (").append(dexMod).append(" Dex Mod Max)");
+        }
+
+        QString iconPath = "";
+
+        if(mainType == "armor")
+        {
+            iconPath = baseDir + "entity/armor.svg";
+        }
+        else
+        {
+            iconPath = baseDir + "damage/resistance.svg";
+        }
+
+
+        bool firstProp = true;
+
+        pugi::xml_node propertyList = item.child("properties");
+        for(pugi::xml_node property = propertyList.first_child(); property; property = property.next_sibling())
+        {
+            if(firstProp)
+            {
+                firstProp = false;
+            }
+            else
+            {
+                propertyString.append(", ");
+            }
+            QString temp = property.attribute("value").value();
+            if(temp == "str")
+            {
+                propertyString.append("Str Req ");
+                propertyString.append(property.attribute("subVal").value());
+            }
+            else
+            {
+                propertyString.append(temp);
+            }
+        }
+
+        m_items.append(new DNDItem(uuid, itemName, subType, cost, acString, propertyString, weight, iconPath, "1", this));
+    }
 }

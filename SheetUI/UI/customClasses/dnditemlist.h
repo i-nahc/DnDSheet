@@ -31,6 +31,8 @@ public:
     QHash<int, QByteArray> roleNames() const;
 
 private:
+    void getItems();
+    void getArmor();
     QList<DNDItem*> m_items;
 };
 
