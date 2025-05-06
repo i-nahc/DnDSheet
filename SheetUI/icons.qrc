@@ -292,5 +292,6 @@
         <file>UI/assets/coreUI/homeWhite.svg</file>
         <file>UI/assets/coreUI/chevron.svg</file>
         <file>UI/assets/coreUI/downArrow.svg</file>
+        <file>UI/pages/ItemsCombobox.qml</file>
     </qresource>
 </RCC>

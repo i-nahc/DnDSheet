@@ -9,6 +9,7 @@
 	"INCLUDE_DIR" : "D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appSheetUI_autogen/include",
 	"INPUTS" : 
 	[
+		"D:/DevTools/Projects/DnDSheet/SheetUI/UI/pages/ItemsCombobox.qml",
 		"D:/DevTools/Projects/DnDSheet/SheetUI/UI/settings/SettingsDialog.qml",
 		"D:/DevTools/Projects/DnDSheet/SheetUI/UI/assets/wallpapers/party.jpeg",
 		"D:/DevTools/Projects/DnDSheet/SheetUI/UI/assets/wallpapers/verticalLeft.jpg",

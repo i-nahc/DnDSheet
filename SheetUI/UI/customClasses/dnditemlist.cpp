@@ -2,7 +2,6 @@
 
 #include "../../includes/pugixml/src/pugixml.hpp"
 #include <filesystem>
-#include <iostream>
 
 DNDItemList::DNDItemList(QObject *parent)
     : QAbstractListModel(parent)

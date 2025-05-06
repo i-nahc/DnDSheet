@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 363,
+                        "durationMicroseconds": 3573,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 11
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 188,
+                        "durationMicroseconds": 151,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 12
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 385,
+                        "durationMicroseconds": 354,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 17
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 194,
+                        "durationMicroseconds": 171,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 18
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 223,
+                        "durationMicroseconds": 162,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 19
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 11684,
+                        "durationMicroseconds": 8930,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 20
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 126,
+                        "durationMicroseconds": 182,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 16
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 312,
+                        "durationMicroseconds": 296,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 25
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 268,
+                        "durationMicroseconds": 297,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 26
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 78,
+                        "durationMicroseconds": 79,
                         "errorMessage": "Cannot access value for name iconName",
                         "functionName": "source",
                         "line": 27
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 121,
+                        "durationMicroseconds": 117,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 24

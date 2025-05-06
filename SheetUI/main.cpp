@@ -3,19 +3,19 @@
 #include <QQmlContext>
 
 #include "backend.h"
-#include "UI/customClasses/dnditemlist.h"
+#include "UI/customClasses/listhandler.h"
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
     Backend qtBackend;
-    DNDItemList itemListClass;
+    ListHandler appLists;
 
     QQmlApplicationEngine engine;
 
     QQmlContext * rootContext = engine.rootContext();
     rootContext->setContextProperty("windowManager", &qtBackend);
-    rootContext->setContextProperty("itemsManager", &itemListClass);
+    rootContext->setContextProperty("itemsManager", appLists.getProxyItemList());
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreationFailed,

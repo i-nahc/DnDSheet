@@ -29,6 +29,7 @@ qt_add_qml_module(appSheetUI
         SOURCES backend.h backend.cpp
         SOURCES UI/customClasses/dnditemlist.h UI/customClasses/dnditemlist.cpp
         SOURCES UI/customClasses/dnditem.h UI/customClasses/dnditem.cpp
+        SOURCES UI/customClasses/proxyitemlist.h UI/customClasses/proxyitemlist.cpp
         QML_FILES
         QML_FILES UI/settings/Style.qml
         QML_FILES UI/resNavBar/WheelMenu.qml
@@ -41,6 +42,7 @@ qt_add_qml_module(appSheetUI
         QML_FILES UI/navigation/ChangelogList.qml
         QML_FILES UI/pages/Items.qml
         QML_FILES UI/pages/ItemsComponents.qml
+        SOURCES UI/customClasses/listhandler.h UI/customClasses/listhandler.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

@@ -33,7 +33,56 @@ Item {
                     anchors.fill: parent
                 }
                 RowLayout{
+                    anchors.fill: parent
+                    Item{
+                        Layout.fillHeight: true
+                        Layout.fillWidth: true
+                        Layout.preferredWidth: 1
+                        Text{
+                            anchors.fill: parent
+                            font.family: Style.primaryFont.name
+                            text: "Type"
+                            color: "white"
+                            verticalAlignment: Text.AlignVCenter
+                            leftPadding: 15
+                            clip: true
+                            fontSizeMode: Text.Fit
+                            font.pixelSize: 18
+                        }
 
+                    }
+                    Item{
+                        Layout.fillHeight: true
+                        Layout.fillWidth: true
+                        Layout.preferredWidth: 1
+                        Text{
+                            anchors.fill: parent
+                            font.family: Style.primaryFont.name
+                            text: "Category"
+                            color: "white"
+                            verticalAlignment: Text.AlignVCenter
+                            leftPadding: 15
+                            clip: true
+                            fontSizeMode: Text.Fit
+                            font.pixelSize: 18
+                        }
+                    }
+                    Item{
+                        Layout.fillHeight: true
+                        Layout.fillWidth: true
+                        Layout.preferredWidth: 1
+                        Text{
+                            anchors.fill: parent
+                            font.family: Style.primaryFont.name
+                            text: "Search"
+                            color: "white"
+                            verticalAlignment: Text.AlignVCenter
+                            leftPadding: 15
+                            clip: true
+                            fontSizeMode: Text.Fit
+                            font.pixelSize: 18
+                        }
+                    }
                 }
             }
             ColumnLayout{

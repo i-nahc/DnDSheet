@@ -157,6 +157,42 @@
     {
         "classes": [
             {
+                "className": "ListHandler",
+                "lineNumber": 7,
+                "object": true,
+                "qualifiedClassName": "ListHandler",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "listhandler.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "ProxyItemList",
+                "lineNumber": 6,
+                "object": true,
+                "qualifiedClassName": "ProxyItemList",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QSortFilterProxyModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "proxyitemlist.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
                 "classInfos": [
                     {
                         "name": "QML.Element",
