@@ -43,6 +43,7 @@ qt_add_qml_module(appSheetUI
         QML_FILES UI/pages/Items.qml
         QML_FILES UI/pages/ItemsComponents.qml
         SOURCES UI/customClasses/listhandler.h UI/customClasses/listhandler.cpp
+        QML_FILES UI/pages/ItemsComboBox.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

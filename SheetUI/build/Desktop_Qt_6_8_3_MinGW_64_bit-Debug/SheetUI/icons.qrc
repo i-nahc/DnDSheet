@@ -280,7 +280,6 @@
         <file>UI/assets/weapon/trident.svg</file>
         <file>UI/assets/weapon/whip.svg</file>
         <file>UI/assets/coreUI/icon_maximize.svg</file>
-        <file>UI/settings/SettingsDialog.qml</file>
         <file>UI/assets/dice/d20white.svg</file>
         <file>UI/assets/logo/dndWhite.svg</file>
         <file>UI/assets/coreUI/icon_maximize2.svg</file>
@@ -292,6 +291,5 @@
         <file>UI/assets/coreUI/homeWhite.svg</file>
         <file>UI/assets/coreUI/chevron.svg</file>
         <file>UI/assets/coreUI/downArrow.svg</file>
-        <file>UI/pages/ItemsCombobox.qml</file>
     </qresource>
 </RCC>

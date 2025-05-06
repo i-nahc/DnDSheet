@@ -21,5 +21,6 @@ D:/DevTools/Projects/DnDSheet/SheetUI/UI/resNavBar/LeftHandOptions.qml
 D:/DevTools/Projects/DnDSheet/SheetUI/UI/navigation/ChangelogList.qml
 D:/DevTools/Projects/DnDSheet/SheetUI/UI/pages/Items.qml
 D:/DevTools/Projects/DnDSheet/SheetUI/UI/pages/ItemsComponents.qml
+D:/DevTools/Projects/DnDSheet/SheetUI/UI/pages/ItemsComboBox.qml
 --json
 D:/DevTools/Projects/DnDSheet/SheetUI/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appSheetUI_qmllint.json
