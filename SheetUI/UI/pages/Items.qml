@@ -3,7 +3,13 @@ import QtQuick.Layouts
 import QtQuick.Controls.Material
 
 Item {
+    id: mainItem
     anchors.fill: parent
+    MouseArea {
+        anchors.fill:parent
+        onClicked: mainItem.forceActiveFocus()
+    }
+
     Item{
 
         anchors.horizontalCenter: parent.horizontalCenter
@@ -34,6 +40,7 @@ Item {
                 }
                 RowLayout{
                     anchors.fill: parent
+                    spacing: 0
                     Item{
                         Layout.fillHeight: true
                         Layout.fillWidth: true
@@ -41,13 +48,112 @@ Item {
                         Text{
                             anchors.fill: parent
                             font.family: Style.primaryFont.name
-                            text: "Type"
+                            text: "Type:"
                             color: "white"
                             verticalAlignment: Text.AlignVCenter
                             leftPadding: 15
                             clip: true
                             fontSizeMode: Text.Fit
                             font.pixelSize: 18
+                            font.weight: Font.Medium
+                        }
+
+                    }
+                    Item{
+                        Layout.fillHeight: true
+                        Layout.fillWidth: true
+                        Layout.preferredWidth: 0.1
+                    }
+                    Item{
+                        Layout.fillHeight: true
+                        Layout.fillWidth: true
+                        Layout.preferredWidth: 3
+                        ItemsComboBox{id: typeFilter}
+                    }
+
+                    Item{
+                        Layout.fillHeight: true
+                        Layout.fillWidth: true
+                        Layout.preferredWidth: 1.5
+                        Text{
+                            anchors.fill: parent
+                            font.family: Style.primaryFont.name
+                            text: "Category:"
+                            color: "white"
+                            verticalAlignment: Text.AlignVCenter
+                            leftPadding: 15
+                            clip: true
+                            fontSizeMode: Text.Fit
+                            font.pixelSize: 18
+                            font.weight: Font.Medium
+                        }
+                    }
+                    Item{
+                        Layout.fillHeight: true
+                        Layout.fillWidth: true
+                        Layout.preferredWidth: 0.25
+                    }
+                    Item {
+                        Layout.fillHeight: true
+                        Layout.fillWidth: true
+                        Layout.preferredWidth: 4
+                        ItemsComboBox{id: catFilter}
+                    }
+
+                    Item{
+                        Layout.fillHeight: true
+                        Layout.fillWidth: true
+                        Layout.preferredWidth: 1
+                        Text{
+                            anchors.fill: parent
+                            font.family: Style.primaryFont.name
+                            text: "Search:"
+                            color: "white"
+                            verticalAlignment: Text.AlignVCenter
+                            leftPadding: 15
+                            clip: true
+                            fontSizeMode: Text.Fit
+                            font.pixelSize: 18
+                            font.weight: Font.Medium
+                        }
+                    }
+
+                    Item{
+                        Layout.fillHeight: true
+                        Layout.fillWidth: true
+                        Layout.preferredWidth: 0.1
+                    }
+
+                    Item{
+                        Layout.fillHeight: true
+                        Layout.fillWidth: true
+                        Layout.preferredWidth: 4
+                        Item{
+                            anchors.fill: parent
+                            Rectangle{
+                                anchors.verticalCenter: parent.verticalCenter
+                                width: parent.width + 1
+                                height: parent.height * 0.6
+                                color: Style.primaryColorDarkHover
+                                topLeftRadius: Material.SmallScale
+                                bottomLeftRadius: Material.SmallScale
+                            }
+                            TextInput{
+                                id: searchField
+                                anchors.verticalCenter: parent.verticalCenter
+                                width: parent.width
+                                height: parent.height * 0.6
+                                verticalAlignment: Text.AlignVCenter
+                                leftPadding: 10
+                                clip: true
+                                color: "white"
+                                font.family: Style.primaryFont.name
+                                wrapMode: TextEdit.WrapAnywhere
+                                font.pixelSize: 14
+                                Keys.onReturnPressed: {
+                                    mainItem.forceActiveFocus()
+                                }
+                            }
                         }
 
                     }
@@ -55,32 +161,16 @@ Item {
                         Layout.fillHeight: true
                         Layout.fillWidth: true
                         Layout.preferredWidth: 1
-                        Text{
+                        Item{
                             anchors.fill: parent
-                            font.family: Style.primaryFont.name
-                            text: "Category"
-                            color: "white"
-                            verticalAlignment: Text.AlignVCenter
-                            leftPadding: 15
-                            clip: true
-                            fontSizeMode: Text.Fit
-                            font.pixelSize: 18
-                        }
-                    }
-                    Item{
-                        Layout.fillHeight: true
-                        Layout.fillWidth: true
-                        Layout.preferredWidth: 1
-                        Text{
-                            anchors.fill: parent
-                            font.family: Style.primaryFont.name
-                            text: "Search"
-                            color: "white"
-                            verticalAlignment: Text.AlignVCenter
-                            leftPadding: 15
-                            clip: true
-                            fontSizeMode: Text.Fit
-                            font.pixelSize: 18
+                            Rectangle{
+                                anchors.verticalCenter: parent.verticalCenter
+                                width: parent.width * 0.8
+                                height: parent.height * 0.6
+                                color: Style.primaryColorDarkHover
+                                topRightRadius: Material.SmallScale
+                                bottomRightRadius: Material.SmallScale
+                            }
                         }
                     }
                 }

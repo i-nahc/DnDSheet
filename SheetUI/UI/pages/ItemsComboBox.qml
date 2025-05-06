@@ -1,5 +1,96 @@
 import QtQuick
 
-Item {
+import QtQuick.Controls
+import QtQuick.Controls.Material
 
+ComboBox{
+    id: control
+    height: parent.height - 20
+    width: parent.width
+    anchors.verticalCenter: parent.verticalCenter
+    leftPadding: 10
+    model: ["one", "two", "three"]
+
+    delegate: ItemDelegate{
+        id: selectorDelegate
+        width: parent.width
+        height: 40
+        padding: 0
+        background: Rectangle{
+            clip: true
+            anchors.left: parent.left
+            anchors.leftMargin: 0
+            width: control.width
+            height: parent.height
+            color: selectorDelegate.hovered ? Style.primaryColorDarkHover : "#404142"
+            radius: 0
+            Behavior on color{
+                ColorAnimation{
+                    duration: 200
+                }
+            }
+        }
+        contentItem: Rectangle{
+            width: parent.implicitWidth
+            height: selectorDelegate.height + 5
+            color: selectorDelegate.hovered ? Style.primaryColorDarkHover : "#404142"
+            Behavior on color{
+                ColorAnimation{
+                    duration: 200
+                }
+            }
+            Text{
+            text: modelData
+            color: "White"
+            font.family: Style.primaryFont.name
+            verticalAlignment: Text.AlignVCenter
+            font.pixelSize: 16
+            leftPadding: 10
+            }
+        }
+        highlighted: parent.highlightedIndex === index
+    }
+
+    contentItem: Text{
+        text: parent.displayText
+        font.family: Style.primaryFont.name
+        font.pixelSize: 18
+        verticalAlignment: Text.AlignVCenter
+        color: "White"
+        leftPadding: 12
+    }
+
+    background: Rectangle{
+        color: control.hovered ? Style.primaryColorDarkHover : Style.primaryColorDark
+        radius: Material.SmallScale
+        Behavior on color{
+            ColorAnimation{
+                duration: 200
+            }
+        }
+    }
+
+    popup: Popup{
+        y: parent.height - 1
+        width: parent.width
+        implicitHeight: contentItem.implicitHeight
+        padding: 1
+        topPadding: 5
+        bottomPadding: 5
+        contentItem: ListView{
+            clip: true
+            implicitHeight: contentHeight
+            model: control.popup.visible ? control.delegateModel : null
+            currentIndex: control.highlightedIndex
+            displayMarginBeginning: parent.height * 0.1
+            displayMarginEnd: parent.height * 0.1
+
+            ScrollIndicator.vertical: ScrollIndicator{}
+        }
+
+        background: Rectangle{
+            color: "#404142"
+            radius: Material.SmallScale
+        }
+    }
 }

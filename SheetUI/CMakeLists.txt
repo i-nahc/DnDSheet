@@ -32,8 +32,8 @@ qt_add_qml_module(appSheetUI
         SOURCES UI/customClasses/proxyitemlist.h UI/customClasses/proxyitemlist.cpp
         QML_FILES
         QML_FILES UI/settings/Style.qml
-        QML_FILES UI/resNavBar/WheelMenu.qml
-        QML_FILES UI/resNavBar/WheelOption.qml
+        QML_FILES
+        QML_FILES
         QML_FILES UI/navigation/MenuOption.qml
         QML_FILES UI/navigation/MenuPage.qml
         RESOURCES fonts.qrc

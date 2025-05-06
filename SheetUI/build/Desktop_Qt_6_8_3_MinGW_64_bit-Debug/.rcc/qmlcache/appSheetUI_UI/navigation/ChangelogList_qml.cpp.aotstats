@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 493,
+                        "durationMicroseconds": 463,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 9
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 234,
+                        "durationMicroseconds": 266,
                         "errorMessage": "",
                         "functionName": "left",
                         "line": 5
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 18,
-                        "durationMicroseconds": 218,
+                        "durationMicroseconds": 210,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 6
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 361,
+                        "durationMicroseconds": 222,
                         "errorMessage": "",
                         "functionName": "bottom",
                         "line": 7
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 19,
-                        "durationMicroseconds": 413,
+                        "durationMicroseconds": 382,
                         "errorMessage": "Cannot access value for name model",
                         "functionName": "text",
                         "line": 36
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 168,
+                        "durationMicroseconds": 155,
                         "errorMessage": "",
                         "functionName": "wrapMode",
                         "line": 37
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 26,
-                        "durationMicroseconds": 8955,
+                        "durationMicroseconds": 8671,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
                         "line": 38
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 29,
-                        "durationMicroseconds": 57,
+                        "durationMicroseconds": 58,
                         "errorMessage": "Cannot access value for name mainArea",
                         "functionName": "pixelSize",
                         "line": 39
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 147,
+                        "durationMicroseconds": 133,
                         "errorMessage": "",
                         "functionName": "model",
                         "line": 45
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 128,
+                        "durationMicroseconds": 107,
                         "errorMessage": "",
                         "functionName": "delegate",
                         "line": 46
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 175,
+                        "durationMicroseconds": 166,
                         "errorMessage": "",
                         "functionName": "cacheBuffer",
                         "line": 52
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 121,
+                        "durationMicroseconds": 132,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 44
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 326,
+                        "durationMicroseconds": 270,
                         "errorMessage": "",
                         "functionName": "topMargin",
                         "line": 48
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 309,
+                        "durationMicroseconds": 274,
                         "errorMessage": "",
                         "functionName": "bottomMargin",
                         "line": 49
@@ -134,7 +134,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 284,
+                        "durationMicroseconds": 253,
                         "errorMessage": "",
                         "functionName": "leftMargin",
                         "line": 50
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 280,
+                        "durationMicroseconds": 256,
                         "errorMessage": "",
                         "functionName": "rightMargin",
                         "line": 51

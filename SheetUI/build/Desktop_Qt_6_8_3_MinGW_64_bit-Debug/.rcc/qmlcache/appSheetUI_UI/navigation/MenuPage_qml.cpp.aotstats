@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 279,
+                        "durationMicroseconds": 200,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 10
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 308,
+                        "durationMicroseconds": 204,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 16
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 228,
+                        "durationMicroseconds": 153,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 17
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 217,
+                        "durationMicroseconds": 135,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 15
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 16,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 48,
                         "errorMessage": "Cannot access value for name changelogVisible",
                         "functionName": "y",
                         "line": 21
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 16,
-                        "durationMicroseconds": 28,
+                        "durationMicroseconds": 25,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "x",
                         "line": 22
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 57,
+                        "durationMicroseconds": 32,
                         "errorMessage": "Cannot access value for name changelogVisible",
                         "functionName": "height",
                         "line": 29
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 253,
+                        "durationMicroseconds": 152,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 30
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 193,
+                        "durationMicroseconds": 107,
                         "errorMessage": "",
                         "functionName": "topLeftRadius",
                         "line": 31
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 110,
+                        "durationMicroseconds": 120,
                         "errorMessage": "",
                         "functionName": "topRightRadius",
                         "line": 32
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 8998,
+                        "durationMicroseconds": 7547,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 34
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 188,
+                        "durationMicroseconds": 179,
                         "errorMessage": "",
                         "functionName": "bottom",
                         "line": 28
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 26,
-                        "durationMicroseconds": 39,
+                        "durationMicroseconds": 49,
                         "errorMessage": "Cannot access value for name changeTextVisible",
                         "functionName": "visible",
                         "line": 36
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 144,
+                        "durationMicroseconds": 180,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 43
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 126,
+                        "durationMicroseconds": 143,
                         "errorMessage": "",
                         "functionName": "bottomLeftRadius",
                         "line": 44
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 169,
+                        "durationMicroseconds": 141,
                         "errorMessage": "",
                         "functionName": "bottomRightRadius",
                         "line": 45
@@ -134,7 +134,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 83,
+                        "durationMicroseconds": 98,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 42
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 332,
+                        "durationMicroseconds": 286,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 50
@@ -150,7 +150,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 150,
+                        "durationMicroseconds": 130,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 51
@@ -166,7 +166,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 138,
+                        "durationMicroseconds": 139,
                         "errorMessage": "",
                         "functionName": "fontSizeMode",
                         "line": 64
@@ -174,7 +174,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 42,
-                        "durationMicroseconds": 137,
+                        "durationMicroseconds": 154,
                         "errorMessage": "",
                         "functionName": "horizontalAlignment",
                         "line": 67
@@ -182,7 +182,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 142,
+                        "durationMicroseconds": 116,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 68
@@ -190,7 +190,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 99,
+                        "durationMicroseconds": 104,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 60
@@ -198,7 +198,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 34,
-                        "durationMicroseconds": 207,
+                        "durationMicroseconds": 303,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
                         "line": 62
@@ -206,7 +206,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 113,
+                        "durationMicroseconds": 146,
                         "errorMessage": "",
                         "functionName": "bottomLeftRadius",
                         "line": 77
@@ -214,7 +214,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 36,
-                        "durationMicroseconds": 123,
+                        "durationMicroseconds": 160,
                         "errorMessage": "",
                         "functionName": "bottomRightRadius",
                         "line": 78
@@ -222,7 +222,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 121,
+                        "durationMicroseconds": 124,
                         "errorMessage": "",
                         "functionName": "fillMode",
                         "line": 83
@@ -230,7 +230,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 138,
+                        "durationMicroseconds": 139,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 84
@@ -238,7 +238,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 286,
+                        "durationMicroseconds": 246,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 85
@@ -246,7 +246,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 45,
-                        "durationMicroseconds": 260,
+                        "durationMicroseconds": 193,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 81
@@ -254,7 +254,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 245,
+                        "durationMicroseconds": 214,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 82
@@ -262,7 +262,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 776,
+                        "durationMicroseconds": 729,
                         "errorMessage": "",
                         "functionName": "onHoveredChanged",
                         "line": 89
@@ -270,7 +270,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 207,
+                        "durationMicroseconds": 198,
                         "errorMessage": "",
                         "functionName": "acceptedButtons",
                         "line": 103
@@ -278,7 +278,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 302,
+                        "durationMicroseconds": 317,
                         "errorMessage": "",
                         "functionName": "onPressed",
                         "line": 104
@@ -286,7 +286,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 33,
-                        "durationMicroseconds": 311,
+                        "durationMicroseconds": 277,
                         "errorMessage": "",
                         "functionName": "onReleased",
                         "line": 105
@@ -294,7 +294,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 32,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 67,
                         "errorMessage": "Cannot access value for name changelogVisible",
                         "functionName": "onClicked",
                         "line": 106
@@ -302,7 +302,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 133,
+                        "durationMicroseconds": 115,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 102
@@ -310,7 +310,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 129,
+                        "durationMicroseconds": 118,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 128
@@ -318,7 +318,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 500,
+                        "durationMicroseconds": 504,
                         "errorMessage": "",
                         "functionName": "to",
                         "line": 129
@@ -326,7 +326,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 128,
+                        "durationMicroseconds": 116,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 133
@@ -334,7 +334,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 494,
+                        "durationMicroseconds": 474,
                         "errorMessage": "",
                         "functionName": "to",
                         "line": 134
@@ -342,7 +342,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 273,
+                        "durationMicroseconds": 116,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 137
@@ -350,7 +350,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 219,
+                        "durationMicroseconds": 215,
                         "errorMessage": "",
                         "functionName": "to",
                         "line": 139
@@ -358,7 +358,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 114,
+                        "durationMicroseconds": 119,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 142
@@ -366,7 +366,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 248,
+                        "durationMicroseconds": 225,
                         "errorMessage": "",
                         "functionName": "to",
                         "line": 144
@@ -374,7 +374,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 139,
+                        "durationMicroseconds": 125,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 147
@@ -382,7 +382,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 57,
+                        "durationMicroseconds": 48,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "to",
                         "line": 149
@@ -390,7 +390,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 139,
+                        "durationMicroseconds": 105,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 152
@@ -398,7 +398,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 103,
+                        "durationMicroseconds": 109,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 157
@@ -406,7 +406,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 120,
+                        "durationMicroseconds": 111,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 167
@@ -414,7 +414,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 113,
+                        "durationMicroseconds": 117,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 172
@@ -422,7 +422,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 154,
+                        "durationMicroseconds": 115,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 176
@@ -430,7 +430,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 133,
+                        "durationMicroseconds": 105,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 181
@@ -438,7 +438,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 132,
+                        "durationMicroseconds": 121,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 186
@@ -446,7 +446,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 105,
+                        "durationMicroseconds": 94,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 192
@@ -454,7 +454,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 108,
+                        "durationMicroseconds": 102,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 197
@@ -462,7 +462,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 18,
-                        "durationMicroseconds": 57,
+                        "durationMicroseconds": 50,
                         "errorMessage": "Cannot access value for name changelogVisible",
                         "functionName": "spacing",
                         "line": 206
@@ -470,7 +470,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 172,
+                        "durationMicroseconds": 145,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 205
@@ -478,7 +478,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 34,
-                        "durationMicroseconds": 46,
+                        "durationMicroseconds": 48,
                         "errorMessage": "Cannot access value for name changelogVisible",
                         "functionName": "maximumWidth",
                         "line": 215
@@ -486,7 +486,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 274,
+                        "durationMicroseconds": 262,
                         "errorMessage": "",
                         "functionName": "maximumHeight",
                         "line": 216
@@ -494,7 +494,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 32,
-                        "durationMicroseconds": 48,
+                        "durationMicroseconds": 40,
                         "errorMessage": "Cannot access value for name changelogVisible",
                         "functionName": "leftMargin",
                         "line": 217
@@ -502,7 +502,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 159,
+                        "durationMicroseconds": 149,
                         "errorMessage": "",
                         "functionName": "flow",
                         "line": 228
@@ -510,7 +510,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 327,
+                        "durationMicroseconds": 303,
                         "errorMessage": "",
                         "functionName": "alignment",
                         "line": 231
@@ -518,7 +518,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 200,
+                        "durationMicroseconds": 264,
                         "errorMessage": "",
                         "functionName": "maximumWidth",
                         "line": 233
@@ -526,7 +526,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 198,
+                        "durationMicroseconds": 237,
                         "errorMessage": "",
                         "functionName": "maximumHeight",
                         "line": 234
@@ -534,7 +534,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 33,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 48,
                         "errorMessage": "Cannot access value for name changelogVisible",
                         "functionName": "rightMargin",
                         "line": 236
@@ -542,7 +542,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 32,
-                        "durationMicroseconds": 29,
+                        "durationMicroseconds": 39,
                         "errorMessage": "Cannot access value for name changelogVisible",
                         "functionName": "leftMargin",
                         "line": 237
@@ -550,7 +550,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 170,
+                        "durationMicroseconds": 141,
                         "errorMessage": "",
                         "functionName": "alignment",
                         "line": 246
@@ -558,7 +558,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 191,
+                        "durationMicroseconds": 252,
                         "errorMessage": "",
                         "functionName": "labelHeight",
                         "line": 257
@@ -566,7 +566,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 130,
+                        "durationMicroseconds": 147,
                         "errorMessage": "",
                         "functionName": "alignment",
                         "line": 273
@@ -574,7 +574,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 247,
+                        "durationMicroseconds": 321,
                         "errorMessage": "",
                         "functionName": "labelHeight",
                         "line": 283
@@ -582,7 +582,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 129,
+                        "durationMicroseconds": 167,
                         "errorMessage": "",
                         "functionName": "alignment",
                         "line": 300
@@ -590,7 +590,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 221,
+                        "durationMicroseconds": 266,
                         "errorMessage": "",
                         "functionName": "labelHeight",
                         "line": 310
@@ -598,7 +598,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 135,
+                        "durationMicroseconds": 155,
                         "errorMessage": "",
                         "functionName": "alignment",
                         "line": 326
@@ -606,7 +606,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 240,
+                        "durationMicroseconds": 277,
                         "errorMessage": "",
                         "functionName": "labelHeight",
                         "line": 337
