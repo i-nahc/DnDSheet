@@ -16,6 +16,8 @@ int main(int argc, char *argv[])
     QQmlContext * rootContext = engine.rootContext();
     rootContext->setContextProperty("windowManager", &qtBackend);
     rootContext->setContextProperty("itemsManager", appLists.getProxyItemList());
+    rootContext->setContextProperty("itemTypeFilters", appLists.fetchTypeFilters());
+    rootContext->setContextProperty("itemCatFilters", appLists.fetchCatFilters());
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreationFailed,

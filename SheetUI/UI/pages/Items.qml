@@ -68,7 +68,10 @@ Item {
                         Layout.fillHeight: true
                         Layout.fillWidth: true
                         Layout.preferredWidth: 3
-                        ItemsComboBox{id: typeFilter}
+                        ItemsComboBox{
+                            id: typeFilter
+                            modelSrc: itemTypeFilters
+                        }
                     }
 
                     Item{
@@ -97,7 +100,11 @@ Item {
                         Layout.fillHeight: true
                         Layout.fillWidth: true
                         Layout.preferredWidth: 4
-                        ItemsComboBox{id: catFilter}
+                        ItemsComboBox{
+                            id: catFilter
+                            modelSrc: itemCatFilters
+                            setHeight: true
+                        }
                     }
 
                     Item{

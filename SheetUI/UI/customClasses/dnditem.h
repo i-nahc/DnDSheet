@@ -15,9 +15,10 @@ class DNDItem : public QObject
     Q_PROPERTY(QString weight READ weight CONSTANT)
     Q_PROPERTY(QString iconName READ iconName CONSTANT)
     Q_PROPERTY(QString statIconName READ statIconName CONSTANT)
+    Q_PROPERTY(int proficiency READ proficiency CONSTANT)
 
     public:
-        DNDItem(QString ID, const QString &name, const QString &category, const QString &cost, const QString &stats, const QString &properties, const QString &weight, const QString &iconName, const QString &statIconName, QObject *parent);
+        DNDItem(QString ID, const QString &name, const QString &category, const QString &cost, const QString &stats, const QString &properties, const QString &weight, const QString &iconName, const QString &statIconName, const int proficiency, QObject *parent);
 
         const QString &ID() const;
         const QString &name() const;
@@ -28,6 +29,7 @@ class DNDItem : public QObject
         const QString &weight() const;
         const QString &iconName() const;
         const QString &statIconName() const;
+        const int &proficiency() const;
 
     private:
         QString m_ID;                       // GUID/UUID
@@ -39,6 +41,8 @@ class DNDItem : public QObject
         QString m_Weight;                       // weight of the item
         QString m_IconName;                 // the icon that should be used for the item next to its name
         QString m_StatIconName;             // unused
+        int m_Proficiency;                  // 0 = Martial Wep, 1 = Simple
+                                            // 2 = LA, 3 = MA, 4 = HA, 5 = Shield
 };
 
 #endif // DNDITEM_H

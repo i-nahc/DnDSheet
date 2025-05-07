@@ -122,6 +122,19 @@
                         "stored": true,
                         "type": "QString",
                         "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 9,
+                        "name": "proficiency",
+                        "read": "proficiency",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
                     }
                 ],
                 "qualifiedClassName": "DNDItem",

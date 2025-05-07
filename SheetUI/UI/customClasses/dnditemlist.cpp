@@ -77,6 +77,7 @@ QHash<int, QByteArray> DNDItemList::roleNames() const{
     roles[WeightRole] = "weight";
     roles[IconNameRole] = "iconName";
     roles[StatIconNameRole] = "statIconName";
+    roles[ProficiencyRole] = "proficiency";
 
     return roles;
 }
@@ -99,6 +100,8 @@ void DNDItemList::getItems(){
     {
         QString itemName = item.attribute("name").value();
         QString uuid = item.attribute("UUID").value();
+        QString mainTypeProf = item.child("proficiency").attribute("mainType").value();
+        int profInt;
         QString wepType = item.child("proficiency").attribute("value").value();
         QString cost = item.child("cost").attribute("value").value();
         QString weight = item.child("weight").attribute("value").value();
@@ -122,6 +125,15 @@ void DNDItemList::getItems(){
         }
         bool firstProp = true;
         QList <QString> damArr = {};
+
+        if(mainTypeProf == "martial")
+        {
+            profInt = 0;
+        }
+        else if(mainTypeProf == "simple")
+        {
+            profInt = 1;
+        }
 
         pugi::xml_node damageList = item.child("damageDies");
         for(pugi::xml_node damage = damageList.first_child(); damage; damage = damage.next_sibling())
@@ -173,7 +185,7 @@ void DNDItemList::getItems(){
             }
         }
 
-        m_items.append(new DNDItem(uuid, itemName, wepType, cost, damageString, propertyString, weight, iconPath, "1", this));
+        m_items.append(new DNDItem(uuid, itemName, wepType, cost, damageString, propertyString, weight, iconPath, "1", profInt, this));
     }
 
 }
@@ -197,9 +209,26 @@ void DNDItemList::getArmor(){
         QString uuid = item.attribute("UUID").value();
         QString mainType = item.child("proficiency").attribute("mainType").value();
         QString subType = item.child("proficiency").attribute("value").value();
+        int profInt;
         if(subType != "shield")
         {
             subType.append(" ").append(mainType);
+            if(subType == "light")
+            {
+                profInt = 2;
+            }
+            else if(subType == "medium")
+            {
+                profInt = 3;
+            }
+            else if(subType == "heavy")
+            {
+                profInt = 4;
+            }
+        }
+        else if(subType == "shield")
+        {
+            profInt = 5;
         }
         QString cost = item.child("cost").attribute("value").value();
         QString weight = item.child("weight").attribute("value").value();
@@ -249,6 +278,6 @@ void DNDItemList::getArmor(){
             }
         }
 
-        m_items.append(new DNDItem(uuid, itemName, subType, cost, acString, propertyString, weight, iconPath, "1", this));
+        m_items.append(new DNDItem(uuid, itemName, subType, cost, acString, propertyString, weight, iconPath, "1", profInt, this));
     }
 }

@@ -19,7 +19,8 @@ public:
         PropertiesRole,                 // heavy/reach/versatile/etc or stealth disadvantage, strength req.
         WeightRole,                     // #
         IconNameRole,                       // text pointing to icon to use
-        StatIconNameRole
+        StatIconNameRole,
+        ProficiencyRole
     };
 
 signals:

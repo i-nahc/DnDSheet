@@ -4,16 +4,18 @@ import QtQuick.Controls
 import QtQuick.Controls.Material
 
 ComboBox{
+    property var modelSrc: ["placeholder"];
+    property bool setHeight: false;
     id: control
     height: parent.height - 20
     width: parent.width
     anchors.verticalCenter: parent.verticalCenter
     leftPadding: 10
-    model: ["one", "two", "three"]
+    model: modelSrc
 
     delegate: ItemDelegate{
         id: selectorDelegate
-        width: parent.width
+        width: control.width
         height: 40
         padding: 0
         background: Rectangle{
@@ -48,7 +50,7 @@ ComboBox{
             leftPadding: 10
             }
         }
-        highlighted: parent.highlightedIndex === index
+        //highlighted: parent.highlightedIndex === index
     }
 
     contentItem: Text{
@@ -73,6 +75,7 @@ ComboBox{
     popup: Popup{
         y: parent.height - 1
         width: parent.width
+        height: setHeight ? parent.height * 15 : contentItem.implicitHeight
         implicitHeight: contentItem.implicitHeight
         padding: 1
         topPadding: 5

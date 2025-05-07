@@ -454,7 +454,7 @@
     <weight value="3 lb."/>
     <cost value="1 gp"/>
   </item>
-  <item name="Hoopak&#10;* A hoopak is a sturdy stick with a sling at one end and a pointed tip at the other." category="weapon" UUID="1ec6485e-fdc0-4668-ad10-3e301d71f1d1">
+  <item name="Hoopak" category="weapon" UUID="1ec6485e-fdc0-4668-ad10-3e301d71f1d1">
     <damageDies>
       <damage tag="default" value="1d6" type="piercing"/>
     </damageDies>
@@ -464,7 +464,7 @@
       <property value="special"/>
       <property value="two-handed"/>
     </properties>
-    <proficiency mainType="martial" attType="melee" value="hoopak&#10;* a hoopak is a sturdy stick with a sling at one end and a pointed tip at the other."/>
+    <proficiency mainType="martial" attType="melee" value="hoopak"/>
     <weight value="2 lb."/>
     <cost value="1 gp"/>
   </item>
