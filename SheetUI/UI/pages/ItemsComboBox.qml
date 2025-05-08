@@ -6,6 +6,26 @@ import QtQuick.Controls.Material
 ComboBox{
     property var modelSrc: ["placeholder"];
     property bool setHeight: false;
+    property string lastValue: "null";
+    property bool isTypeFilter: false;
+    property bool isCatFilter: false;
+    currentIndex: 0
+
+
+    signal selectFiltersChanged(setTo: string)
+
+    onActivated: {
+        if(lastValue == "null")
+        {
+            selectFiltersChanged(control.currentText)
+        }
+        else if(lastValue !== control.currentText)
+        {
+            selectFiltersChanged(control.currentText)
+        }
+        lastValue = control.currentText
+    }
+
     id: control
     height: parent.height - 20
     width: parent.width

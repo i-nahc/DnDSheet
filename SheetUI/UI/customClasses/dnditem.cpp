@@ -61,7 +61,7 @@ const QString &DNDItem::statIconName() const
     return m_StatIconName;
 }
 
-const int &DNDItem::proficiency() const
+const int DNDItem::proficiency() const
 {
     return m_Proficiency;
 }

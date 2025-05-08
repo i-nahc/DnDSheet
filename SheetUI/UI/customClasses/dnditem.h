@@ -29,7 +29,7 @@ class DNDItem : public QObject
         const QString &weight() const;
         const QString &iconName() const;
         const QString &statIconName() const;
-        const int &proficiency() const;
+        const int proficiency() const;
 
     private:
         QString m_ID;                       // GUID/UUID

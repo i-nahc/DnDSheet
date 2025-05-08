@@ -15,6 +15,7 @@ int main(int argc, char *argv[])
 
     QQmlContext * rootContext = engine.rootContext();
     rootContext->setContextProperty("windowManager", &qtBackend);
+    rootContext->setContextProperty("listsHandler", &appLists);
     rootContext->setContextProperty("itemsManager", appLists.getProxyItemList());
     rootContext->setContextProperty("itemTypeFilters", appLists.fetchTypeFilters());
     rootContext->setContextProperty("itemCatFilters", appLists.fetchCatFilters());

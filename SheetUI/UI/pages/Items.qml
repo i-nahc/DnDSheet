@@ -5,6 +5,7 @@ import QtQuick.Controls.Material
 Item {
     id: mainItem
     anchors.fill: parent
+
     MouseArea {
         anchors.fill:parent
         onClicked: mainItem.forceActiveFocus()
@@ -71,6 +72,8 @@ Item {
                         ItemsComboBox{
                             id: typeFilter
                             modelSrc: itemTypeFilters
+                            isTypeFilter: true
+                            onSelectFiltersChanged: (setTo) => listsHandler.editTypeFilter(setTo)
                         }
                     }
 
@@ -104,6 +107,8 @@ Item {
                             id: catFilter
                             modelSrc: itemCatFilters
                             setHeight: true
+                            isCatFilter: true
+                            onSelectFiltersChanged: (setTo) => listsHandler.editCatFilter(setTo)
                         }
                     }
 
@@ -159,6 +164,7 @@ Item {
                                 font.pixelSize: 14
                                 Keys.onReturnPressed: {
                                     mainItem.forceActiveFocus()
+                                    listsHandler.editSearchQuery(text)
                                 }
                             }
                         }

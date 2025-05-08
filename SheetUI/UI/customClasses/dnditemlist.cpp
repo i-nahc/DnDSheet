@@ -59,6 +59,10 @@ QVariant DNDItemList::data(const QModelIndex &index, int role) const
     {
         return m_items[index.row()]->statIconName();
     }
+    else if(role == ProficiencyRole)
+    {
+        return m_items[index.row()]->proficiency();
+    }
     else
     {
         return QVariant();
@@ -210,9 +214,9 @@ void DNDItemList::getArmor(){
         QString mainType = item.child("proficiency").attribute("mainType").value();
         QString subType = item.child("proficiency").attribute("value").value();
         int profInt;
+
         if(subType != "shield")
         {
-            subType.append(" ").append(mainType);
             if(subType == "light")
             {
                 profInt = 2;
@@ -225,11 +229,14 @@ void DNDItemList::getArmor(){
             {
                 profInt = 4;
             }
+
+            subType.append(" ").append(mainType);  
         }
         else if(subType == "shield")
         {
             profInt = 5;
         }
+
         QString cost = item.child("cost").attribute("value").value();
         QString weight = item.child("weight").attribute("value").value();
         QString propertyString = "";

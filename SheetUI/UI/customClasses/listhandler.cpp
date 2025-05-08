@@ -6,6 +6,9 @@ ListHandler::ListHandler(QObject* parent) {
     proxyItemList = new ProxyItemList(this);
     proxyItemList->setSourceModel(mainItemList);
 
+    curTypeFilter = "All";
+    curCatFilter = "Any";
+    curSearchQuery = "";
 
     m_TypeFilters = {"All", "Armor", "Weapons", "Martial Weps", "Simple Weps"};
     m_CategoryFilters << "Any";
@@ -77,4 +80,17 @@ void ListHandler::getArmFilters()
             m_CategoryFilters << insert;
         }
     }
+}
+
+void ListHandler::editTypeFilter(QString newVal)
+{
+    proxyItemList->setTypeFilter(newVal);
+}
+void ListHandler::editCatFilter(QString newVal)
+{
+    proxyItemList->setCatFilter(newVal);
+}
+void ListHandler::editSearchQuery(QString newVal)
+{
+    proxyItemList->setSearchQuery(newVal);
 }
