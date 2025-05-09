@@ -9,6 +9,7 @@ CLASS_FILE_NAME = "classList.xml"
 SUBCLASS_FILE_NAME = "subclassList.xml"
 ITEM_FILE_NAME = "commonItemList.xml"
 ARMOR_FILE_NAME = "commonArmorList.xml"
+SPELL_FILE_NAME = "commonSpellList.xml"
 
 parser = etree.XMLParser(remove_blank_text=True)
 
@@ -163,5 +164,55 @@ def addArmor(inName: str, inCost: str, inAC: str, inWeight: str, disadvantage: s
     root.append(itemHead)
     tree = etree.ElementTree(root)
     tree.write(DATA_PATH + ARMOR_FILE_NAME, pretty_print = True)
+
+def addSpell(inName: str, inSchool: str, inAction: str, inRange: str, inDuration: str, inComponents: str, inLevel: str, spellLists):
+    if(os.path.isfile(DATA_PATH + SPELL_FILE_NAME)):
+        root = etree.parse(DATA_PATH + SPELL_FILE_NAME, parser).getroot()
+    else:
+        root = etree.Element("spellList")
+
+    if(os.path.isfile(DATA_PATH + CLASS_FILE_NAME)):
+        classRoot = etree.parse(DATA_PATH + CLASS_FILE_NAME, parser).getroot()
+    else:
+        print("ABORTING: MUST COMPLETE CLASS LIST FIRST")
+        return
+
+    if(root.xpath("//item[@name=" + "'" + inName + "']")):
+        print("Skipped " + inName + ", Reason: Already exists")
+        return
+    
+    # need to do a lookup for the UUID of the items in the spellLists array
+    itemHead = etree.SubElement(root, "item", name=inName, school=inSchool, level=inLevel)
+    action = ""
+    actVal  = "1"
+    if("bonus" in inAction.lower()):
+        action = "bonus"
+    elif("reaction" in inAction.lower()):
+        action = "reaction"
+    elif("action" in inAction.lower()):
+        action = "action"
+    elif("hour" in inAction.lower()):
+        action = "hour"
+        actVal = inAction.split()[0]
+    elif("minute" in inAction.lower()):
+        action = "minute"
+        actVal = inAction.split()[0]
+    elif("special" in inAction.lower()):
+        action = "reaction"
+    spellCost = etree.SubElement(itemHead, "cost", type=action, value=actVal)
+    spellListHead = etree.SubElement(itemHead, "spellList")
+
+    if(spellLists):
+        for item in spellLists:
+            capName = item.capitalize()
+            classHead = classRoot.xpath("//class[@name=" + "'" + capName + "'" + "]")[0]
+            classUUID = classHead.get('UUID')
+            spellList = etree.SubElement(spellListHead, "class", name=item, UUID=classUUID)
+    else:
+        print("Error empty spell list")
+
+    tree = etree.ElementTree(root)
+    tree.write(DATA_PATH + SPELL_FILE_NAME, pretty_print = True)
+        
 
 

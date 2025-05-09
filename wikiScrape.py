@@ -2,6 +2,7 @@ from selenium import webdriver
 from dataPopulate import addDNDClass
 from dataPopulate import addWeapon
 from dataPopulate import addArmor
+from dataPopulate import addSpell
 import os
 # file paths
 DATA_PATH = "./data/"
@@ -159,6 +160,7 @@ def scrapeSpell():
         levelLinks[curLevel].click()
         rows = table.find_elements(by="xpath", value=".//tr")
         for row in rows:
+            skip = False
             columns = row.find_elements(by="xpath", value=".//td")
             curColumn = 0
             appendHref = ""
@@ -175,27 +177,42 @@ def scrapeSpell():
                         # new driver instance to access the individual page
                         driverInst2.get(appendHref)
 
+                        if("UA" in elem.text or "HB" in elem.text):
+                            skip = True
+                            break
+
                         # Get Spell List
-                        spellListSection = driverInst2.find_elements(by="xpath", value="//p[.//em and .//a]")[0]
-                        classes = spellListSection.find_elements(by="xpath", value=".//a")
-                        for classItem in classes:
-                            className = classItem.text
-                            print(className.lower())
-                            spellLists.append(className.lower())
+                        spellListSection = driverInst2.find_elements(by="xpath", value="//p[.//em and .//a]")
+                        if(spellListSection):
+                            spellListSection = spellListSection[0]
+                            classes = spellListSection.find_elements(by="xpath", value=".//a")
+
+                            for classItem in classes:
+                                className = classItem.text
+                                className = className.split()[0]
+                                print(className.lower())
+                                spellLists.append(className.lower())
   
                         print(appendHref)
                         print(elem.text)
+                        rowContents.append(elem.text)
 
                     elif(curColumn == 1):
                         elem = column.find_elements(by="xpath", value=".//em")[0]
                         print(elem.text)
+                        rowContents.append(elem.text)
 
                     else:
                         print(column.text)
+                        rowContents.append(elem.text)
                     
                     curColumn += 1
 
-                # advanced scrapes
+            
+                if(not skip):
+                    # add spell
+                    print("Don't skip")
+                    addSpell(rowContents[0], rowContents[1], rowContents[2], "" , "", "", str(curLevel), spellLists=spellLists)
 
 
         curLevel += 1
@@ -213,6 +230,8 @@ def main():
     #scrapeClass()
     #scrapeArmor()
     scrapeSpell()
+
+    driverInst.quit()
 
 if __name__ == "__main__":
     main()

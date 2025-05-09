@@ -1,0 +1,75 @@
+<spellList>
+  <item name="Acid Splash" school="Conjuration" level="0">
+    <cost type="" value="1"/>
+    <spellList>
+      <class name="item" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="item" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="item" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Blade Ward" school="Abjuration" level="0">
+    <cost type="" value="1"/>
+    <spellList>
+      <class name="item" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="item" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="item" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="item" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Booming Blade" school="Evocation" level="0">
+    <cost type="" value="1"/>
+    <spellList>
+      <class name="item" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="item" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="item" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="item" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Chill Touch" school="Necromancy" level="0">
+    <cost type="" value="1"/>
+    <spellList>
+      <class name="item" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="item" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="item" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Control Flames" school="Transmutation" level="0">
+    <cost type="" value="1"/>
+    <spellList>
+      <class name="item" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="item" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="item" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Create Bonfire" school="Conjuration" level="0">
+    <cost type="" value="1"/>
+    <spellList>
+      <class name="item" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="item" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="item" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="item" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="item" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Dancing Lights" school="Evocation" level="0">
+    <cost type="" value="1"/>
+    <spellList>
+      <class name="item" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="item" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="item" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="item" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Druidcraft" school="Transmutation" level="0">
+    <cost type="" value="1"/>
+    <spellList>
+      <class name="item" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Eldritch Blast" school="Evocation" level="0">
+    <cost type="" value="1"/>
+    <spellList>
+      <class name="item" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+    </spellList>
+  </item>
+</spellList>
