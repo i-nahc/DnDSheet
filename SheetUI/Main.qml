@@ -74,6 +74,7 @@ ApplicationWindow {
                 }
                 else if(redirect === "guide")
                 {
+                    pageDirAppend = "/pages/Guide.qml"
                     leftNavBar.activatedMenu = 4
                 }
                 curPage = redirect

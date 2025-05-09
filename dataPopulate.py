@@ -164,3 +164,4 @@ def addArmor(inName: str, inCost: str, inAC: str, inWeight: str, disadvantage: s
     tree = etree.ElementTree(root)
     tree.write(DATA_PATH + ARMOR_FILE_NAME, pretty_print = True)
 
+

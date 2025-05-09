@@ -11,6 +11,9 @@
     <file alias="UI/pages/Items.qml">D:/DevTools/Projects/DnDSheet/SheetUI/UI/pages/Items.qml</file>
     <file alias="UI/pages/ItemsComponents.qml">D:/DevTools/Projects/DnDSheet/SheetUI/UI/pages/ItemsComponents.qml</file>
     <file alias="UI/pages/ItemsComboBox.qml">D:/DevTools/Projects/DnDSheet/SheetUI/UI/pages/ItemsComboBox.qml</file>
+    <file alias="UI/pages/Guide.qml">D:/DevTools/Projects/DnDSheet/SheetUI/UI/pages/Guide.qml</file>
+    <file alias="UI/pages/GuideSideBar.qml">D:/DevTools/Projects/DnDSheet/SheetUI/UI/pages/GuideSideBar.qml</file>
+    <file alias="UI/pages/GuideSideOption.qml">D:/DevTools/Projects/DnDSheet/SheetUI/UI/pages/GuideSideOption.qml</file>
     <file alias="icons.qrc">D:/DevTools/Projects/DnDSheet/SheetUI/icons.qrc</file>
     <file alias="fonts.qrc">D:/DevTools/Projects/DnDSheet/SheetUI/fonts.qrc</file>
   </qresource>

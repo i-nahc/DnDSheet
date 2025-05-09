@@ -138,6 +138,49 @@ def scrapeArmor():
                 # insert to file
                 addArmor(rowContents[0], rowContents[5], rowContents[1], rowContents[4], rowContents[3], rowContents[2], sectionHeading)
         curSec += 1
+
+def scrapeSpell():
+    print("Now scraping spells")
+
+    webPageURL = "https://dnd5e.wikidot.com/spells"
+    driverInst.get(webPageURL)
+
+    spellTables = driverInst.find_elements(by="xpath", value="//table[@class]")
+    levelLinks = driverInst.find_elements(by="xpath", value="//ul[@class='yui-nav']//li//a")
+    curLevel = 0 # 0 being cantrips, 10 being level 9
+    for table in spellTables:
+        # click on correct levelLink
+        levelLinks[curLevel].click()
+        rows = table.find_elements(by="xpath", value=".//tr")
+        for row in rows:
+            columns = row.find_elements(by="xpath", value=".//td")
+            curColumn = 0
+            appendHref = ""
+            rowContents = []
+            if(columns): # i.e. if not a table header
+                # basics scrapes
+                for column in columns:
+                    if(curColumn == 0):
+                        # set href link
+                        elem = column.find_elements(by="xpath", value=".//a")[0]
+                        appendHref = elem.get_attribute("href")
+                        print(appendHref)
+                        print(elem.text)
+
+                    elif(curColumn == 1):
+                        elem = column.find_elements(by="xpath", value=".//em")[0]
+                        print(elem.text)
+
+                    else:
+                        print(column.text)
+                    
+                    curColumn += 1
+
+                # advanced scrapes
+
+
+        curLevel += 1
+
         
 
 
@@ -148,7 +191,8 @@ def scrapeArmor():
 def main():
     #scrapeItems()
     #scrapeClass()
-    scrapeArmor()
+    #scrapeArmor()
+    scrapeSpell()
 
 if __name__ == "__main__":
     main()

@@ -82,6 +82,27 @@ namespace _qt_qml_SheetUI_UI_pages_ItemsComboBox_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_SheetUI_UI_pages_Guide_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_SheetUI_UI_pages_GuideSideBar_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_SheetUI_UI_pages_GuideSideOption_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -107,6 +128,9 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/SheetUI/UI/pages/Items.qml"), &QmlCacheGeneratedCode::_qt_qml_SheetUI_UI_pages_Items_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/SheetUI/UI/pages/ItemsComponents.qml"), &QmlCacheGeneratedCode::_qt_qml_SheetUI_UI_pages_ItemsComponents_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/SheetUI/UI/pages/ItemsComboBox.qml"), &QmlCacheGeneratedCode::_qt_qml_SheetUI_UI_pages_ItemsComboBox_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/SheetUI/UI/pages/Guide.qml"), &QmlCacheGeneratedCode::_qt_qml_SheetUI_UI_pages_Guide_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/SheetUI/UI/pages/GuideSideBar.qml"), &QmlCacheGeneratedCode::_qt_qml_SheetUI_UI_pages_GuideSideBar_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/SheetUI/UI/pages/GuideSideOption.qml"), &QmlCacheGeneratedCode::_qt_qml_SheetUI_UI_pages_GuideSideOption_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;
