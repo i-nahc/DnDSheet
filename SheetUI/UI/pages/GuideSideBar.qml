@@ -10,6 +10,7 @@ Item {
         color: Style.primaryColorDark
         radius: Material.SmallScale
     }
+
     ColumnLayout{
         anchors.centerIn: parent
         height: parent.height

@@ -9,7 +9,10 @@ CLASS_FILE_NAME = "classList.xml"
 SUBCLASS_FILE_NAME = "subclassList.xml"
 ITEM_FILE_NAME = "commonItemList.xml"
 
-driverInst = webdriver.Firefox()
+options = webdriver.FirefoxOptions()
+options.add_argument("--headless")
+driverInst = webdriver.Firefox(options = options)
+
 
 def scrapeClass(): 
     # Main URL of page
@@ -144,6 +147,7 @@ def scrapeSpell():
 
     webPageURL = "https://dnd5e.wikidot.com/spells"
     driverInst.get(webPageURL)
+    driverInst2 = webdriver.Firefox(options = options)
 
     spellTables = driverInst.find_elements(by="xpath", value="//table[@class]")
     levelLinks = driverInst.find_elements(by="xpath", value="//ul[@class='yui-nav']//li//a")
@@ -157,6 +161,7 @@ def scrapeSpell():
             curColumn = 0
             appendHref = ""
             rowContents = []
+            spellLists = []
             if(columns): # i.e. if not a table header
                 # basics scrapes
                 for column in columns:
@@ -164,6 +169,18 @@ def scrapeSpell():
                         # set href link
                         elem = column.find_elements(by="xpath", value=".//a")[0]
                         appendHref = elem.get_attribute("href")
+
+                        # new driver instance to access the individual page
+                        driverInst2.get(appendHref)
+
+                        # Get Spell List
+                        spellListSection = driverInst2.find_elements(by="xpath", value="//p[.//em and .//a]")[0]
+                        classes = spellListSection.find_elements(by="xpath", value=".//a")
+                        for classItem in classes:
+                            className = classItem.text
+                            print(className.lower())
+                            spellLists.append(className.lower())
+  
                         print(appendHref)
                         print(elem.text)
 
@@ -180,6 +197,7 @@ def scrapeSpell():
 
 
         curLevel += 1
+    driverInst2.quit()  
 
         
 

@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 206,
+                        "durationMicroseconds": 293,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 7
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 172,
+                        "durationMicroseconds": 255,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 11
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 80,
+                        "durationMicroseconds": 103,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 10
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 188,
+                        "durationMicroseconds": 274,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 19
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 153,
+                        "durationMicroseconds": 233,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 20
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 144,
+                        "durationMicroseconds": 217,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 16
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 33,
-                        "durationMicroseconds": 249,
+                        "durationMicroseconds": 188,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 17
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 85,
+                        "durationMicroseconds": 104,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 24
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 188,
+                        "durationMicroseconds": 234,
                         "errorMessage": "",
                         "functionName": "spacing",
                         "line": 31
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 94,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 30
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 6834,
+                        "durationMicroseconds": 3447,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 38
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 184,
+                        "durationMicroseconds": 120,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 39
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 114,
+                        "durationMicroseconds": 69,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 40
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 99,
+                        "durationMicroseconds": 77,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 43
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 48,
-                        "durationMicroseconds": 175,
+                        "durationMicroseconds": 109,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 54
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 184,
+                        "durationMicroseconds": 99,
                         "errorMessage": "",
                         "functionName": "fontSizeMode",
                         "line": 57
@@ -134,7 +134,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 110,
+                        "durationMicroseconds": 63,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 50
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 42,
-                        "durationMicroseconds": 249,
+                        "durationMicroseconds": 169,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
                         "line": 51
@@ -150,7 +150,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 42,
-                        "durationMicroseconds": 153,
+                        "durationMicroseconds": 92,
                         "errorMessage": "",
                         "functionName": "weight",
                         "line": 59
@@ -158,7 +158,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 39,
-                        "durationMicroseconds": 652,
+                        "durationMicroseconds": 495,
                         "errorMessage": "Cannot access value for name itemTypeFilters",
                         "functionName": "modelSrc",
                         "line": 74
@@ -166,7 +166,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 54,
-                        "durationMicroseconds": 541,
+                        "durationMicroseconds": 344,
                         "errorMessage": "Cannot access value for name listsHandler",
                         "functionName": "onSelectFiltersChanged",
                         "line": 76
@@ -174,7 +174,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 54,
-                        "durationMicroseconds": 98,
+                        "durationMicroseconds": 70,
                         "errorMessage": "",
                         "functionName": "onSelectFiltersChanged",
                         "line": 76
@@ -182,7 +182,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 48,
-                        "durationMicroseconds": 156,
+                        "durationMicroseconds": 101,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 89
@@ -190,7 +190,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 120,
+                        "durationMicroseconds": 85,
                         "errorMessage": "",
                         "functionName": "fontSizeMode",
                         "line": 92
@@ -198,7 +198,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 101,
+                        "durationMicroseconds": 75,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 85
@@ -206,7 +206,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 42,
-                        "durationMicroseconds": 217,
+                        "durationMicroseconds": 165,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
                         "line": 86
@@ -214,7 +214,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 42,
-                        "durationMicroseconds": 120,
+                        "durationMicroseconds": 93,
                         "errorMessage": "",
                         "functionName": "weight",
                         "line": 94
@@ -222,7 +222,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 39,
-                        "durationMicroseconds": 613,
+                        "durationMicroseconds": 387,
                         "errorMessage": "Cannot access value for name itemCatFilters",
                         "functionName": "modelSrc",
                         "line": 108
@@ -230,7 +230,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 54,
-                        "durationMicroseconds": 514,
+                        "durationMicroseconds": 322,
                         "errorMessage": "Cannot access value for name listsHandler",
                         "functionName": "onSelectFiltersChanged",
                         "line": 111
@@ -238,7 +238,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 54,
-                        "durationMicroseconds": 95,
+                        "durationMicroseconds": 169,
                         "errorMessage": "",
                         "functionName": "onSelectFiltersChanged",
                         "line": 111
@@ -246,7 +246,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 48,
-                        "durationMicroseconds": 142,
+                        "durationMicroseconds": 106,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 124
@@ -254,7 +254,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 127,
+                        "durationMicroseconds": 93,
                         "errorMessage": "",
                         "functionName": "fontSizeMode",
                         "line": 127
@@ -262,7 +262,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 99,
+                        "durationMicroseconds": 75,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 120
@@ -270,7 +270,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 42,
-                        "durationMicroseconds": 246,
+                        "durationMicroseconds": 201,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
                         "line": 121
@@ -278,7 +278,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 42,
-                        "durationMicroseconds": 128,
+                        "durationMicroseconds": 86,
                         "errorMessage": "",
                         "functionName": "weight",
                         "line": 129
@@ -286,7 +286,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 107,
+                        "durationMicroseconds": 73,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 144
@@ -294,7 +294,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 239,
+                        "durationMicroseconds": 308,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 147
@@ -302,7 +302,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 41,
-                        "durationMicroseconds": 225,
+                        "durationMicroseconds": 248,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 148
@@ -310,7 +310,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 176,
+                        "durationMicroseconds": 199,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 149
@@ -318,7 +318,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 48,
-                        "durationMicroseconds": 144,
+                        "durationMicroseconds": 148,
                         "errorMessage": "",
                         "functionName": "topLeftRadius",
                         "line": 150
@@ -326,7 +326,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 51,
-                        "durationMicroseconds": 137,
+                        "durationMicroseconds": 251,
                         "errorMessage": "",
                         "functionName": "bottomLeftRadius",
                         "line": 151
@@ -334,7 +334,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 57,
-                        "durationMicroseconds": 199,
+                        "durationMicroseconds": 218,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 146
@@ -342,7 +342,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 166,
+                        "durationMicroseconds": 139,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 156
@@ -350,7 +350,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 41,
-                        "durationMicroseconds": 226,
+                        "durationMicroseconds": 210,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 157
@@ -358,7 +358,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 52,
-                        "durationMicroseconds": 131,
+                        "durationMicroseconds": 129,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 158
@@ -366,7 +366,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 145,
+                        "durationMicroseconds": 133,
                         "errorMessage": "",
                         "functionName": "wrapMode",
                         "line": 163
@@ -374,7 +374,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 57,
-                        "durationMicroseconds": 192,
+                        "durationMicroseconds": 188,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 155
@@ -382,7 +382,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 46,
-                        "durationMicroseconds": 220,
+                        "durationMicroseconds": 218,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
                         "line": 162
@@ -390,7 +390,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 55,
-                        "durationMicroseconds": 583,
+                        "durationMicroseconds": 612,
                         "errorMessage": "Cannot access value for name listsHandler",
                         "functionName": "onReturnPressed",
                         "line": 165
@@ -398,7 +398,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 106,
+                        "durationMicroseconds": 100,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 178
@@ -406,7 +406,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 189,
+                        "durationMicroseconds": 226,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 181
@@ -414,7 +414,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 41,
-                        "durationMicroseconds": 236,
+                        "durationMicroseconds": 204,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 182
@@ -422,7 +422,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 188,
+                        "durationMicroseconds": 175,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 183
@@ -430,7 +430,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 49,
-                        "durationMicroseconds": 153,
+                        "durationMicroseconds": 147,
                         "errorMessage": "",
                         "functionName": "topRightRadius",
                         "line": 184
@@ -438,7 +438,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 52,
-                        "durationMicroseconds": 147,
+                        "durationMicroseconds": 134,
                         "errorMessage": "",
                         "functionName": "bottomRightRadius",
                         "line": 185
@@ -454,7 +454,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 207,
+                        "durationMicroseconds": 269,
                         "errorMessage": "",
                         "functionName": "z",
                         "line": 201
@@ -462,7 +462,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 125,
+                        "durationMicroseconds": 214,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 206
@@ -470,7 +470,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 41,
-                        "durationMicroseconds": 93,
+                        "durationMicroseconds": 149,
                         "errorMessage": "",
                         "functionName": "topRightRadius",
                         "line": 208
@@ -478,7 +478,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 93,
+                        "durationMicroseconds": 133,
                         "errorMessage": "",
                         "functionName": "topLeftRadius",
                         "line": 209
@@ -486,7 +486,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 118,
+                        "durationMicroseconds": 139,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 207
@@ -494,7 +494,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 102,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 213
@@ -502,7 +502,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 52,
-                        "durationMicroseconds": 106,
+                        "durationMicroseconds": 128,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 225
@@ -510,7 +510,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 115,
+                        "durationMicroseconds": 121,
                         "errorMessage": "",
                         "functionName": "fontSizeMode",
                         "line": 228
@@ -518,7 +518,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 92,
+                        "durationMicroseconds": 90,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 221
@@ -526,7 +526,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 46,
-                        "durationMicroseconds": 186,
+                        "durationMicroseconds": 226,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
                         "line": 222
@@ -534,7 +534,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 207,
+                        "durationMicroseconds": 178,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 234
@@ -542,7 +542,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 48,
-                        "durationMicroseconds": 142,
+                        "durationMicroseconds": 211,
                         "errorMessage": "",
                         "functionName": "right",
                         "line": 232
@@ -550,7 +550,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 46,
-                        "durationMicroseconds": 138,
+                        "durationMicroseconds": 181,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 235
@@ -558,7 +558,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 49,
-                        "durationMicroseconds": 130,
+                        "durationMicroseconds": 170,
                         "errorMessage": "",
                         "functionName": "bottom",
                         "line": 236
@@ -566,7 +566,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 52,
-                        "durationMicroseconds": 187,
+                        "durationMicroseconds": 227,
                         "errorMessage": "",
                         "functionName": "topMargin",
                         "line": 237
@@ -574,7 +574,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 55,
-                        "durationMicroseconds": 153,
+                        "durationMicroseconds": 244,
                         "errorMessage": "",
                         "functionName": "bottomMargin",
                         "line": 238
@@ -582,7 +582,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 52,
-                        "durationMicroseconds": 105,
+                        "durationMicroseconds": 126,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 251
@@ -590,7 +590,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 148,
+                        "durationMicroseconds": 112,
                         "errorMessage": "",
                         "functionName": "fontSizeMode",
                         "line": 254
@@ -598,7 +598,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 116,
+                        "durationMicroseconds": 94,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 247
@@ -606,7 +606,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 46,
-                        "durationMicroseconds": 209,
+                        "durationMicroseconds": 218,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
                         "line": 248
@@ -614,7 +614,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 192,
+                        "durationMicroseconds": 177,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 260
@@ -622,7 +622,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 48,
-                        "durationMicroseconds": 199,
+                        "durationMicroseconds": 190,
                         "errorMessage": "",
                         "functionName": "right",
                         "line": 258
@@ -630,7 +630,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 46,
-                        "durationMicroseconds": 207,
+                        "durationMicroseconds": 184,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 261
@@ -638,7 +638,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 49,
-                        "durationMicroseconds": 200,
+                        "durationMicroseconds": 182,
                         "errorMessage": "",
                         "functionName": "bottom",
                         "line": 262
@@ -646,7 +646,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 52,
-                        "durationMicroseconds": 235,
+                        "durationMicroseconds": 227,
                         "errorMessage": "",
                         "functionName": "topMargin",
                         "line": 263
@@ -654,7 +654,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 55,
-                        "durationMicroseconds": 210,
+                        "durationMicroseconds": 213,
                         "errorMessage": "",
                         "functionName": "bottomMargin",
                         "line": 264
@@ -662,7 +662,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 52,
-                        "durationMicroseconds": 145,
+                        "durationMicroseconds": 133,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 277
@@ -670,7 +670,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 120,
+                        "durationMicroseconds": 158,
                         "errorMessage": "",
                         "functionName": "fontSizeMode",
                         "line": 280
@@ -678,7 +678,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 87,
+                        "durationMicroseconds": 102,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 273
@@ -686,7 +686,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 46,
-                        "durationMicroseconds": 244,
+                        "durationMicroseconds": 215,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
                         "line": 274
@@ -694,7 +694,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 213,
+                        "durationMicroseconds": 176,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 286
@@ -702,7 +702,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 48,
-                        "durationMicroseconds": 179,
+                        "durationMicroseconds": 185,
                         "errorMessage": "",
                         "functionName": "right",
                         "line": 284
@@ -710,7 +710,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 46,
-                        "durationMicroseconds": 174,
+                        "durationMicroseconds": 175,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 287
@@ -718,7 +718,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 49,
-                        "durationMicroseconds": 169,
+                        "durationMicroseconds": 177,
                         "errorMessage": "",
                         "functionName": "bottom",
                         "line": 288
@@ -726,7 +726,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 52,
-                        "durationMicroseconds": 218,
+                        "durationMicroseconds": 223,
                         "errorMessage": "",
                         "functionName": "topMargin",
                         "line": 289
@@ -734,7 +734,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 55,
-                        "durationMicroseconds": 231,
+                        "durationMicroseconds": 213,
                         "errorMessage": "",
                         "functionName": "bottomMargin",
                         "line": 290
@@ -742,7 +742,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 52,
-                        "durationMicroseconds": 162,
+                        "durationMicroseconds": 142,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 303
@@ -750,7 +750,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 149,
+                        "durationMicroseconds": 123,
                         "errorMessage": "",
                         "functionName": "fontSizeMode",
                         "line": 306
@@ -758,7 +758,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 102,
+                        "durationMicroseconds": 104,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 299
@@ -766,7 +766,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 46,
-                        "durationMicroseconds": 215,
+                        "durationMicroseconds": 270,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
                         "line": 300
@@ -774,7 +774,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 172,
+                        "durationMicroseconds": 178,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 312
@@ -782,7 +782,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 48,
-                        "durationMicroseconds": 177,
+                        "durationMicroseconds": 193,
                         "errorMessage": "",
                         "functionName": "right",
                         "line": 310
@@ -790,7 +790,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 46,
-                        "durationMicroseconds": 181,
+                        "durationMicroseconds": 201,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 313
@@ -798,7 +798,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 49,
-                        "durationMicroseconds": 183,
+                        "durationMicroseconds": 199,
                         "errorMessage": "",
                         "functionName": "bottom",
                         "line": 314
@@ -806,7 +806,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 52,
-                        "durationMicroseconds": 224,
+                        "durationMicroseconds": 218,
                         "errorMessage": "",
                         "functionName": "topMargin",
                         "line": 315
@@ -814,7 +814,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 55,
-                        "durationMicroseconds": 213,
+                        "durationMicroseconds": 165,
                         "errorMessage": "",
                         "functionName": "bottomMargin",
                         "line": 316
@@ -822,7 +822,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 52,
-                        "durationMicroseconds": 134,
+                        "durationMicroseconds": 111,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 329
@@ -830,7 +830,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 122,
+                        "durationMicroseconds": 126,
                         "errorMessage": "",
                         "functionName": "fontSizeMode",
                         "line": 332
@@ -838,7 +838,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 88,
+                        "durationMicroseconds": 93,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 325
@@ -846,7 +846,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 46,
-                        "durationMicroseconds": 223,
+                        "durationMicroseconds": 242,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
                         "line": 326
@@ -854,7 +854,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 167,
+                        "durationMicroseconds": 200,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 338
@@ -862,7 +862,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 48,
-                        "durationMicroseconds": 192,
+                        "durationMicroseconds": 212,
                         "errorMessage": "",
                         "functionName": "right",
                         "line": 336
@@ -870,7 +870,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 46,
-                        "durationMicroseconds": 179,
+                        "durationMicroseconds": 202,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 339
@@ -878,7 +878,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 49,
-                        "durationMicroseconds": 187,
+                        "durationMicroseconds": 190,
                         "errorMessage": "",
                         "functionName": "bottom",
                         "line": 340
@@ -886,7 +886,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 52,
-                        "durationMicroseconds": 226,
+                        "durationMicroseconds": 236,
                         "errorMessage": "",
                         "functionName": "topMargin",
                         "line": 341
@@ -894,7 +894,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 55,
-                        "durationMicroseconds": 198,
+                        "durationMicroseconds": 231,
                         "errorMessage": "",
                         "functionName": "bottomMargin",
                         "line": 342
@@ -902,7 +902,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 52,
-                        "durationMicroseconds": 131,
+                        "durationMicroseconds": 140,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 356
@@ -910,7 +910,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 127,
+                        "durationMicroseconds": 131,
                         "errorMessage": "",
                         "functionName": "fontSizeMode",
                         "line": 359
@@ -918,7 +918,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 110,
+                        "durationMicroseconds": 123,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 352
@@ -926,7 +926,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 46,
-                        "durationMicroseconds": 419,
+                        "durationMicroseconds": 231,
                         "errorMessage": "Cannot generate efficient code for retrieving the metaType of a composite type without an element name.",
                         "functionName": "family",
                         "line": 353
@@ -934,7 +934,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 203,
+                        "durationMicroseconds": 204,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 366
@@ -942,7 +942,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 136,
+                        "durationMicroseconds": 141,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 368
@@ -950,7 +950,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 185,
+                        "durationMicroseconds": 212,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 367
@@ -958,7 +958,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 354,
+                        "durationMicroseconds": 348,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 382
@@ -966,7 +966,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 148,
+                        "durationMicroseconds": 153,
                         "errorMessage": "",
                         "functionName": "bottomLeftRadius",
                         "line": 383
@@ -974,7 +974,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 44,
-                        "durationMicroseconds": 160,
+                        "durationMicroseconds": 150,
                         "errorMessage": "",
                         "functionName": "bottomRightRadius",
                         "line": 384
@@ -982,7 +982,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 74,
+                        "durationMicroseconds": 105,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 385
@@ -990,7 +990,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 32,
-                        "durationMicroseconds": 475,
+                        "durationMicroseconds": 771,
                         "errorMessage": "Cannot access value for name itemsManager",
                         "functionName": "model",
                         "line": 391
@@ -998,7 +998,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 73,
+                        "durationMicroseconds": 115,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 389
@@ -1006,7 +1006,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 36,
-                        "durationMicroseconds": 36,
+                        "durationMicroseconds": 68,
                         "errorMessage": "Cannot access value for name itemListParent",
                         "functionName": "width",
                         "line": 394

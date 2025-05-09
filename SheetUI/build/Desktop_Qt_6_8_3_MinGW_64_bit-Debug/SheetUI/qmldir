@@ -15,4 +15,5 @@ ItemsComboBox 1.0 UI/pages/ItemsComboBox.qml
 Guide 1.0 UI/pages/Guide.qml
 GuideSideBar 1.0 UI/pages/GuideSideBar.qml
 GuideSideOption 1.0 UI/pages/GuideSideOption.qml
+GuideInfo 1.0 UI/pages/GuideInfo.qml
 

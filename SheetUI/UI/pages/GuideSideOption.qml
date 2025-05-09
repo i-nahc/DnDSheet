@@ -1,4 +1,5 @@
 import QtQuick
+import QtQuick.Controls.Basic
 
 Item {
     property string imageSrc: "artificer.svg" // default

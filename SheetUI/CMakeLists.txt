@@ -47,6 +47,8 @@ qt_add_qml_module(appSheetUI
         QML_FILES UI/pages/Guide.qml
         QML_FILES UI/pages/GuideSideBar.qml
         QML_FILES UI/pages/GuideSideOption.qml
+        QML_FILES
+        QML_FILES UI/pages/GuideInfo.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
