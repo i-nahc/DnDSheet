@@ -9,8 +9,10 @@ CLASS_FILE_NAME = "classList.xml"
 SUBCLASS_FILE_NAME = "subclassList.xml"
 ITEM_FILE_NAME = "commonItemList.xml"
 
+
 options = webdriver.FirefoxOptions()
 options.add_argument("--headless")
+options.page_load_strategy = 'eager'
 driverInst = webdriver.Firefox(options = options)
 
 
