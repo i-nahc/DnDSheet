@@ -1,7 +1,7 @@
 # DNDSheet
 This application is a TTRPG Companion designed to make it easier to create and manage your characters.
 
-![alt text](link "Logo Title Text 1")
+![alt text](https://github.com/i-nahc/DnDSheet/blob/main/readme/title.png "DND Sheet Primary page")
 
 ## Key Features
 - Character Creator: Allows the creation of characters using standard DND classes
