@@ -216,7 +216,13 @@ def scrapeSpell():
 
 
         curLevel += 1
-    driverInst2.quit()  
+    driverInst2.quit()
+
+def scrapeSubclass():
+    print("Now Scraping Subclasses")  
+
+    # use our generated class lists
+
 
         
 
@@ -229,7 +235,7 @@ def main():
     #scrapeItems()
     #scrapeClass()
     #scrapeArmor()
-    scrapeSpell()
+    #scrapeSpell()
 
     driverInst.quit()
 
