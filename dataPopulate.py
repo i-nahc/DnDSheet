@@ -177,14 +177,17 @@ def addSpell(inName: str, inSchool: str, inAction: str, inRange: str, inDuration
         print("ABORTING: MUST COMPLETE CLASS LIST FIRST")
         return
 
+    """
     if(root.xpath("//item[@name=" + "'" + inName + "']")):
         print("Skipped " + inName + ", Reason: Already exists")
         return
+    """
     
     # need to do a lookup for the UUID of the items in the spellLists array
     itemHead = etree.SubElement(root, "item", name=inName, school=inSchool, level=inLevel)
     action = ""
     actVal  = "1"
+    print(inAction.lower())
     if("bonus" in inAction.lower()):
         action = "bonus"
     elif("reaction" in inAction.lower()):

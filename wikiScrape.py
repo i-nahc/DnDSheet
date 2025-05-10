@@ -13,7 +13,7 @@ ITEM_FILE_NAME = "commonItemList.xml"
 
 options = webdriver.FirefoxOptions()
 options.add_argument("--headless")
-options.page_load_strategy = 'eager'
+options.page_load_strategy = 'normal'
 driverInst = webdriver.Firefox(options = options)
 
 
@@ -182,7 +182,7 @@ def scrapeSpell():
                             break
 
                         # Get Spell List
-                        spellListSection = driverInst2.find_elements(by="xpath", value="//p[.//em and .//a]")
+                        spellListSection = driverInst2.find_elements(by="xpath", value="//p[.//em and .//a and .//strong and .//strong[contains(.,'List')]]")
                         if(spellListSection):
                             spellListSection = spellListSection[0]
                             classes = spellListSection.find_elements(by="xpath", value=".//a")
@@ -190,21 +190,19 @@ def scrapeSpell():
                             for classItem in classes:
                                 className = classItem.text
                                 className = className.split()[0]
-                                print(className.lower())
                                 spellLists.append(className.lower())
+                            
+                            for item in spellLists:
+                                print(item)
   
-                        print(appendHref)
-                        print(elem.text)
-                        rowContents.append(elem.text)
 
                     elif(curColumn == 1):
                         elem = column.find_elements(by="xpath", value=".//em")[0]
-                        print(elem.text)
-                        rowContents.append(elem.text)
 
                     else:
-                        print(column.text)
-                        rowContents.append(elem.text)
+                        elem = column
+                        
+                    rowContents.append(elem.text)
                     
                     curColumn += 1
 
@@ -212,6 +210,8 @@ def scrapeSpell():
                 if(not skip):
                     # add spell
                     print("Don't skip")
+                    for item in rowContents:
+                        print(item)
                     addSpell(rowContents[0], rowContents[1], rowContents[2], "" , "", "", str(curLevel), spellLists=spellLists)
 
 

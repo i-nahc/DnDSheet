@@ -1,75 +1,3994 @@
 <spellList>
   <item name="Acid Splash" school="Conjuration" level="0">
-    <cost type="" value="1"/>
+    <cost type="action" value="1"/>
     <spellList>
-      <class name="item" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
-      <class name="item" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
-      <class name="item" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
     </spellList>
   </item>
   <item name="Blade Ward" school="Abjuration" level="0">
-    <cost type="" value="1"/>
+    <cost type="action" value="1"/>
     <spellList>
-      <class name="item" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
-      <class name="item" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
-      <class name="item" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
-      <class name="item" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
     </spellList>
   </item>
   <item name="Booming Blade" school="Evocation" level="0">
-    <cost type="" value="1"/>
+    <cost type="action" value="1"/>
     <spellList>
-      <class name="item" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
-      <class name="item" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
-      <class name="item" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
-      <class name="item" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
     </spellList>
   </item>
   <item name="Chill Touch" school="Necromancy" level="0">
-    <cost type="" value="1"/>
+    <cost type="action" value="1"/>
     <spellList>
-      <class name="item" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
-      <class name="item" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
-      <class name="item" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
     </spellList>
   </item>
   <item name="Control Flames" school="Transmutation" level="0">
-    <cost type="" value="1"/>
+    <cost type="action" value="1"/>
     <spellList>
-      <class name="item" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
-      <class name="item" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
-      <class name="item" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
     </spellList>
   </item>
   <item name="Create Bonfire" school="Conjuration" level="0">
-    <cost type="" value="1"/>
+    <cost type="action" value="1"/>
     <spellList>
-      <class name="item" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
-      <class name="item" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
-      <class name="item" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
-      <class name="item" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
-      <class name="item" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
     </spellList>
   </item>
   <item name="Dancing Lights" school="Evocation" level="0">
-    <cost type="" value="1"/>
+    <cost type="action" value="1"/>
     <spellList>
-      <class name="item" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
-      <class name="item" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
-      <class name="item" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
-      <class name="item" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
     </spellList>
   </item>
   <item name="Druidcraft" school="Transmutation" level="0">
-    <cost type="" value="1"/>
+    <cost type="action" value="1"/>
     <spellList>
-      <class name="item" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
     </spellList>
   </item>
   <item name="Eldritch Blast" school="Evocation" level="0">
-    <cost type="" value="1"/>
+    <cost type="action" value="1"/>
     <spellList>
-      <class name="item" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+    </spellList>
+  </item>
+  <item name="Encode Thoughts" school="Enchantment" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Fire Bolt" school="Evocation" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Friends" school="Enchantment" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Frostbite" school="Evocation" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+    </spellList>
+  </item>
+  <item name="Green-Flame Blade" school="Evocation" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Guidance" school="Divination" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Gust" school="Transmutation" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Infestation" school="Conjuration" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Light" school="Evocation" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Lightning Lure" school="Evocation" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Mage Hand" school="Conjuration" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Magic Stone" school="Transmutation" level="0">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+    </spellList>
+  </item>
+  <item name="Mending" school="Transmutation" level="0">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Message" school="Transmutation" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Mind Sliver" school="Enchantment" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Minor Illusion" school="Illusion" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Mold Earth" school="Transmutation" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Poison Spray" school="Conjuration" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Prestidigitation" school="Transmutation" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Primal Savagery" school="Transmutation" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Produce Flame" school="Conjuration" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Ray of Frost" school="Evocation" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Resistance" school="Abjuration" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Sacred Flame" school="Evocation" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Sapping Sting" school="Necromancy D" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Shape Water" school="Transmutation" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Shillelagh" school="Transmutation" level="0">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Shocking Grasp" school="Evocation" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Spare the Dying" school="Necromancy" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Sword Burst" school="Conjuration" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Thaumaturgy" school="Transmutation" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Thorn Whip" school="Transmutation" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Thunderclap" school="Evocation" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+    </spellList>
+  </item>
+  <item name="Toll the Dead" school="Necromancy" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="True Strike" school="Divination" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Vicious Mockery" school="Enchantment" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+    </spellList>
+  </item>
+  <item name="Word of Radiance" school="Evocation" level="0">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Absorb Elements" school="Abjuration" level="1">
+    <cost type="reaction" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Alarm" school="Abjuration" level="1">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Animal Friendship" school="Enchantment" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Armor of Agathys" school="Abjuration" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+    </spellList>
+  </item>
+  <item name="Arms of Hadar" school="Conjuration" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+    </spellList>
+  </item>
+  <item name="Bane" school="Enchantment" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Beast Bond" school="Divination" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Bless" school="Enchantment" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Burning Hands" school="Evocation" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Catapult" school="Transmutation" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+    </spellList>
+  </item>
+  <item name="Cause Fear" school="Necromancy" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Ceremony" school="Evocation" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Chaos Bolt" school="Evocation" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+    </spellList>
+  </item>
+  <item name="Charm Person" school="Enchantment" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Chromatic Orb" school="Evocation" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Color Spray" school="Illusion" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Command" school="Enchantment" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Compelled Duel" school="Enchantment" level="1">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Comprehend Languages" school="Divination" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Create or Destroy Water" school="Transmutation" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Cure Wounds" school="Evocation" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Detect Evil and Good" school="Divination" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Detect Magic" school="Divination" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Detect Poison and Disease" school="Divination" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Disguise Self" school="Illusion" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Dissonant Whispers" school="Enchantment" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+    </spellList>
+  </item>
+  <item name="Distort Value" school="Illusion" level="1">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Divine Favor" school="Evocation" level="1">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Earth Tremor" school="Evocation" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Ensnaring Strike" school="Conjuration" level="1">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Entangle" school="Conjuration" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Expeditious Retreat" school="Transmutation" level="1">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Faerie Fire" school="Evocation" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="False Life" school="Necromancy" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Feather Fall" school="Transmutation" level="1">
+    <cost type="reaction" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Find Familiar" school="Conjuration" level="1">
+    <cost type="hour" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Fog Cloud" school="Conjuration" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Frost Fingers" school="Evocation" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Gift of Alacrity" school="Divination DC" level="1">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Goodberry" school="Transmutation" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Grease" school="Conjuration" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Guiding Bolt" school="Evocation" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Hail of Thorns" school="Conjuration" level="1">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Healing Word" school="Evocation" level="1">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Hellish Rebuke" school="Evocation" level="1">
+    <cost type="reaction" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+    </spellList>
+  </item>
+  <item name="Heroism" school="Enchantment" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Hex" school="Enchantment" level="1">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+    </spellList>
+  </item>
+  <item name="Hunter's Mark" school="Divination" level="1">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Ice Knife" school="Conjuration" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Identify" school="Divination" level="1">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Illusory Script" school="Illusion" level="1">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Inflict Wounds" school="Necromancy" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Jim's Magic Missile" school="Evocation" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Jump" school="Transmutation" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Longstrider" school="Transmutation" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Mage Armor" school="Abjuration" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Magic Missile" school="Evocation" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Magnify Gravity" school="Transmutation DG" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Protection from Evil and Good" school="Abjuration" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Purify Food and Drink" school="Transmutation" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Ray of Sickness" school="Necromancy" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Sanctuary" school="Abjuration" level="1">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Searing Smite" school="Evocation" level="1">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Shield" school="Abjuration" level="1">
+    <cost type="reaction" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Shield of Faith" school="Abjuration" level="1">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Silent Image" school="Illusion" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Silvery Barbs" school="Enchantment" level="1">
+    <cost type="reaction" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Sleep" school="Enchantment" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Snare" school="Abjuration" level="1">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Speak with Animals" school="Divination" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Tasha's Caustic Brew" school="Evocation" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Tasha's Hideous Laughter" school="Enchantment" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Tenser's Floating Disk" school="Conjuration" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Thunderous Smite" school="Evocation" level="1">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Thunderwave" school="Evocation" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Unseen Servant" school="Conjuration" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Witch Bolt" school="Evocation" level="1">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Wrathful Smite" school="Evocation" level="1">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Zephyr Strike" school="Transmutation" level="1">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Aganazzar's Scorcher" school="Evocation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Aid" school="Abjuration" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Air Bubble" school="Conjuration" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Alter Self" school="Transmutation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Animal Messenger" school="Enchantment" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Arcane Lock" school="Abjuration" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Augury" school="Divination" level="2">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Barkskin" school="Transmutation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Beast Sense" school="Divination" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Blindness/Deafness" school="Necromancy" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Blur" school="Illusion" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Borrowed Knowledge" school="Divination" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Branding Smite" school="Evocation" level="2">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Calm Emotions" school="Enchantment" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Cloud of Daggers" school="Conjuration" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Continual Flame" school="Evocation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Cordon of Arrows" school="Transmutation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Crown of Madness" school="Enchantment" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Darkness" school="Evocation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Darkvision" school="Transmutation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Detect Thoughts" school="Divination" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Dragon's Breath" school="Transmutation" level="2">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Dust Devil" school="Conjuration" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Earthbind" school="Transmutation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Enhance Ability" school="Transmutation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Enlarge/Reduce" school="Transmutation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Enthrall" school="Enchantment" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+    </spellList>
+  </item>
+  <item name="Find Steed" school="Conjuration" level="2">
+    <cost type="minute" value="10"/>
+    <spellList>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Find Traps" school="Divination" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Flame Blade" school="Evocation" level="2">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+    </spellList>
+  </item>
+  <item name="Flaming Sphere" school="Conjuration" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Flock of Familiars" school="Conjuration" level="2">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Fortune's Favor" school="Divination D" level="2">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Gentle Repose" school="Necromancy" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Gift of Gab" school="Enchantment" level="2">
+    <cost type="reaction" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Gust of Wind" school="Evocation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Healing Spirit" school="Conjuration" level="2">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Heat Metal" school="Transmutation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Hold Person" school="Enchantment" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Immovable Object" school="Transmutation DG" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Invisibility" school="Illusion" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Jim's Glowing Coin" school="Enchantment" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Kinetic Jaunt" school="Transmutation" level="2">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Knock" school="Transmutation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Lesser Restoration" school="Abjuration" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Levitate" school="Transmutation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Locate Animals or Plants" school="Divination" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Locate Object" school="Divination" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Magic Mouth" school="Illusion" level="2">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Magic Weapon" school="Transmutation" level="2">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Maximillian's Earthen Grasp" school="Transmutation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Melf's Acid Arrow" school="Evocation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Mind Spike" school="Divination" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Mirror Image" school="Illusion" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Misty Step" school="Conjuration" level="2">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Moonbeam" school="Evocation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Nathair's Mischief" school="Illusion" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Nystul's Magic Aura" school="Illusion" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Pass Without Trace" school="Abjuration" level="2">
+    <cost type="action" value="1"/>
+    <spellList/>
+  </item>
+  <item name="Phantasmal Force" school="Illusion" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Prayer of Healing" school="Evocation" level="2">
+    <cost type="minute" value="10"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Protection from Poison" school="Abjuration" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Pyrotechnics" school="Transmutation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+    </spellList>
+  </item>
+  <item name="Ray of Enfeeblement" school="Necromancy" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Rime's Binding Ice" school="Evocation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Rope Trick" school="Transmutation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Scorching Ray" school="Evocation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="See Invisibility" school="Divination" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Shadow Blade" school="Illusion" level="2">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Shatter" school="Evocation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Silence" school="Illusion" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Skywrite" school="Transmutation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+    </spellList>
+  </item>
+  <item name="Snilloc's Snowball Swarm" school="Evocation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Spider Climb" school="Transmutation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Spike Growth" school="Transmutation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Spiritual Weapon" school="Evocation" level="2">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Spray Of Cards" school="Conjuration" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Suggestion" school="Enchantment" level="2">
+    <cost type="action" value="1"/>
+    <spellList/>
+  </item>
+  <item name="Summon Beast" school="Conjuration" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Tasha's Mind Whip" school="Enchantment" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Vortex Warp" school="Conjuration" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Warding Bond" school="Abjuration" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Warding Wind" school="Evocation" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Warp Sense" school="Divination" level="2">
+    <cost type="action" value="1"/>
+    <spellList/>
+  </item>
+  <item name="Web" school="Conjuration" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Wither and Bloom" school="Necromancy" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Wristpocket" school="Conjuration D" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Zone of Truth" school="Enchantment" level="2">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Animate Dead" school="Necromancy" level="3">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Antagonize" school="Enchantment" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Ashardalon's Stride" school="Transmutation" level="3">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Aura of Vitality" school="Evocation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Beacon of Hope" school="Abjuration" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Bestow Curse" school="Necromancy" level="3">
+    <cost type="action" value="1"/>
+    <spellList/>
+  </item>
+  <item name="Blinding Smite" school="Evocation" level="3">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Blink" school="Transmutation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Call Lightning" school="Conjuration" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Catnap" school="Enchantment" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Clairvoyance" school="Divination" level="3">
+    <cost type="minute" value="10"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Conjure Animals" school="Conjuration" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Conjure Barrage" school="Conjuration" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Counterspell" school="Abjuration" level="3">
+    <cost type="reaction" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Create Food and Water" school="Conjuration" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Crusader's Mantle" school="Evocation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Daylight" school="Evocation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+    </spellList>
+  </item>
+  <item name="Dispel Magic" school="Abjuration" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Elemental Weapon" school="Transmutation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Enemies Abound" school="Enchantment" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Erupting Earth" school="Transmutation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Fast Friends" school="Enchantment" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Fear" school="Illusion" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Feign Death" school="Necromancy" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Fireball" school="Evocation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Flame Arrows" school="Transmutation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+    </spellList>
+  </item>
+  <item name="Fly" school="Transmutation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Galder's Tower" school="Conjuration" level="3">
+    <cost type="minute" value="10"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Gaseous Form" school="Transmutation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Glyph of Warding" school="Abjuration" level="3">
+    <cost type="hour" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Haste" school="Transmutation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Hunger Of Hadar" school="Conjuration" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+    </spellList>
+  </item>
+  <item name="Hypnotic Pattern" school="Illusion" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Incite Greed" school="Enchantment" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Intellect Fortress" school="Abjuration" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Leomund's Tiny Hut" school="Evocation" level="3">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Life Transference" school="Necromancy" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Lightning Arrow" school="Transmutation" level="3">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Lightning Bolt" school="Evocation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Magic Circle" school="Abjuration" level="3">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Major Image" school="Illusion" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Mass Healing Word" school="Evocation" level="3">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Meld into Stone" school="Transmutation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Melf's Minute Meteors" school="Evocation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Motivational Speech" school="Enchantment" level="3">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Nondetection" school="Abjuration" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Phantom Steed" school="Illusion" level="3">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Plant Growth" school="Transmutation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Protection from Energy" school="Abjuration" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Pulse Wave" school="Evocation D" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Remove Curse" school="Abjuration" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Revivify" school="Necromancy" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Sending" school="Evocation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Sleet Storm" school="Conjuration" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Slow" school="Transmutation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Speak with Dead" school="Necromancy" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Speak with Plants" school="Transmutation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Spirit Guardians" school="Conjuration" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Spirit Shroud" school="Necromancy" level="3">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Stinking Cloud" school="Conjuration" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Summon Fey" school="Conjuration" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Summon Lesser Demons" school="Conjuration" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Summon Shadowspawn" school="Conjuration" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Summon Undead" school="Necromancy" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Thunder Step" school="Conjuration" level="3">
+    <cost type="action" value="1"/>
+    <spellList/>
+  </item>
+  <item name="Tidal Wave" school="Conjuration" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Tiny Servant" school="Transmutation" level="3">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+    </spellList>
+  </item>
+  <item name="Tongues" school="Divination" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Vampiric Touch" school="Necromancy" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Wall of Sand" school="Evocation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Wall of Water" school="Evocation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Water Breathing" school="Transmutation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Water Walk" school="Transmutation" level="3">
+    <cost type="action" value="1"/>
+    <spellList/>
+  </item>
+  <item name="Wind Wall" school="Evocation" level="3">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Arcane Eye" school="Divination" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Aura of Life" school="Abjuration" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Aura of Purity" school="Abjuration" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Banishment" school="Abjuration" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Blight" school="Necromancy" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Charm Monster" school="Enchantment" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Compulsion" school="Enchantment" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+    </spellList>
+  </item>
+  <item name="Confusion" school="Enchantment" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Conjure Minor Elementals" school="Conjuration" level="4">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Conjure Woodland Beings" school="Conjuration" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Control Water" school="Transmutation" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Death Ward" school="Abjuration" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Dimension Door" school="Conjuration" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Divination" school="Divination" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Dominate Beast" school="Enchantment" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+    </spellList>
+  </item>
+  <item name="Elemental Bane" school="Transmutation" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+    </spellList>
+  </item>
+  <item name="Evard's Black Tentacles" school="Conjuration" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Fabricate" school="Transmutation" level="4">
+    <cost type="minute" value="10"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Find Greater Steed" school="Conjuration" level="4">
+    <cost type="minute" value="10"/>
+    <spellList>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Fire Shield" school="Evocation" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Freedom of Movement" school="Abjuration" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Galder's Speedy Courier" school="Conjuration" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Gate Seal" school="Abjuration" level="4">
+    <cost type="minute" value="1"/>
+    <spellList/>
+  </item>
+  <item name="Giant Insect" school="Transmutation" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Grasping Vine" school="Conjuration" level="4">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Gravity Sinkhole" school="Evocation DG" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Greater Invisibility" school="Illusion" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Guardian of Faith" school="Conjuration" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Guardian of Nature" school="Transmutation" level="4">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Hallucinatory Terrain" school="Illusion" level="4">
+    <cost type="minute" value="10"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Ice Storm" school="Evocation" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Leomund's Secret Chest" school="Conjuration" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Locate Creature" school="Divination" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Mordenkainen's Faithful Hound" school="Conjuration" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Mordenkainen's Private Sanctum" school="Abjuration" level="4">
+    <cost type="minute" value="10"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Otiluke's Resilient Sphere" school="Evocation" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Phantasmal Killer" school="Illusion" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Polymorph" school="Transmutation" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Raulothim's Psychic Lance" school="Enchantment" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Shadow Of Moil" school="Necromancy" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+    </spellList>
+  </item>
+  <item name="Sickening Radiance" school="Evocation" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Spirit Of Death" school="Necromancy" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Staggering Smite" school="Evocation" level="4">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Stone Shape" school="Transmutation" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Stoneskin" school="Abjuration" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Storm Sphere" school="Evocation" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Summon Aberration" school="Conjuration" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Summon Construct" school="Conjuration" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Summon Elemental" school="Conjuration" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Summon Greater Demon" school="Conjuration" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Vitriolic Sphere" school="Evocation" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Wall of Fire" school="Evocation" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Watery Sphere" school="Conjuration" level="4">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Animate Objects" school="Transmutation" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Antilife Shell" school="Abjuration" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Awaken" school="Transmutation" level="5">
+    <cost type="hour" value="8"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Banishing Smite" school="Abjuration" level="5">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Bigby's Hand" school="Evocation" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Circle of Power" school="Abjuration" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Cloudkill" school="Conjuration" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Commune" school="Divination" level="5">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Commune with Nature" school="Divination" level="5">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Cone of Cold" school="Evocation" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Conjure Elemental" school="Conjuration" level="5">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Conjure Volley" school="Conjuration" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Contact Other Plane" school="Divination" level="5">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Contagion" school="Necromancy" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Control Winds" school="Transmutation" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Create Spelljamming Helm" school="Transmutation" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Creation" school="Illusion" level="5">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Danse Macabre" school="Necromancy" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Dawn" school="Evocation" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Destructive Wave" school="Evocation" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Dispel Evil and Good" school="Abjuration" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Dominate Person" school="Enchantment" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Dream" school="Illusion" level="5">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Enervation" school="Necromancy" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Far Step" school="Conjuration" level="5">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Flame Strike" school="Evocation" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Geas" school="Enchantment" level="5">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Greater Restoration" school="Abjuration" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Hallow" school="Evocation" level="5">
+    <cost type="hour" value="24"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Hold Monster" school="Enchantment" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Holy Weapon" school="Evocation" level="5">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Immolation" school="Evocation" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Infernal Calling" school="Conjuration" level="5">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Insect Plague" school="Conjuration" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+    </spellList>
+  </item>
+  <item name="Legend Lore" school="Divination" level="5">
+    <cost type="minute" value="10"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Maelstrom" school="Evocation" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Mass Cure Wounds" school="Evocation" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Mislead" school="Illusion" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Modify Memory" school="Enchantment" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Negative Energy Flood" school="Necromancy" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Passwall" school="Transmutation" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Planar Binding" school="Abjuration" level="5">
+    <cost type="hour" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Raise Dead" school="Necromancy" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Rary's Telepathic Bond" school="Divination" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Reincarnate" school="Transmutation" level="5">
+    <cost type="hour" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Scrying" school="Divination" level="5">
+    <cost type="minute" value="10"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Seeming" school="Illusion" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Skill Empowerment" school="Transmutation" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+    </spellList>
+  </item>
+  <item name="Steel Wind Strike" school="Conjuration" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Summon Celestial" school="Conjuration" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="paladin" UUID="d8e0fb04-cf7e-47f9-ba67-2b2ed72c459c"/>
+    </spellList>
+  </item>
+  <item name="Summon Draconic Spirit" school="Conjuration" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Swift Quiver" school="Transmutation" level="5">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Synaptic Static" school="Enchantment" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Telekinesis" school="Transmutation" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Teleportation Circle" school="Conjuration" level="5">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Temporal Shunt" school="Transmutation DC" level="5">
+    <cost type="reaction" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Transmute Rock" school="Transmutation" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+    </spellList>
+  </item>
+  <item name="Tree Stride" school="Conjuration" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Wall of Force" school="Evocation" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Wall of Light" school="Evocation" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Wall of Stone" school="Evocation" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="artificer" UUID="1cc5cbe9-5e2c-4b11-8c24-9fcc7f7776d6"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Wrath Of Nature" school="Evocation" level="5">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="ranger" UUID="4ec04155-f7f6-464a-ba7c-95edf6fd8502"/>
+    </spellList>
+  </item>
+  <item name="Arcane Gate" school="Conjuration" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Blade Barrier" school="Evocation" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Bones of the Earth" school="Transmutation" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Chain Lightning" school="Evocation" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Circle of Death" school="Necromancy" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Conjure Fey" school="Conjuration" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+    </spellList>
+  </item>
+  <item name="Contingency" school="Evocation" level="6">
+    <cost type="minute" value="10"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Create Homunculus" school="Transmutation" level="6">
+    <cost type="hour" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Create Undead" school="Necromancy" level="6">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Disintegrate" school="Transmutation" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Drawmij's Instant Summons" school="Conjuration" level="6">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Druid Grove" school="Abjuration" level="6">
+    <cost type="minute" value="10"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Eyebite" school="Necromancy" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Find the Path" school="Divination" level="6">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Fizban's Platinum Shield" school="Abjuration" level="6">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Flesh to Stone" school="Transmutation" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Forbiddance" school="Abjuration" level="6">
+    <cost type="minute" value="10"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Globe of Invulnerability" school="Abjuration" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Gravity Fissure" school="Evocation DG" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Guards and Wards" school="Abjuration" level="6">
+    <cost type="minute" value="10"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Harm" school="Necromancy" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Heal" school="Evocation" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Heroes' Feast" school="Conjuration" level="6">
+    <cost type="minute" value="10"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Investiture of Flame" school="Transmutation" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Investiture of Ice" school="Transmutation" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Investiture of Stone" school="Transmutation" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Investiture of Wind" school="Transmutation" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Magic Jar" school="Necromancy" level="6">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Mass Suggestion" school="Enchantment" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Mental Prison" school="Illusion" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Move Earth" school="Transmutation" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Otiluke's Freezing Sphere" school="Evocation" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Otto's Irresistible Dance" school="Enchantment" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Planar Ally" school="Conjuration" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Primordial Ward" school="Abjuration" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Programmed Illusion" school="Illusion" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Scatter" school="Conjuration" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Soul Cage" school="Necromancy" level="6">
+    <cost type="reaction" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Summon Fiend" school="Conjuration" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Sunbeam" school="Evocation" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Tasha's Otherworldly Guise" school="Transmutation" level="6">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Tenser's Transformation" school="Transmutation" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Transport via Plants" school="Conjuration" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="True Seeing" school="Divination" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Wall of Ice" school="Evocation" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Wall of Thorns" school="Conjuration" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Wind Walk" school="Transmutation" level="6">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Word of Recall" school="Conjuration" level="6">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Conjure Celestial" school="Conjuration" level="7">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Create Magen" school="Transmutation" level="7">
+    <cost type="hour" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Crown of Stars" school="Evocation" level="7">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Delayed Blast Fireball" school="Evocation" level="7">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Divine Word" school="Evocation" level="7">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Draconic Transformation" school="Transmutation" level="7">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Dream of the Blue Veil" school="Conjuration" level="7">
+    <cost type="minute" value="10"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Etherealness" school="Transmutation" level="7">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Finger of Death" school="Necromancy" level="7">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Fire Storm" school="Evocation" level="7">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+    </spellList>
+  </item>
+  <item name="Forcecage" school="Evocation" level="7">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Mirage Arcane" school="Illusion" level="7">
+    <cost type="minute" value="10"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Mordenkainen's Magnificent Mansion" school="Conjuration" level="7">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Mordenkainen's Sword" school="Evocation" level="7">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Plane Shift" school="Conjuration" level="7">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Power Word: Pain" school="Enchantment" level="7">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Prismatic Spray" school="Evocation" level="7">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Project Image" school="Illusion" level="7">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Regenerate" school="Transmutation" level="7">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Resurrection" school="Necromancy" level="7">
+    <cost type="hour" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Reverse Gravity" school="Transmutation" level="7">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Sequester" school="Transmutation" level="7">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Simulacrum" school="Illusion" level="7">
+    <cost type="hour" value="12"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Symbol" school="Abjuration" level="7">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Teleport" school="Conjuration" level="7">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Temple of the Gods" school="Conjuration" level="7">
+    <cost type="hour" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Tether Essence" school="Necromancy" level="7">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Whirlwind" school="Evocation" level="7">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Abi-Dalzim's Horrid Wilting" school="Necromancy" level="8">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Animal Shapes" school="Transmutation" level="8">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Antimagic Field" school="Abjuration" level="8">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Antipathy/Sympathy" school="Enchantment" level="8">
+    <cost type="hour" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Clone" school="Necromancy" level="8">
+    <cost type="hour" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Control Weather" school="Transmutation" level="8">
+    <cost type="minute" value="10"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Dark Star" school="Evocation" level="8">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Demiplane" school="Conjuration" level="8">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Dominate Monster" school="Enchantment" level="8">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Earthquake" school="Evocation" level="8">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+    </spellList>
+  </item>
+  <item name="Feeblemind" school="Enchantment" level="8">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Glibness" school="Transmutation" level="8">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+    </spellList>
+  </item>
+  <item name="Holy Aura" school="Abjuration" level="8">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Illusory Dragon" school="Illusion" level="8">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Incendiary Cloud" school="Conjuration" level="8">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Maddening Darkness" school="Evocation" level="8">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Maze" school="Conjuration" level="8">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Mighty Fortress" school="Conjuration" level="8">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Mind Blank" school="Abjuration" level="8">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Power Word: Stun" school="Enchantment" level="8">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Reality Break" school="Conjuration DC" level="8">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Sunburst" school="Evocation" level="8">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Telepathy" school="Evocation" level="8">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Tsunami" school="Conjuration" level="8">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Astral Projection" school="Evocation" level="9">
+    <cost type="hour" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Blade of Disaster" school="Conjuration" level="9">
+    <cost type="bonus" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Foresight" school="Divination" level="9">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Gate" school="Conjuration" level="9">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Imprisonment" school="Abjuration" level="9">
+    <cost type="minute" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Invulnerability" school="Abjuration" level="9">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Mass Heal" school="Evocation" level="9">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Mass Polymorph" school="Transmutation" level="9">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Meteor Swarm" school="Evocation" level="9">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Power Word: Heal" school="Evocation" level="9">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+    </spellList>
+  </item>
+  <item name="Power Word: Kill" school="Enchantment" level="9">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Prismatic Wall" school="Abjuration" level="9">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Psychic Scream" school="Enchantment" level="9">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Ravenous Void" school="Evocation" level="9">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Shapechange" school="Transmutation" level="9">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Storm of Vengeance" school="Conjuration" level="9">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Time Ravage" school="Necromancy DC" level="9">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Time Stop" school="Transmutation" level="9">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="True Polymorph" school="Transmutation" level="9">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="bard" UUID="bdcd7259-5087-4b2b-b12f-7e7b56812cc3"/>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="True Resurrection" school="Necromancy" level="9">
+    <cost type="hour" value="1"/>
+    <spellList>
+      <class name="cleric" UUID="d02a501b-3de3-4dcd-97db-0fb5662dcaef"/>
+      <class name="druid" UUID="3120df55-018b-49ed-8a32-d639f4059bd2"/>
+    </spellList>
+  </item>
+  <item name="Weird" school="Illusion" level="9">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="warlock" UUID="0875016f-2e1e-4d44-8357-225ac49e917e"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
+    </spellList>
+  </item>
+  <item name="Wish" school="Conjuration" level="9">
+    <cost type="action" value="1"/>
+    <spellList>
+      <class name="sorcerer" UUID="3caf879a-d125-4df7-b87b-354bc8bd7f2a"/>
+      <class name="wizard" UUID="a550be65-5f92-4d82-883f-1c6a5584f869"/>
     </spellList>
   </item>
 </spellList>
