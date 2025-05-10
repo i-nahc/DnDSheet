@@ -1,4 +1,4 @@
-### DNDSheet
+# DNDSheet
 This application is a TTRPG Companion designed to make it easier to create and manage your characters.
 
 ## Key Features
