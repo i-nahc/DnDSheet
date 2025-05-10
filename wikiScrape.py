@@ -222,6 +222,7 @@ def scrapeSubclass():
     print("Now Scraping Subclasses")  
 
     # use our generated class lists
+    
 
 
         
