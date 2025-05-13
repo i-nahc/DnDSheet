@@ -1,20 +1,27 @@
 from selenium import webdriver
+from lxml import etree
 from dataPopulate import addDNDClass
 from dataPopulate import addWeapon
 from dataPopulate import addArmor
 from dataPopulate import addSpell
+
+# naming variables imports
+from dataPopulate import DATA_PATH, CLASS_FILE_NAME, SUBCLASS_FILE_NAME, ITEM_FILE_NAME, ARMOR_FILE_NAME, SPELL_FILE_NAME
+
+
 import os
 # file paths
-DATA_PATH = "./data/"
-CLASS_FILE_NAME = "classList.xml"
-SUBCLASS_FILE_NAME = "subclassList.xml"
-ITEM_FILE_NAME = "commonItemList.xml"
+# DATA_PATH = "./data/"
+# CLASS_FILE_NAME = "classList.xml"
+# SUBCLASS_FILE_NAME = "subclassList.xml"
+# ITEM_FILE_NAME = "commonItemList.xml"
 
 
 options = webdriver.FirefoxOptions()
 options.add_argument("--headless")
 options.page_load_strategy = 'normal'
 driverInst = webdriver.Firefox(options = options)
+parser = etree.XMLParser(remove_blank_text=True)
 
 
 def scrapeClass(): 
@@ -222,6 +229,11 @@ def scrapeSubclass():
     print("Now Scraping Subclasses")  
 
     # use our generated class lists
+    if(os.path.isfile(DATA_PATH + CLASS_FILE_NAME)):
+        root = etree.parse(DATA_PATH + CLASS_FILE_NAME, parser).getroot()
+    else:
+        print("Terminating 'scrapeSubclass'\nReason: No class file found")
+
     
 
 
